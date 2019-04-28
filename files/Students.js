@@ -75,7 +75,7 @@ students_list = [
 	'name': 'Qian Yue',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'files/photos_students/yueq.jpg',
+	'photo': 'files/photos_students/yueq.jpeg',
 	'homepage': '',
 	'introduction': ""
 },
