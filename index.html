@@ -1,10 +1,53 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>TBA</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="files/Students.js"></script>
+<script type="text/javascript" src="files/Timeline.js"></script>
+<script type="text/javascript" src="files/Links.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<title>ZMIC Lab</title>
 </head>
 
-<body>
-<h1 style="text-align: center; font-size: 100px; font-family: Courier; color: #2299DD; margin-top: 20%;">TBA</h1>
+<body id="page">
+<iframe src="header.html"id="page" height="80px" style="border: none; position: fixed; padding: 0; z-index: 2;"></iframe>
+<div style="display: inline-block; margin: 45px;"></div><br>
+
+<h1 id="main-title">ZMIC</h1>
+
+<table width="100%" cellpadding="20px">
+<tbody>
+	<tr>
+	<td>
+		<h2> Introduction </h2>
+		<p> Zibin Medical Image Computing Lab (ZMIC Lab) is a research group led by Ph.D supervisor Xiahai Zhuang.  </p>
+		<p> There are currently <span id="student-count"></span> students working with Xiahai Zhuang in the group, among them <span id="U-count"></span> students are under graduate students, <span id="M-count"></span> students are of master degree while <span id="D-count"></span> students are doing Ph.D. and <span id="P-count"></span> students are post Doctors. </p>
+	</td>
+	<td>
+		<div class="slide-box">
+			<img src="res/slides/1.jpeg" class="slide"/>
+			<img src="res/slides/2.jpg" class="slide"/>
+			<img src="res/slides/3.jpg" class="slide"/>
+			<img src="res/slides/4.jpg" class="slide"/>
+			<img src="res/slides/5.jpg" class="slide"/>
+			<img src="res/slides/6.jpg" class="slide"/>
+		</div>
+	</td>
+	</tr>
+</tbody>
+</table>
+
+<div id="timeline">
+<h3 id="timeline-title"> Timeline </h3>
+</div>
+
+<center>
+<h2> Links </h2>
+<div id="links"></div>
+</center>
+	
+<iframe src="footer.html" id="page" height="40px" style="border: none; position: absolute; padding: 0; z-index: 2;"></iframe>
 </body>
 </html>

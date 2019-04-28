@@ -1,0 +1,92 @@
+
+:root {
+	--main-color: #5599ff;
+}
+
+/*.header-button {*/
+/*	color: var(--main-color);*/
+/*}*/
+
+.slide-box {
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 40px;
+}
+
+.slide {
+	position: static;
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.bounding-box {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.axis {
+	height: 4px;
+	background: var(--main-color);
+	border-radius: 2px;
+}
+
+.dot {
+	position: relative;
+	width: 10px; 
+	height: 10px; 
+	border-radius: 5px;
+	background: var(--main-color);
+	box-shadow: #AAA 2px 2px 2px;
+}
+
+.label-wrapper {
+	position: relative;
+	max-height: 68px;
+	width: 200px;
+	height: 68px;
+	overflow: hidden;
+	
+}
+
+.label {
+	position: relative;
+	display: table-cell;
+	width: 200px;
+	height: 68px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: var(--main-color);
+}
+
+.bubble {
+	box-shadow: 0 0 20px rgba(85, 153, 255, 0.8) inset, 0 0 4px rgba(85, 153, 255, 0.8);
+}
+
+.bubble-light {
+	box-shadow: 0 0 1px rgba(85, 153, 255, 0.6) inset, 0 0 20px rgba(85, 153, 255, 1);
+}
+
+#main-title {
+	text-align: center;
+	font-size: 64px;
+	font-family: Courier;
+	color: #666;
+}
+
+#timeline {
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	height: 200px;
+	overflow: hidden;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+#timeline-title {
+	color: var(--main-color);
+}
