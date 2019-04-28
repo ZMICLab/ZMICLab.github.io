@@ -35,7 +35,7 @@ students_list = [
 	'name': 'Shangqi Gao',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'files/photos_students/gsq.JPG',
+	'photo': 'files/photos_students/gsq.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/shangqigao/',
 	'introduction': "I am doing my Ph.D in School of Data Science, Fudan University, with Prof. Xiahai Zhuang. My current research interests are Image Super-Resolution　and Computaional methods of Inverse Problem. I am exploring the deep learning based methods for Image reconstruction."
 },
@@ -51,7 +51,7 @@ students_list = [
 	'name': 'Yechong Huang',
 	'gender': 'male',
 	'level': 'M',
-	'photo': 'files/photos_students/hyc.JPG',
+	'photo': 'files/photos_students/hyc.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -67,7 +67,7 @@ students_list = [
 	'name': 'Jiahang Xu',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'files/photos_students/xjh.JPG',
+	'photo': 'files/photos_students/xjh.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -75,7 +75,7 @@ students_list = [
 	'name': 'Qian Yue',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'files/photos_students/yueq.jpeg',
+	'photo': 'files/photos_students/yueq.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -83,7 +83,7 @@ students_list = [
 	'name': 'Xinzhe Luo',
 	'gender': 'male',
 	'level': 'U',
-	'photo': 'files/photos_students/lxz.JPG',
+	'photo': 'files/photos_students/lxz.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -99,7 +99,7 @@ students_list = [
 	'name': 'Qing Ye',
 	'gender': 'female',
 	'level': 'U',
-	'photo': 'files/photos_students/yeq.JPG',
+	'photo': 'files/photos_students/yeq.jpg',
 	'homepage': '',
 	'introduction': ""
 },
