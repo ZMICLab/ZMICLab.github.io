@@ -13,7 +13,7 @@ p {
 h1 {
 	height: 100px;
 	text-align: center;
-	background: url('res/king-dash.png');
+	background: url('../res/king-dash.png');
 	background-size: 80% 60px;
 	background-repeat: no-repeat;
 	background-position-x: calc(var(--page-width) / 10);
