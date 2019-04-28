@@ -83,7 +83,7 @@ students_list = [
 	'name': 'Xinzhe Luo',
 	'gender': 'male',
 	'level': 'U',
-	'photo': 'files/photos_students/lxz.jpg',
+	'photo': 'files/photos_students/lxz.JPG',
 	'homepage': '',
 	'introduction': ""
 },
