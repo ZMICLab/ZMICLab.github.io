@@ -76,13 +76,13 @@ $(function () {
     right_button.click(move_next)
     setInterval(move_next, duration)
     
-    $('#student-count').text(students_list.length)
+    $('#student-count').text(members_list.length)
     var U_count = 0
     var M_count = 0
     var D_count = 0
     var P_count = 0
-    for (i in students_list) {
-        level = students_list[i]['level']
+    for (i in members_list) {
+        level = members_list[i]['level']
         if (level == 'U') U_count++
         else if (level == 'M') M_count++
         else if (level == 'D') D_count++

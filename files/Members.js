@@ -1,9 +1,17 @@
-students_list = [
+members_list = [
+{
+	'name': 'Xiahai Zhuang',
+	'gender': 'male',
+	'level': 'T', /*T(teacher) or U(under graduate) or M(master) or D(Ph.D.) or P(post Doc.)*/
+	'photo': 'zxh.jpg',
+	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/',
+	'introduction': "Xiahai Zhuang, Ph.D., Associate Professor of Medical Image Computing, School of Data Science, Fudan University.<br>DR. Zhuang has bachelor and master degrees in computer science (Tianjin Univ.; Shanghai Jiao Tong Univ.) and PhD in medical image computing (University College London)."
+},
 {
 	'name': 'Dengqiang Jia',
 	'gender': 'male',
-	'level': 'D', /*U(under graduate) or M(master) or D(Ph.D.) or P(post Doc.)*/
-	'photo': 'files/photos_students/jdq.jpg',
+	'level': 'D',
+	'photo': 'jdq.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/jiadengqiang/',
 	'introduction': "I'm doing my PhD in SJTU-CU ICRC, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. Before that, I did my bachelor degree in Nanjing University of Science and Technology."
 },
@@ -11,7 +19,7 @@ students_list = [
 	'name': 'Fuping Wu',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'files/photos_students/wfp.jpg',
+	'photo': 'wfp.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
 	'introduction': "I am doing my PhD in School of Management, Fudan University, with Prof. Zhuang XiaHai . Before that, I did my master and bachelor degrees in WuHan Univeristy and HuaZhong University of Science and Technology, respectively."
 },
@@ -19,7 +27,7 @@ students_list = [
 	'name': 'Lingchao Xu',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'files/photos_students/xlc.jpg',
+	'photo': 'xlc.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/xulingchao/',
 	'introduction': "I'm doing my Master Dgree in School of NAOCE, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. <br> I did my bachelor degree in Shanghai Jiao Tong University."
 },
@@ -27,7 +35,7 @@ students_list = [
 	'name': 'Lei Li',
 	'gender': 'female',
 	'level': 'D',
-	'photo': 'files/photos_students/lei.jpg',
+	'photo': 'lei.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/lilei/',
 	'introduction': "I'm doing my PhD in SJTU-BME, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. Before that, I did my bachelor degree in Sichuan University of EECS"
 },
@@ -35,7 +43,7 @@ students_list = [
 	'name': 'Shangqi Gao',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'files/photos_students/gsq.jpg',
+	'photo': 'gsq.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/shangqigao/',
 	'introduction': "I am doing my Ph.D in School of Data Science, Fudan University, with Prof. Xiahai Zhuang. My current research interests are Image Super-Resolution　and Computaional methods of Inverse Problem. I am exploring the deep learning based methods for Image reconstruction."
 },
@@ -43,7 +51,7 @@ students_list = [
 	'name': 'Kaiwen Wan',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'files/photos_students/default.jpg',
+	'photo': 'wkw.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -51,7 +59,7 @@ students_list = [
 	'name': 'Yechong Huang',
 	'gender': 'male',
 	'level': 'M',
-	'photo': 'files/photos_students/hyc.jpg',
+	'photo': 'hyc.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -59,7 +67,7 @@ students_list = [
 	'name': 'Wenqi Luo',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'files/photos_students/default.jpg',
+	'photo': 'lwq.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -67,7 +75,7 @@ students_list = [
 	'name': 'Jiahang Xu',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'files/photos_students/xjh.jpg',
+	'photo': 'xjh.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -75,7 +83,7 @@ students_list = [
 	'name': 'Qian Yue',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'files/photos_students/yueq.jpg',
+	'photo': 'yueq.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -83,7 +91,7 @@ students_list = [
 	'name': 'Xinzhe Luo',
 	'gender': 'male',
 	'level': 'U',
-	'photo': 'files/photos_students/lxz.jpg',
+	'photo': 'lxz.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -91,7 +99,7 @@ students_list = [
 	'name': 'Yuncheng Zhou',
 	'gender': 'male',
 	'level': 'U',
-	'photo': 'files/photos_students/zyc.jpg',
+	'photo': 'zyc.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -99,7 +107,7 @@ students_list = [
 	'name': 'Qing Ye',
 	'gender': 'female',
 	'level': 'U',
-	'photo': 'files/photos_students/yeq.jpg',
+	'photo': 'yeq.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -107,7 +115,7 @@ students_list = [
 	'name': 'Zi Zhuang',
 	'gender': 'male',
 	'level': 'U',
-	'photo': 'files/photos_students/default.jpg',
+	'photo': 'zz.jpg',
 	'homepage': '',
 	'introduction': ""
 },

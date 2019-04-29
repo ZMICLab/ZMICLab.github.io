@@ -5,8 +5,8 @@ $(function () {
 	var listtable = $('<table cellpadding="10px" width="100%"><tbody></tbody></table>')
 	$('#students_list').append(listtable)
 	var listctrl = listtable.children('tbody')
-	for (i in students_list) {
-		student = students_list[i]
+	for (i in members_list) {
+		student = members_list[i]
 		if (student['level'] != curlevel) {
 			listctrl.append($('<tr><td colspan="2"><hr style="margin: 0;"></td></tr>')); 
 			curlevel = student['level']
@@ -19,7 +19,14 @@ $(function () {
 			pane1.css('border-top', 'solid 1px #AAAAAA')
 			pane2.css('border-top', 'solid 1px #AAAAAA')
 		}
-		pane1.append($('<img src="' + student['photo'] + '" height="160px" style="border-radius: 50px"/>'))
+		photourl = 'files/photo_members/' + student['photo']
+		var exists
+		$.ajax(photourl, {type: 'get', async:false, timeout: 1000,
+			success: function() {exists = true},
+			error: function() {exists = false}
+		});
+		if (!exists) photourl = 'files/photo_members/default.jpg';
+		pane1.append($('<img src="' + photourl + '" height="160px" style="border-radius: 50px"/>'))
 		pane1.attr('align', 'center')
 		pane2.append($('<h3>' + student['name'] + '</h3>'))
 		pane2.append($('<p>' + student['introduction'] + '</p>'))
