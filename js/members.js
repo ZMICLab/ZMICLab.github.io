@@ -3,7 +3,7 @@ $(function () {
 	var curlevel = 'P'
 	var isthefirst = true
 	var listtable = $('<table cellpadding="10px" width="100%"><tbody></tbody></table>')
-	$('#students_list').append(listtable)
+	$('#members_list').append(listtable)
 	var listctrl = listtable.children('tbody')
 	for (i in members_list) {
 		student = members_list[i]
@@ -24,7 +24,7 @@ $(function () {
 		$.ajax(photourl, {type: 'get', async:false, timeout: 100,
 			success: function() {exists = true},
 			error: function() {exists = false}
-		});
+		})
 		if (!exists) photourl = 'files/photo_members/default.jpg';
 		pane1.append($('<img src="' + photourl + '" height="160px" style="border-radius: 50px"/>'))
 		pane1.attr('align', 'center')
