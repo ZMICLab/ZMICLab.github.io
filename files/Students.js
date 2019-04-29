@@ -43,7 +43,7 @@ students_list = [
 	'name': 'Kaiwen Wan',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'files/photos_students/wkw.jpg',
+	'photo': 'files/photos_students/default.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -59,7 +59,7 @@ students_list = [
 	'name': 'Wenqi Luo',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'files/photos_students/lwq.jpg',
+	'photo': 'files/photos_students/default.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -83,7 +83,7 @@ students_list = [
 	'name': 'Xinzhe Luo',
 	'gender': 'male',
 	'level': 'U',
-	'photo': 'files/photos_students/lxz.JPG',
+	'photo': 'files/photos_students/lxz.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -107,7 +107,7 @@ students_list = [
 	'name': 'Zi Zhuang',
 	'gender': 'male',
 	'level': 'U',
-	'photo': 'files/photos_students/zz.jpg',
+	'photo': 'files/photos_students/default.jpg',
 	'homepage': '',
 	'introduction': ""
 },
