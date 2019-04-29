@@ -21,7 +21,7 @@ $(function () {
 		}
 		photourl = 'files/photos_members/' + student['photo']
 		var exists
-		$.ajax(photourl, {type: 'get', async:false, timeout: 1000,
+		$.ajax(photourl, {type: 'get', async:false, timeout: 100,
 			success: function() {exists = true},
 			error: function() {exists = false}
 		});
