@@ -19,7 +19,7 @@ $(function () {
 			pane1.css('border-top', 'solid 1px #AAAAAA')
 			pane2.css('border-top', 'solid 1px #AAAAAA')
 		}
-		photourl = 'files/photo_members/' + student['photo']
+		photourl = 'files/photos_members/' + student['photo']
 		var exists
 		$.ajax(photourl, {type: 'get', async:false, timeout: 1000,
 			success: function() {exists = true},

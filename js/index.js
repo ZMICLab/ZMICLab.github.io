@@ -76,7 +76,6 @@ $(function () {
     right_button.click(move_next)
     setInterval(move_next, duration)
     
-    $('#student-count').text(members_list.length)
     var U_count = 0
     var M_count = 0
     var D_count = 0
@@ -92,6 +91,7 @@ $(function () {
     $('#M-count').text(M_count)
     $('#D-count').text(D_count)
     $('#P-count').text(P_count)
+    $('#student-count').text(U_count + M_count + D_count + P_count)
     
     for (i in links_list) {
         var link = links_list[i]
