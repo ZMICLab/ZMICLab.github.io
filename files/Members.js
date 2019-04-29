@@ -51,7 +51,7 @@ members_list = [
 	'name': 'Kaiwen Wan',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'wkw.jpg',
+	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -67,7 +67,7 @@ members_list = [
 	'name': 'Wenqi Luo',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'lwq.jpg',
+	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': ""
 },
@@ -115,7 +115,7 @@ members_list = [
 	'name': 'Zi Zhuang',
 	'gender': 'male',
 	'level': 'U',
-	'photo': 'zz.jpg',
+	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': ""
 },

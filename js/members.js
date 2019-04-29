@@ -20,12 +20,6 @@ $(function () {
 			pane2.css('border-top', 'solid 1px #AAAAAA')
 		}
 		photourl = 'files/photos_members/' + student['photo']
-		var exists
-		$.ajax(photourl, {type: 'get', async:false, timeout: 100,
-			success: function() {exists = true},
-			error: function() {exists = false}
-		})
-		if (!exists) photourl = 'files/photo_members/default.jpg';
 		pane1.append($('<img src="' + photourl + '" height="160px" style="border-radius: 50px"/>'))
 		pane1.attr('align', 'center')
 		pane2.append($('<h3>' + student['name'] + '</h3>'))
