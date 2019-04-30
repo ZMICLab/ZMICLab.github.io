@@ -5,7 +5,7 @@ time_list = [
 },
 {
 	'date': '4/5/2019',
-	'name': 'Dengqiang published a paper on Computers in Biology and Medicine',
+	'name': 'Dengqiang published a paper on <i>Computers in Biology and Medicine</i>',
 },
 {
 	'date': '4/20/2019',

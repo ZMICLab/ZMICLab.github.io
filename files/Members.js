@@ -120,7 +120,7 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'Long Chen',
+	'name': 'Chang Sun',
 	'gender': 'male',
 	'level': 'A',
 	'photo': 'default.jpg',
@@ -128,7 +128,7 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'Chang Sun',
+	'name': 'Long Chen',
 	'gender': 'male',
 	'level': 'A',
 	'photo': 'default.jpg',
