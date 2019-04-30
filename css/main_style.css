@@ -124,3 +124,12 @@ a {
 	border-left: solid 1px var(--main-color);
 	padding-left: 20px;
 }
+
+.tag {
+	font-size: 16px;
+	background: rgba(85, 153, 255, 0.8);
+	color: white;
+	padding: 4px;
+	border-radius: 5px;
+	vertical-align: top;
+}

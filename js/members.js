@@ -1,6 +1,6 @@
 
 $(function () {
-	var curlevel = 'P'
+	var curlevel = 'T'
 	var isthefirst = true
 	var listtable = $('<table cellpadding="10px" width="100%"><tbody></tbody></table>')
 	$('#members_list').append(listtable)
@@ -22,7 +22,8 @@ $(function () {
 		photourl = 'files/photos_members/' + student['photo']
 		pane1.append($('<img src="' + photourl + '" height="160px" style="border-radius: 50px"/>'))
 		pane1.attr('align', 'center')
-		pane2.append($('<h3>' + student['name'] + '</h3>'))
+		var level = {'T': 'instructor', 'U': 'undergraduate', 'M': 'master', 'D': 'Ph.D.', 'P': 'post doc.', 'A': 'alumni'}
+		pane2.append($('<h3>' + student['name'] + ' <span class="tag">' + level[student['level']] + '</span></h3>'))
 		pane2.append($('<p>' + student['introduction'] + '</p>'))
 		if (student['homepage'] != '')
 			pane2.append($('<a class="useful-links" href="' + student['homepage'] + '">This is my homepage &rarr;</a> '))

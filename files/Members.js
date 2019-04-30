@@ -2,7 +2,7 @@ members_list = [
 {
 	'name': 'Xiahai Zhuang',
 	'gender': 'male',
-	'level': 'T', /*T(teacher) or U(under graduate) or M(master) or D(Ph.D.) or P(post Doc.)*/
+	'level': 'T', /*T(teacher) or U(under graduate) or M(master) or D(Ph.D.) or P(post Doc.) or A(alumni)*/
 	'photo': 'zxh.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/',
 	'introduction': "Xiahai Zhuang, Ph.D., Associate Professor of Medical Image Computing, School of Data Science, Fudan University.<br>DR. Zhuang has bachelor and master degrees in computer science (Tianjin Univ.; Shanghai Jiao Tong Univ.) and PhD in medical image computing (University College London)."
@@ -100,8 +100,8 @@ members_list = [
 	'gender': 'male',
 	'level': 'U',
 	'photo': 'zyc.jpg',
-	'homepage': '',
-	'introduction': ""
+	'homepage': 'https://bertie97.github.io/',
+	'introduction': "Yuncheng Zhou is an undergraduate student studying in the School of Data Sicence, Fudan University. <br> He is working on Medical Image Registration and AD diagnosis. "
 },
 {
 	'name': 'Qing Ye',
@@ -115,6 +115,46 @@ members_list = [
 	'name': 'Zi Zhuang',
 	'gender': 'male',
 	'level': 'U',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'Long Chen',
+	'gender': 'male',
+	'level': 'A',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'Chang Sun',
+	'gender': 'male',
+	'level': 'A',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'Ying Duan',
+	'gender': 'female',
+	'level': 'A',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'SA Mohadeskasaei',
+	'gender': 'male',
+	'level': 'A',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'Marta Nunez',
+	'gender': 'female',
+	'level': 'A',
 	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': ""
