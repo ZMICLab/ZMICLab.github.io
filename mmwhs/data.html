@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript">
+    window["_gaUserPrefs"] = {
+        ioo: function() {
+            return true;
+        }
+    }
+</script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Multi-Modality Whole Heart Segmentation 2017</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./res/bootstrap_custom.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="./res/dashboard.css" rel="stylesheet">
+ 
+    <script src="./res/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./res/ie10-viewport-bug-workaround.js"></script>
+ 
+    <style id="holderjs-style" type="text/css"></style>
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
+<div class="container" ;>
+<div id="top_menu" > 
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav"> 
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+
+<div style="background-color:cornflowerblue;" ; id="title">
+<br> 
+<div style=" color:black; font-size: 200%; text-align: center;"> 
+MM-WHS: Multi-Modality Whole Heart Segmentation 
+ 
+</div>
+<br> 
+</div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-10 col-md-offset-1 main">
+                <div id="main_content">
+                    <h2 style=" font-size: 150%;" ; class="sub-header">Data information</h2>
+
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="well well-lg"; style="font-size:120%"> 
+<p><a href="res/Data_Access_Agreement_for_Participants.pdf">To register, please download registration form</a>  and send to the <a href="mailto:mmwhs_challenge@163.com">organizers</a>.
+
+</p>
+<p>We provide <span style="color:blue"><b> 120</b></span> multi-modality whole heart images from multiple sites, including 60 cardiac CT/CTA and 60 cardiac MRI in 3D that cover the whole heart substructures. All these clinical data have got institutional ethic approval and have been anonymized. </p>
+</p>
+<p>
+The data were collected based on in vivo clinical environment and the data were used in clinics. So the data had various image quality, some were with relative poor quality. However, it is necessary to include these datasets to validate the robustness of the developed algorithms when it comes to real clinical usage. 
+</p>
+<p>
+The cardiac CT/CTA data were acquired at Shanghai Shuguang Hospital, China, using routine cardiac CT angiography. All the data cover the whole heart from the upper abdominal to the aortic arch. The slices were acquired in the axial view. The inplane resolution is about 0.78 × 0.78 mm and the average slice thickness is 1.60 mm. The MRI data were acquired at St Thomas hospital and Royal Brompton Hospital, London, UK, using 3D balanced steady state free precession (b-SSFP) sequences, with about 2 mm acquisition resolution at each direction and reconstructed (resampled) into about 1 mm. 
+</p>
+<p>
+We split the datasets into training (20 CT and 20 MRI representative) and test (40 CT and 40 MRI) data sets. For the training data sets, we provide manual segmentation of the seven whole heart substructures
+ [<a href="http://dx.doi.org/10.1016/j.media.2016.02.006">1</a>,<a href="https://www.ncbi.nlm.nih.gov/pubmed/23965595">2</a>],<br> 
+(1) the left ventricle blood cavity (label value 500);  <br>
+(2) the right ventricle blood cavity (label value 600); <br>
+(3) the left atrium blood cavity (label value 420);<br>
+(4) the right atrium blood cavity (label value 550);<br>
+(5) the myocardium of the left ventricle (label value 205); <br>
+(6) the ascending aorta (label value 820), which is defined as the aortic trunk from the aortic valve to the superior level of the atria; for example, the mean length of this trunk is about 41.9 mm as we measured in 25 healthy subjects;<br>
+(7) the pulmonary artery (label value 850), which is defined as the beginning trunk between the pulmonary valve and the bifurcation point, for example, the mean length of this trunk is about 41.9 mm as we measured in 25 healthy subjects. 
+</p>
+<p>
+The great vessels of interests include the ascending aorta and the pulmonary artery. Due to the different fields of view, the coverage of the great vessels can be different in different scans. To have a consistent definition across different subjects, the ascending aorta and pulmonary artery are thus defined as above, while the validation of whole heart segmentation can solely focus on the major trunk of the vessels. The manual segmentation for both training and test data generally covers beyond the defined length of the vessels. In the evaluation, we will use a method to cut the results of the vessel segmentations to the limited length as described above. For the submission, we encourage the participants to submit their segmentation of vessels as longer as possible.  
+</p> 
+                            </div>
+                        </div>
+						
+<div class="col-md-1" style="font-size: 120%"> 
+	<img src="./res/MMData.png" class="img-rounded" style="width: 220px;"><br>
+	<img src="./res/WholeHeartSegment_ErrorMap_WhiteBg.gif" class="img-rounded" style="width: 230px;"> 
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+ 
+    <script src="./res/jquery.js"></script>
+    <script src="./res/bootstrap.min.js"></script>
+    <script src="./res/docs.min.js"></script>
+    <script>
+        /*
+         *   Load Top-menu 
+         */
+        $(function () {
+            $("#top_menu").load("top_menu.html");
+        });
+    </script>
+
+
+
+    <div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;">
+        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1490101305530">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=www.doc.ic.ac.uk%2C%2F%2Fwww.doc.ic.ac.uk%2Chttps%3A%2F%2Fwww.doc.ic.ac.uk">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1490101305530" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=www.doc.ic.ac.uk%2C%2F%2Fwww.doc.ic.ac.uk%2Chttps%3A%2F%2Fwww.doc.ic.ac.uk" scale="exactfit">                </object></div>
+</body>
+
+</html>

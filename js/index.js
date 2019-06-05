@@ -95,18 +95,34 @@ $(function () {
     
     for (i in links_list) {
         var link = links_list[i]
-        var entry = $('<table cellpadding="20px"><tbody><tr><td id="left-pane"></td><td id="right-pane"></td></tr></tbody></table>')
-        var pane1 = entry.children('tbody').children('tr').children('#left-pane')
-        var pane2 = entry.children('tbody').children('tr').children('#right-pane')
-        $('#links').append(entry)
-        var pane_img
-        var pane_txt
-        if (i % 2 == 0) {pane_img = pane1; pane_txt = pane2}
-        else {pane_img = pane2; pane_txt = pane1}
-        pane_img.append($('<div class="bounding-box"><img src="' + link['image'] + '" height="100%" width="auto"/></div>'))
-        pane_txt.append($('<h3> ' + link['name'] + ' </h3>'))
-        pane_txt.append($('<p> ' + link['introduction'] + ' </p>'))
-        pane_txt.append($('<a class="useful-links" href="' + link['url'] + '">' + link['name'] + ' &rarr;</a> '))
+        var offimage = $('<img id="' + i + '" />').attr('src', link['image'])
+        offimage.on("load", function () {
+            i = Number(this.id)
+            var link = links_list[i]
+            var image = $('<img src="' + this.src + '" style="border-radius: 20px"/>')
+            if (this.height >= this.width) {
+                image.attr('height', '100%')
+                image.attr('width', 'auto')
+            }
+            else {
+                image.attr('height', 'auto')
+                image.attr('width', '100%')
+            }
+            var entry = $('<table cellpadding="20px"><tbody><tr><td id="left-pane"></td><td id="right-pane"></td></tr></tbody></table>')
+            var pane1 = entry.children('tbody').children('tr').children('#left-pane')
+            var pane2 = entry.children('tbody').children('tr').children('#right-pane')
+            $('#links').append(entry)
+            var pane_img
+            var pane_txt
+            if (i % 2 == 0) {pane_img = pane1; pane_txt = pane2}
+            else {pane_img = pane2; pane_txt = pane1}
+            var bx = $('<div class="bounding-box"></div>')
+            bx.append(image)
+            pane_img.append(bx)
+            pane_txt.append($('<h3> ' + link['name'] + ' </h3>'))
+            pane_txt.append($('<p> ' + link['introduction'] + ' </p>'))
+            pane_txt.append($('<a class="useful-links" href="' + link['url'] + '">' + link['name'] + ' &rarr;</a> '))
+        })
     }
     
     $('#timeline').children('h3').css('margin', '80px 0 0 0')
