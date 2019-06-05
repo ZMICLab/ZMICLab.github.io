@@ -108,10 +108,25 @@ $(function () {
                 image.attr('height', 'auto')
                 image.attr('width', '100%')
             }
-            var entry = $('<table cellpadding="20px"><tbody><tr><td id="left-pane"></td><td id="right-pane"></td></tr></tbody></table>')
+            var entry = $('<table id="' + i + '" cellpadding="20px"><tbody><tr><td id="left-pane"></td><td id="right-pane"></td></tr></tbody></table>')
             var pane1 = entry.children('tbody').children('tr').children('#left-pane')
             var pane2 = entry.children('tbody').children('tr').children('#right-pane')
-            $('#links').append(entry)
+            var entries = $('#links').children('table')
+            if (entries.length == 0) $('#links').append(entry)
+            else {
+                for (j = 0; j < entries.length; ++j) {
+                    child = entries[j]
+                    id = Number(child.id)
+                    if (id > i) {
+                        if (j == 0) $('#links').prepend(entry)
+                        else entries[j - 1].after(entry)
+                        break
+                    }
+                }
+                if (id <= i) {
+                    $('#links').append(entry)
+                }
+            }
             var pane_img
             var pane_txt
             if (i % 2 == 0) {pane_img = pane1; pane_txt = pane2}
