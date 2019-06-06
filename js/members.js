@@ -22,7 +22,7 @@ $(function () {
 		photourl = 'files/photos_members/' + student['photo']
 		pane1.append($('<img src="' + photourl + '" height="160px" style="border-radius: 50px"/>'))
 		pane1.attr('align', 'center')
-		var level = {'T': 'instructor', 'U': 'undergraduate', 'M': 'master', 'D': 'Ph.D.', 'P': 'post doc.', 'A': 'alumni'}
+		var level = {'T': 'instructor', 'U': 'undergraduate', 'M': 'master', 'D': 'Ph.D.', 'P': 'post doc.', 'A': 'alumni', 'G': 'guest'}
 		pane2.append($('<h3>' + student['name'] + ' <span class="tag">' + level[student['level']] + '</span></h3>'))
 		pane2.append($('<p>' + student['introduction'] + '</p>'))
 		if (student['homepage'] != '')

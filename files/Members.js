@@ -101,7 +101,7 @@ members_list = [
 	'level': 'U',
 	'photo': 'zyc.jpg',
 	'homepage': 'https://bertie97.github.io/',
-	'introduction': "Yuncheng Zhou is an undergraduate student studying in the School of Data Sicence, Fudan University. <br> He is working on Medical Image Registration and AD diagnosis. "
+	'introduction': "I'm an undergraduate student studying in the School of Data Sicence, Fudan University. <br> I'm is working on Medical Image Registration and AD diagnosis. "
 },
 {
 	'name': 'Qing Ye',
@@ -120,9 +120,17 @@ members_list = [
 	'introduction': ""
 },
 {
+	'name': 'Ben Fei',
+	'gender': 'male',
+	'level': 'G',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
 	'name': 'Chang Sun',
 	'gender': 'male',
-	'level': 'A',
+	'level': 'P',
 	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': ""
