@@ -16,5 +16,5 @@ links_list = [
 	'url': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/zxhproj/',
 	'image': 'files/imgs_links/C6635319-78D7-4859-8DC0-6203F81928FA.png',
 	'introduction': 'zxhproj (doxygen html) is a medical image computing platform, being developed and maintained by Xiahai Zhuang since 2004. Based on it, several image registration and segmentation tools have been developed, such as multivariate mixture model, cardiac segmentation, locally affine registration method (LARM), spatially encoded mutual information (SEMI), as well as other image/vector field processing tools. The tools work with nifty (nii/nii.gz) and gipl short int data formats. '
-},
+}
 ]
