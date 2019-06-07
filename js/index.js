@@ -97,6 +97,7 @@ $(function () {
     $('#student-count').text(U_count + M_count + D_count + P_count + G_count)
     
     var loaded = []
+    $('#loading').show()
     
     for (i in links_list) {
         var link = links_list[i]
