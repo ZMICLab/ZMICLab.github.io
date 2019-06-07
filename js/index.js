@@ -143,8 +143,8 @@ $(function () {
             pane_txt.append($('<h3> ' + link['name'] + ' </h3>'))
             pane_txt.append($('<p> ' + link['introduction'] + ' </p>'))
             pane_txt.append($('<a class="useful-links" href="' + link['url'] + '">' + link['name'] + ' &rarr;</a> '))
-            loaded.append(i)
-            if (loaded.length == link_list.length) {
+            loaded.push(i)
+            if (loaded.length == links_list.length) {
                 $('#loading').hide()
             }
         })
