@@ -96,6 +96,8 @@ $(function () {
     $('#G-count').text(G_count)
     $('#student-count').text(U_count + M_count + D_count + P_count + G_count)
     
+    var loaded = []
+    
     for (i in links_list) {
         var link = links_list[i]
         var offimage = $('<img id="' + i + '" />').attr('src', link['image'])
@@ -140,6 +142,10 @@ $(function () {
             pane_txt.append($('<h3> ' + link['name'] + ' </h3>'))
             pane_txt.append($('<p> ' + link['introduction'] + ' </p>'))
             pane_txt.append($('<a class="useful-links" href="' + link['url'] + '">' + link['name'] + ' &rarr;</a> '))
+            loaded.append(i)
+            if (loaded.length == link_list.length) {
+                $('#loading').hide()
+            }
         })
     }
     

@@ -9,7 +9,7 @@ links_list = [
 	'name': 'MMWHS Challenge',
 	'url': 'mmwhs/',
 	'image': 'files/imgs_links/ED3F168D-7FDA-46B9-A108-ECAF74F2ABC7.png',
-	'introduction': 'Accurate computing, modeling and analysis of the whole heart substructures is important in the development of clinical applications. Segmentation and registration of whole heart images is however challenging and still relies heavily on manual work, which is time-consuming and prone to errors.<br>The Challenge provides 120 multi-modality cardiac images acquired in real clinical environment. It aims at creating an open and fair competition for various research groups to test and validate their methods, particularly for the multi-modality whole heart segmentation[1]. It is not only to benchmark various whole heart segmentation algorithms, but also to cover the topic of general cardiac image segmentation and registration and modeling.'
+	'introduction': 'Accurate computing, modeling and analysis of the whole heart substructures is important in the development of clinical applications. Segmentation and registration of whole heart images is however challenging and still relies heavily on manual work, which is time-consuming and prone to errors.<br>The Challenge provides 120 multi-modality cardiac images acquired in real clinical environment. It aims at creating an open and fair competition for various research groups to test and validate their methods, particularly for the multi-modality whole heart segmentation. It is not only to benchmark various whole heart segmentation algorithms, but also to cover the topic of general cardiac image segmentation and registration and modeling.'
 },
 {
 	'name': 'S/W zxhproj',
