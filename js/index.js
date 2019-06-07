@@ -115,19 +115,19 @@ $(function () {
             var pane1 = entry.children('tbody').children('tr').children('#left-pane')
             var pane2 = entry.children('tbody').children('tr').children('#right-pane')
             var entries = $('#links').children('table')
-            if (entries.length == 0) $('#links').append(entry)
+            if (entries.length == 0) $('#links').append(entry[0])
             else {
                 for (j = 0; j < entries.length; ++j) {
                     child = entries[j]
                     id = Number(child.id)
                     if (id > i) {
-                        if (j == 0) $('#links').prepend(entry)
-                        else entries[j - 1].after(entry)
+                        if (j == 0) $('#links').prepend(entry[0])
+                        else entries[j - 1].after(entry[0])
                         break
                     }
                 }
                 if (id <= i) {
-                    $('#links').append(entry)
+                    $('#links').append(entry[0])
                 }
             }
             var pane_img
