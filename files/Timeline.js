@@ -1,7 +1,7 @@
 time_list = [
 {
 	'date': '6/5/2019',
-	'name': 'Qian Yue\'s paper was accepted by MICCAI',
+	'name': 'Qian Yue\'s paper was accepted by MICCAI, <a href=https://arxiv.org/abs/1906.07347>LGE CMRI seg, DNN+Priors</a>',
 },
 {
 	'date': 'Jun. , 2019',
