@@ -4,16 +4,8 @@ members_list = [
 	'gender': 'male',
 	'level': 'T', /*T(teacher) or U(under graduate) or M(master) or D(Ph.D.) or P(post Doc.) or A(alumni)*/
 	'photo': 'zxh.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/',
+	'homepage': 'https://zmiclab.github.io/zxh/',
 	'introduction': "Xiahai Zhuang, Ph.D., Associate Professor of Medical Image Computing, School of Data Science, Fudan University.<br>DR. Zhuang has bachelor and master degrees in computer science (Tianjin Univ.; Shanghai Jiao Tong Univ.) and PhD in medical image computing (University College London)."
-},
-{
-	'name': 'Dengqiang Jia',
-	'gender': 'male',
-	'level': 'D',
-	'photo': 'jdq.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/jiadengqiang/',
-	'introduction': "I'm doing my PhD in SJTU-CU ICRC, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. Before that, I did my bachelor degree in Nanjing University of Science and Technology."
 },
 {
 	'name': 'Fuping Wu',
@@ -22,14 +14,6 @@ members_list = [
 	'photo': 'wfp.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
 	'introduction': "I am doing my PhD in School of Management, Fudan University, with Prof. Zhuang XiaHai . Before that, I did my master and bachelor degrees in WuHan Univeristy and HuaZhong University of Science and Technology, respectively."
-},
-{
-	'name': 'Lingchao Xu',
-	'gender': 'male',
-	'level': 'D',
-	'photo': 'xlc.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/xulingchao/',
-	'introduction': "I'm doing my Master Dgree in School of NAOCE, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. <br> I did my bachelor degree in Shanghai Jiao Tong University."
 },
 {
 	'name': 'Lei Li',
@@ -126,6 +110,23 @@ members_list = [
 	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': ""
+},
+
+{
+	'name': 'Dengqiang Jia',
+	'gender': 'male',
+	'level': 'D',
+	'photo': 'jdq.jpg',
+	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/jiadengqiang/',
+	'introduction': "I'm doing my PhD in SJTU-CU ICRC, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. Before that, I did my bachelor degree in Nanjing University of Science and Technology."
+},
+{
+	'name': 'Lingchao Xu',
+	'gender': 'male',
+	'level': 'D',
+	'photo': 'xlc.jpg',
+	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/xulingchao/',
+	'introduction': "I'm doing my Master Dgree in School of NAOCE, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. <br> I did my bachelor degree in Shanghai Jiao Tong University."
 },
 {
 	'name': 'Chang Sun',
