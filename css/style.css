@@ -33,7 +33,7 @@ p {
 }
 
 .axis {
-	margin-top: -13px;
+	margin-top: -12px;
 	margin-left: 2px;
 	height: 4px;
 	background: var(--main-color);
@@ -52,7 +52,7 @@ p {
 
 .dot {
 	margin-top: 90px;
-	margin-left: 50%;
+	margin-left: 95px;
 	width: 10px; 
 	height: 10px; 
 	border-radius: 5px;

@@ -1,8 +1,15 @@
 
 $(function () {
     console.log(navigator.userAgent)
-    if (navigator.userAgent.match(/AppleWebKit.*Mobile.*/))
+    if (navigator.userAgent.match(/AppleWebKit.*Mobile.*/)) {
         $('link[href="css/style.css"]').attr('href', 'css/style_mobile.css')
+        var box = $('.slide-box')
+        var table = box.parent().parent().parent()
+        var row = $('<tr></tr>')
+        row.append($(box.parent().parent().first('td').html()))
+        table.prepend(row)
+        box.parent().parent().first('td').remove()
+    }
     
     var slide_width = 600
     var slide_height = 400
@@ -156,7 +163,7 @@ $(function () {
     
     $('#timeline').children('h3').css('margin', '80px 0 0 0')
     var axis = $('<div class="axis"></div>')
-    axis.css('width', 200 * time_list.length + 100)
+    axis.css('width', 210 * time_list.length + 120)
     $('#timeline').append(axis)
     var time_table = $('<table class="time-table"><tr></tr></table>')
     var tooltip_map = {}
@@ -186,23 +193,36 @@ $(function () {
         tooltip_map[entry.text()] = tooltip
         labels_map[entry.text()] = [label1, label2]
         entry.hover(function () {
-            tooltip_map[$(this).text()].css('visibility', '')
-            tooltip_map[$(this).text()].stop()
-            tooltip_map[$(this).text()].animate({height: 180, width: 178, 'margin-left': 0, 'margin-top': -180, opacity: 1})
-            for (i in labels_map[$(this).text()]) {
-                labels_map[$(this).text()][i].stop()
-                labels_map[$(this).text()][i].animate({opacity: 0}, function () {
+            var key = $(this).text()
+//            $('#timeline').children(':not(table)').css('opacity', 0.5)
+            time_table.find('tr:first').children('td').each(function () {
+                if ($(this).text().indexOf(tooltip_map[key].text()) > -1) return
+                $(this).stop()
+                $(this).animate({opacity: 0.5})
+            })
+            tooltip_map[key].css('visibility', '')
+            tooltip_map[key].stop()
+            tooltip_map[key].animate({height: 180, width: 320, 'margin-left': 20, 'margin-right': 20, 'margin-top': -180, opacity: 1})
+            for (i in labels_map[key]) {
+                labels_map[key][i].stop()
+                labels_map[key][i].animate({opacity: 0}, function () {
                     $(this).css('visibility', 'hidden')
                 })
             }
         }, function () {
-            for (i in labels_map[$(this).text()]) {
-                labels_map[$(this).text()][i].stop()
-                labels_map[$(this).text()][i].css('visibility', '')
-                labels_map[$(this).text()][i].animate({opacity: 1})
+            var key = $(this).text()
+            for (i in labels_map[key]) {
+                labels_map[key][i].stop()
+                labels_map[key][i].css('visibility', '')
+                labels_map[key][i].animate({opacity: 1})
             }
-            tooltip_map[$(this).text()].stop()
-            tooltip_map[$(this).text()].animate({height: 0, width: 0, 'margin-left': 89, 'margin-top': -100, opacity: 0}, function () {$(this).css('visibility', 'hidden')})
+            tooltip_map[key].stop()
+            tooltip_map[key].animate({height: 0, width: 0, 'margin-left': 160, 'margin-right': 0, 'margin-top': -100, opacity: 0}, function () {$(this).css('visibility', 'hidden')})
+            $('#timeline').children(':not(table)').css('opacity', 1)
+            time_table.find('tr:first').children('td').each(function () {
+                $(this).stop()
+                $(this).animate({opacity: 1})
+            })
         })
         time_table.find('tr').append(entry)
     }
