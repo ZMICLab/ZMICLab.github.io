@@ -154,28 +154,55 @@ $(function () {
     var axis = $('<div class="axis"></div>')
     axis.css('width', 200 * time_list.length + 100)
     $('#timeline').append(axis)
+    var time_table = $('<table class="time-table"><tr></tr></table>')
+    var tooltip_map = {}
+    var labels_map = {}
     for (i in time_list) {
         var date = time_list[i]['date']
         var name = time_list[i]['name']
+        var info = time_list[i]['info']
+        if (info == undefined) {info = name}
         var upper
         var lower
         if (i % 2 == 0) {upper=date; lower=name}
         else {upper=name; lower=date}
-        dot = $('<div class="dot"></div>')
-        dot.css('top', - 146 * i - 8)
-        dot.css('left', 200 * i + 200)
-        label1 = $('<div class="label-wrapper"><p class="label">' + upper + '</p></div>')
-        label1.css('top', - 146 * i - 100)
-        label1.css('left', 200 * i + 100)
+        var entry = $('<td class="time-entry"></td>')
+        var dot = $('<div class="dot"></div>')
+        var label1 = $('<div class="label-wrapper"><p class="label">' + upper + '</p></div>')
         label1.children('p').css('vertical-align', 'bottom')
-        label2 = $('<div class="label-wrapper"><p class="label">' + lower + '</p></div>')
-        label2.css('top', - 146 * i - 60)
-        label2.css('left', 200 * i + 100)
+        var label2 = $('<div class="label-wrapper"><p class="label">' + lower + '</p></div>')
+        label2.css('margin-top', 28)
         label2.children('p').css('vertical-align', 'top')
-        $('#timeline').append(dot)
-        $('#timeline').append(label1)
-        $('#timeline').append(label2)
+        var tooltip = $('<div class="tooltip-wrapper"><p class="tooltip">' + info + '</p></div>')
+        entry.append(dot)
+        entry.append(label1)
+        entry.append(label2)
+        entry.append(tooltip)
+        tooltip.hide()
+        tooltip_map[entry.text()] = tooltip
+        labels_map[entry.text()] = [label1, label2]
+        entry.hover(function () {
+            tooltip_map[$(this).text()].show()
+            tooltip_map[$(this).text()].stop()
+            tooltip_map[$(this).text()].animate({height: 160, width: 178, 'margin-left': 0, 'margin-top': -180, opacity: 1})
+            for (i in labels_map[$(this).text()]) {
+                labels_map[$(this).text()][i].stop()
+                labels_map[$(this).text()][i].animate({opacity: 0}, function () {
+                    $(this).css('visibility', 'hidden')
+                })
+            }
+        }, function () {
+            for (i in labels_map[$(this).text()]) {
+                labels_map[$(this).text()][i].stop()
+                labels_map[$(this).text()][i].css('visibility', '')
+                labels_map[$(this).text()][i].animate({opacity: 1})
+            }
+            tooltip_map[$(this).text()].stop()
+            tooltip_map[$(this).text()].animate({height: 0, width: 0, 'margin-left': 89, 'margin-top': -100, opacity: 0}, function () {$(this).hide()})
+        })
+        time_table.first().append(entry)
     }
+    $('#timeline').append(time_table)
     
 //    bubble = function (radius) {
 //        return $('<div class="bubble" style="--radius: ' + String(radius) + 'px; --padding: ' + String(0.4 * radius) + 'px; position: absolute; width: calc(2 * (var(--radius) - var(--padding))); height: calc(2 * (var(--radius) - var(--padding))); border-radius: var(--radius);"><div class="bubble-light" style="width: 60%; height: 60%; border-radius: 60%;"></div></div>')
