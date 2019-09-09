@@ -32,6 +32,8 @@
 }
 
 .axis {
+	margin-top: -13px;
+	margin-left: 2px;
 	height: 4px;
 	background: var(--main-color);
 	border-radius: 2px;
@@ -120,7 +122,7 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
-	height: 200px;
+	height: 220px;
 	overflow: hidden;
 	overflow-x: scroll;
 	overflow-y: hidden;

@@ -184,7 +184,7 @@ $(function () {
         entry.hover(function () {
             tooltip_map[$(this).text()].show()
             tooltip_map[$(this).text()].stop()
-            tooltip_map[$(this).text()].animate({height: 160, width: 178, 'margin-left': 0, 'margin-top': -180, opacity: 1})
+            tooltip_map[$(this).text()].animate({height: 180, width: 178, 'margin-left': 0, 'margin-top': -180, opacity: 1})
             for (i in labels_map[$(this).text()]) {
                 labels_map[$(this).text()][i].stop()
                 labels_map[$(this).text()][i].animate({opacity: 0}, function () {
