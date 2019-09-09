@@ -1,5 +1,9 @@
 
 $(function () {
+    console.log(navigator.userAgent)
+    if (navigator.userAgent.match(/AppleWebKit.*Mobile.*/))
+        $('link[href="css/style.css"]').attr('href', 'css/style_mobile.css')
+    
     var slide_width = 600
     var slide_height = 400
     var button_size = 44
@@ -178,11 +182,11 @@ $(function () {
         entry.append(label1)
         entry.append(label2)
         entry.append(tooltip)
-        tooltip.hide()
+        tooltip.css('visibility', 'hidden')
         tooltip_map[entry.text()] = tooltip
         labels_map[entry.text()] = [label1, label2]
         entry.hover(function () {
-            tooltip_map[$(this).text()].show()
+            tooltip_map[$(this).text()].css('visibility', '')
             tooltip_map[$(this).text()].stop()
             tooltip_map[$(this).text()].animate({height: 180, width: 178, 'margin-left': 0, 'margin-top': -180, opacity: 1})
             for (i in labels_map[$(this).text()]) {
@@ -198,9 +202,9 @@ $(function () {
                 labels_map[$(this).text()][i].animate({opacity: 1})
             }
             tooltip_map[$(this).text()].stop()
-            tooltip_map[$(this).text()].animate({height: 0, width: 0, 'margin-left': 89, 'margin-top': -100, opacity: 0}, function () {$(this).hide()})
+            tooltip_map[$(this).text()].animate({height: 0, width: 0, 'margin-left': 89, 'margin-top': -100, opacity: 0}, function () {$(this).css('visibility', 'hidden')})
         })
-        time_table.first().append(entry)
+        time_table.find('tr').append(entry)
     }
     $('#timeline').append(time_table)
     
