@@ -4,13 +4,9 @@
 	--font-size: 18px
 }
 
-.page {
+p {
 	font-size: var(--font-size);
 }
-
-/*.header-button {*/
-/*	color: var(--main-color);*/
-/*}*/
 
 .slide-box {
 	-moz-user-select: none;
