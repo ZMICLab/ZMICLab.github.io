@@ -1,9 +1,4 @@
 
-.page {
-	font-size: 18px;
-	background: white;
-}
-
 h1 {
 	height: 100px;
 	text-align: center;
@@ -41,6 +36,8 @@ a {
 }
 
 #page {
+	font-size: 18px;
+	background: white;
 	width: 1000px;
 	margin: auto;
 }
