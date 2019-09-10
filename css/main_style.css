@@ -1,13 +1,7 @@
 
-:root {
-	--page-width: 1000px;
-	--main-color: #444444;
-	--link-color: #444444;
-	--font-size: 18px;
-}
-
 .page {
-	font-size: var(--font-size);
+	font-size: 18px;
+	background: white;
 }
 
 h1 {
@@ -16,7 +10,7 @@ h1 {
 	background: url('../res/king-dash.png');
 	background-size: 80% 60px;
 	background-repeat: no-repeat;
-	background-position-x: calc(var(--page-width) / 10);
+	background-position-x: 100px;
 	background-position-y: 40px;
 }
 
@@ -26,7 +20,7 @@ h2 {
 /*	background: url('../res/star-dash.png');*/
 /*	background-size: 80% 25px;*/
 /*	background-repeat: no-repeat;*/
-/*	background-position-x: calc(var(--page-width) / 10);*/
+/*	background-position-x: 100px;*/
 /*	background-position-y: 40px;*/
 }
 
@@ -35,29 +29,29 @@ hr {
 	background: url('../res/star-dash.png');
 	background-size: 80% 25px;
 	background-repeat: no-repeat;
-	background-position-x: calc(var(--page-width) / 10);
+	background-position-x: 100px;
 	background-position-y: 0;
 	border: 0;
 	margin: 40px 0;
 }
 
 a {
-	color: var(--link-color);
+	color: #444444;
 	font-weight: bold;
 }
 
 #page {
-	width: var(--page-width);
+	width: 1000px;
 	margin: auto;
 }
 
 #main-photo {
-	width: calc(0.6 * var(--page-width));
+	width: 600px;
 	border-radius: 10px;
 }
 
 #header {
-	width: var(--page-width);
+	width: 1000px;
 }
 
 #footer {
@@ -65,7 +59,7 @@ a {
 	margin: auto;
 	padding: 10px;
 	text-align: center;
-	background: var(--main-color);
+	background: #444444;
 }
 
 #logo-cover {
@@ -80,17 +74,17 @@ a {
 	text-align: center;
 	font-size: 22px;
 	font-family: Courier;
-	color: var(--main-color); //#2299DD;
+	color: #444444; //#2299DD;
 }
 
 .useful-links {
-	border: solid 1px var(--main-color);
+	border: solid 1px #444444;
 	border-radius: 10px;
 	padding: 10px;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: Courier;
-	color: var(--main-color);
+	color: #444444;
 }
 
 .goto {
@@ -121,7 +115,7 @@ a {
 }
 
 .left-bar {
-	border-left: solid 1px var(--main-color);
+	border-left: solid 1px #444444;
 	padding-left: 20px;
 }
 
