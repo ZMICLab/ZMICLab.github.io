@@ -1,137 +1,52 @@
 
-:root {
-	--main-color: #5599ff;
-}
+@import url(style.css);
 
 p {
-	font-size: 18px;
-}
-
-.slide-box {
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-webkit-user-select: none;
-	width: 600px;
-	height: 400px;
-	overflow: hidden;
-	border-radius: 40px;
-}
-
-.slide {
-	position: static;
-	width: 600px;
-	height: 400px;
-	margin: 0 auto;
-}
-
-.bounding-box {
-	width: 200px;
-	height: 200px;
-	overflow: hidden;
-	border-radius: 20px;
-}
-
-.axis {
-	margin-top: -13px;
-	margin-left: 2px;
-	height: 4px;
-	background: #5599ff;
-	border-radius: 2px;
-}
-
-.time-table {
-	background: gold;
-	margin-top: -100px;
-	margin-left: 100px;
-	height: 180px;
-}
-
-.time-entry {
-	vertical-align: top;
-}
-
-.dot {
-	margin-top: 90px;
-	margin-left: 50%;
-	width: 10px; 
-	height: 10px; 
-	border-radius: 5px;
-	background: #5599ff;
-/* 	box-shadow: #AAA 2px 2px 2px; */
-}
-
-.label-wrapper {
-	margin-top: -88px;
-	max-height: 70px;
-	width: 200px;
-	height: 68px;
-	overflow: hidden;
-}
-
-.label {
-	display: table-cell;
-	width: 200px;
-	height: 68px;
-	text-align: center;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	color: #5599ff;
-	font-size: 18px;
-}
-
-.tooltip-wrapper {
-	padding: 10px;
-	border-radius: 20px;
-	margin-top: -100px;
-	margin-left: 89px;
-	height: 0;
-	width: 0;
-	overflow-y: scroll;
-	background: white;
-	z-index: 1;
-	border-color: #5599ff;
-	border-style: solid;
-	border-width: 1px;
-}
-
-.tooltip {
-	display: block;
-	-moz-user-select: auto;
-	-ms-user-select: auto;
-	-webkit-user-select: auto;
-	margin-left: 10px;
-	width: 90%;
-	text-align: center;
-	color: #5599ff;
-	font-size: 18px;
-}
-
-.bubble {
-	box-shadow: 0 0 20px rgba(85, 153, 255, 0.8) inset, 0 0 4px rgba(85, 153, 255, 0.8);
-}
-
-.bubble-light {
-	box-shadow: 0 0 1px rgba(85, 153, 255, 0.6) inset, 0 0 20px rgba(85, 153, 255, 1);
-}
-
-#main-title {
-	text-align: center;
-	font-size: 64px;
-	font-family: Courier;
-	color: #666;
+	font-size: 24px;
 }
 
 #timeline {
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-webkit-user-select: none;
-	height: 220px;
-	overflow: hidden;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	padding-bottom: 20px;
+	height: 300px;
 }
 
 #timeline-title {
-	color: #5599ff;
+	font-size: 32px;
+	margin: 100px 0 0 0;
+}
+
+.axis {
+	margin-top: -21px;
+}
+
+.time-table {
+/* 	background: gold; */
+	margin-left: 160px;
+	margin-top: -150px;
+	height: 300px;
+}
+
+.label-wrapper {
+	margin-top: -120px;
+	width: 300px;
+	height: 100px;
+}
+
+.label {
+	width: 300px;
+	height: 100px;
+	font-size: 24px;
+}
+
+.tooltip-wrapper {
+	margin-top: -200px;
+	height: 100px;
+}
+
+.tooltip {
+	font-size: 24px;
+}
+
+.dot {
+	margin-top: 140px;
+	margin-left: 145px;
 }

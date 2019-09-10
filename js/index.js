@@ -1,18 +1,38 @@
 
 $(function () {
     console.log(navigator.userAgent)
+    var slide_width
+    var slide_height
+    var tooltip_width
+    var tooltip_height
+    var time_item_width
     if (navigator.userAgent.match(/AppleWebKit.*Mobile.*/)) {
         $('link[href="css/style.css"]').attr('href', 'css/style_mobile.css')
+        $('img[src="res/logo_long.png"]').attr('width', '60%')
         var box = $('.slide-box')
         var table = box.parent().parent().parent()
+        var text = box.parent().parent().children('td:first')
         var row = $('<tr></tr>')
-        row.append($(box.parent().parent().first('td').html()))
+        row.append($(text.html()))
         table.prepend(row)
-        box.parent().parent().first('td').remove()
+        text.remove()
+        slide_width = 900
+        slide_height = 600
+        tooltip_width = 320
+        tooltip_height = 240
+        time_item_width = 300
+        $('.slide-box').css('margin', 'auto')
+        $('.slide-box').css('width', slide_width)
+        $('.slide-box').css('height', slide_height)
+    }
+    else {
+        slide_width = 600
+        slide_height = 400
+        tooltip_width = 320
+        tooltip_height = 180
+        time_item_width = 210
     }
     
-    var slide_width = 600
-    var slide_height = 400
     var button_size = 44
     var duration = 5000
     var slide_anim_duration = 400
@@ -20,8 +40,8 @@ $(function () {
     var image_margin = []
     var cur_image_id = 0
     $('.slide-box').children('img').each(function () {
-        w = $(this).width()
-        image_margin.push((slide_width - w) / 2)
+//        w = $(this).width()
+//        image_margin.push((slide_width - w) / 2)
         slide_images.push($(this).attr('src'))
         $(this).remove()
     })
@@ -29,7 +49,9 @@ $(function () {
     var place1 = table.children('tbody').children('tr').children('#left-pane')
     var place2 = table.children('tbody').children('tr').children('#right-pane')
     var cur_image = $('<img src="' + slide_images[cur_image_id] + '" class="slide"/>')
-    cur_image.css('margin-left', image_margin[cur_image_id])
+    cur_image.css('width', slide_width)
+    cur_image.css('height', slide_height)
+//    cur_image.css('margin-left', image_margin[cur_image_id])
     place1.append(cur_image)
     $('.slide-box').append(table)
     var left_button = $('<a href="javascript:;"><img src="res/l-btn.png"/></a>')
@@ -61,7 +83,9 @@ $(function () {
         place2.append(cur_image)
         new_image_id = (cur_image_id + slide_images.length - 1) % slide_images.length
         var new_image = $('<img src="' + slide_images[new_image_id] + '" class="slide"/>')
-        new_image.css('margin-left', image_margin[new_image_id])
+        new_image.css('width', slide_width)
+        new_image.css('height', slide_height)
+//        new_image.css('margin-left', image_margin[new_image_id])
         place1.append(new_image)
         table.animate({'margin-left': 0}, slide_anim_duration, function() {
             cur_image.remove()
@@ -72,7 +96,9 @@ $(function () {
     move_next = function () {
         new_image_id = (cur_image_id + 1) % slide_images.length
         var new_image = $('<img src="' + slide_images[new_image_id] + '" class="slide"/>')
-        new_image.css('margin-left', image_margin[new_image_id])
+        new_image.css('width', slide_width)
+        new_image.css('height', slide_height)
+//        new_image.css('margin-left', image_margin[new_image_id])
         place2.append(new_image)
         table.animate({'margin-left': - slide_width}, slide_anim_duration, function() {
             cur_image.remove()
@@ -161,9 +187,8 @@ $(function () {
         })
     }
     
-    $('#timeline').children('h3').css('margin', '80px 0 0 0')
     var axis = $('<div class="axis"></div>')
-    axis.css('width', 210 * time_list.length + 120)
+    axis.css('width', time_item_width * time_list.length + time_item_width / 2 + 15)
     $('#timeline').append(axis)
     var time_table = $('<table class="time-table"><tr></tr></table>')
     var tooltip_map = {}
@@ -202,7 +227,7 @@ $(function () {
             })
             tooltip_map[key].css('visibility', '')
             tooltip_map[key].stop()
-            tooltip_map[key].animate({height: 180, width: 320, 'margin-left': 20, 'margin-right': 20, 'margin-top': -180, opacity: 1})
+            tooltip_map[key].animate({height: tooltip_height, width: tooltip_width, 'margin-left': 20, 'margin-right': 20, 'margin-top': - tooltip_height / 2 - 120, opacity: 1})
             for (i in labels_map[key]) {
                 labels_map[key][i].stop()
                 labels_map[key][i].animate({opacity: 0}, function () {
@@ -217,7 +242,7 @@ $(function () {
                 labels_map[key][i].animate({opacity: 1})
             }
             tooltip_map[key].stop()
-            tooltip_map[key].animate({height: 0, width: 0, 'margin-left': 160, 'margin-right': 0, 'margin-top': -100, opacity: 0}, function () {$(this).css('visibility', 'hidden')})
+            tooltip_map[key].animate({height: 0, width: 0, 'margin-left': 145, 'margin-right': 0, 'margin-top': -120, opacity: 0}, function () {$(this).css('visibility', 'hidden')})
             $('#timeline').children(':not(table)').css('opacity', 1)
             time_table.find('tr:first').children('td').each(function () {
                 $(this).stop()
