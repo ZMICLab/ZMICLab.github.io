@@ -5,6 +5,10 @@ p {
 	font-size: 24px;
 }
 
+h2 {
+	width: 100%;
+}
+
 #timeline {
 	height: 300px;
 }

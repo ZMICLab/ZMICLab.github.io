@@ -21,6 +21,7 @@ $(function () {
         tooltip_width = 320
         tooltip_height = 240
         time_item_width = 300
+        table.css('margin', 'auto')
         $('.slide-box').css('margin', 'auto')
         $('.slide-box').css('width', slide_width)
         $('.slide-box').css('height', slide_height)
