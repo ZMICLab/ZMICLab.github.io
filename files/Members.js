@@ -8,6 +8,22 @@ members_list = [
 	'introduction': "Xiahai Zhuang, Ph.D., Associate Professor of Medical Image Computing, School of Data Science, Fudan University.<br>DR. Zhuang has bachelor and master degrees in computer science (Tianjin Univ.; Shanghai Jiao Tong Univ.) and PhD in medical image computing (University College London)."
 },
 {
+	'name': 'Dengqiang Jia',
+	'gender': 'male',
+	'level': 'D',
+	'photo': 'jdq.jpg',
+	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/jiadengqiang/',
+	'introduction': "I'm doing my PhD in SJTU-CU ICRC, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. Before that, I did my bachelor degree in Nanjing University of Science and Technology."
+},
+{
+	'name': 'Lingchao Xu',
+	'gender': 'male',
+	'level': 'D',
+	'photo': 'xlc.jpg',
+	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/xulingchao/',
+	'introduction': "I'm doing my Master Dgree in School of NAOCE, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. <br> I did my bachelor degree in Shanghai Jiao Tong University."
+},
+{
 	'name': 'Fuping Wu',
 	'gender': 'male',
 	'level': 'D',
@@ -40,6 +56,14 @@ members_list = [
 	'introduction': ""
 },
 {
+	'name': 'Xinzhe Luo',
+	'gender': 'male',
+	'level': 'D',
+	'photo': 'lxz.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
 	'name': 'Yechong Huang',
 	'gender': 'male',
 	'level': 'M',
@@ -48,8 +72,8 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'Wenqi Luo',
-	'gender': 'female',
+	'name': 'Ben Fei',
+	'gender': 'male',
 	'level': 'M',
 	'photo': 'default.jpg',
 	'homepage': '',
@@ -72,20 +96,20 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'Xinzhe Luo',
-	'gender': 'male',
-	'level': 'U',
-	'photo': 'lxz.jpg',
-	'homepage': '',
-	'introduction': ""
-},
-{
 	'name': 'Yuncheng Zhou',
 	'gender': 'male',
-	'level': 'U',
+	'level': 'M',
 	'photo': 'zyc.jpg',
 	'homepage': 'https://bertie97.github.io/',
 	'introduction': "I'm an undergraduate student studying in the School of Data Sicence, Fudan University. <br> I'm is working on Medical Image Registration and AD diagnosis. "
+},
+{
+	'name': 'XueTong Tan',
+	'gender': 'female',
+	'level': 'M',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
 },
 {
 	'name': 'Qing Ye',
@@ -96,37 +120,20 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'Zi Zhuang',
-	'gender': 'male',
-	'level': 'U',
-	'photo': 'default.jpg',
-	'homepage': '',
-	'introduction': ""
-},
-{
-	'name': 'Ben Fei',
-	'gender': 'male',
+	'name': 'Wenqi Luo',
+	'gender': 'female',
 	'level': 'G',
 	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': ""
 },
-
 {
-	'name': 'Dengqiang Jia',
+	'name': 'Zi Zhuang',
 	'gender': 'male',
-	'level': 'D',
-	'photo': 'jdq.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/jiadengqiang/',
-	'introduction': "I'm doing my PhD in SJTU-CU ICRC, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. Before that, I did my bachelor degree in Nanjing University of Science and Technology."
-},
-{
-	'name': 'Lingchao Xu',
-	'gender': 'male',
-	'level': 'D',
-	'photo': 'xlc.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/xulingchao/',
-	'introduction': "I'm doing my Master Dgree in School of NAOCE, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. <br> I did my bachelor degree in Shanghai Jiao Tong University."
+	'level': 'G',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
 },
 {
 	'name': 'Chang Sun',
