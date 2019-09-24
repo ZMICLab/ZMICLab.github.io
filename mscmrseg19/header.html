@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Document</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><link href="style/main5049f252.css" rel="stylesheet">
+<body>
+<script type="text/javascript">
+	window.onload = function () {
+		buttons = ['index', 'Data', 'Submit', 'Result', 'FAQ']
+		for (i = 0; i < 5; i ++) {
+			if(window.parent.location.href.indexOf(buttons[i]) >= 0)
+				document.getElementById(buttons[i]).className = "nav__item nav__item--selected"
+		}
+	}
+	function select(id) {
+		document.getElementById(id).className = "nav__item nav__item--selected"
+	}
+</script>
+<div class="header"><input type="checkbox" id="nav-menu-status" autocomplete="off"><label class="nav-outer" id="nav-outer" for="nav-menu-status"><div class="nav-mobile"><div class="nav-mobile__btn-outer"><div class="nav-mobile__bread-outer nav-mobile__bread-outer--top"><div class="nav-mobile__bread nav-mobile__bread--top"></div></div><div class="nav-mobile__bread-outer nav-mobile__bread-outer--bottom"><div class="nav-mobile__bread nav-mobile__bread--bottom"></div></div></div><div class="nav-mobile__logo"></div></div><div class="nav"><div class="nav__item nav__item--logo"></div><a class="nav__item" href="./index.html" target="_parent" onclick="select('index')" id="index">Home</a><a class="nav__item" href="./data.html" target="_parent" onclick="select('Data')" id="Data">Data</a><a class="nav__item" href="./submit.html" target="_parent" onclick="select('Submit')" id="Submit">Submit</a><a class="nav__item" href="./result.html" target="_parent" onclick="select('Result')" id="Result">Result</a><a class="nav__item" href="./FAQ.html" target="_parent" onclick="select('FAQ')" id="FAQ">FAQ</a></div></label></div>
+</body>
+</html>
