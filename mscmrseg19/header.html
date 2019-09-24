@@ -7,6 +7,7 @@
 <body>
 <script type="text/javascript">
 	window.onload = function () {
+		alert(window.parent.location.href)
 		buttons = ['index', 'Data', 'Submit', 'Result', 'FAQ']
 		for (i = 0; i < 5; i ++) {
 			if(window.parent.location.href.indexOf(buttons[i]) >= 0)
