@@ -19,6 +19,10 @@ time_list = [
 	'name': 'Xingzhe Luo, Yuncheng Zhou and Zi Zhuang graduated from Fudan University',
 },
 {
+	'date': '6/5/2019',
+	'name': 'Qian Yue has a paper accepte by the MICCAI conference'
+},
+{
 	'date': '5/31/2019',
 	'name': 'Yechong Huang et al. published a paper on <i>Frontiers in Neuroscience</i>',
 },

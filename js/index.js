@@ -119,6 +119,7 @@ $(function () {
     var D_count = 0
     var P_count = 0
     var G_count = 0
+    var V_count = 0
     for (i in members_list) {
         level = members_list[i]['level']
         if (level == 'U') U_count++
@@ -126,13 +127,15 @@ $(function () {
         else if (level == 'D') D_count++
         else if (level == 'P') P_count++
         else if (level == 'G') G_count++
+        else if (level == 'V') V_count++
     }
     $('#U-count').text(U_count)
     $('#M-count').text(M_count)
     $('#D-count').text(D_count)
     $('#P-count').text(P_count)
     $('#G-count').text(G_count)
-    $('#student-count').text(U_count + M_count + D_count + P_count + G_count)
+    $('#V-count').text(V_count)
+    $('#student-count').text(M_count + D_count + P_count)
     
     var loaded = []
     $('#loading').show()
