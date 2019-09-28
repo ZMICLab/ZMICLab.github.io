@@ -128,6 +128,14 @@ members_list = [
 	'introduction': ""
 },
 {
+	'name': 'Ruohan Liu',
+	'gender': 'male',
+	'level': 'U',
+	'photo': '',
+	'homepage': '',
+	'introduction': ""
+},
+{
 	'name': 'Cheng Zhong',
 	'gender': 'male',
 	'level': 'U',
