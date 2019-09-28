@@ -2,7 +2,7 @@ members_list = [
 {
 	'name': 'Xiahai Zhuang',
 	'gender': 'male',
-	'level': 'T', /*T(teacher) or U(under graduate) or M(master) or D(Ph.D.) or P(post Doc.) or G(guest) or V(visiting) or A(alumni)*/
+	'level': 'T', /*T(teacher) or U(under graduate) or M(master MAC candidate) or D(Ph.D. candidate) or P(post Doc.) or G(guest) or V(visiting) or A(alumni)*/
 	'photo': 'zxh.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/', /*https://zmiclab.github.io/zxh/*/
 	'introduction': "Xiahai Zhuang, Ph.D., Associate Professor of Medical Image Computing, School of Data Science, Fudan University.<br>DR. Zhuang has bachelor and master degrees in computer science (Tianjin Univ.; Shanghai Jiao Tong Univ.) and PhD in medical image computing (University College London)."
@@ -124,6 +124,22 @@ members_list = [
 	'gender': 'female',
 	'level': 'U',
 	'photo': 'yeq.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'Sihan Wang',
+	'gender': 'male',
+	'level': 'U',
+	'photo': '',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'Dan Chen',
+	'gender': 'male',
+	'level': 'U',
+	'photo': '',
 	'homepage': '',
 	'introduction': ""
 },
