@@ -1,6 +1,6 @@
 
 $(function () {
-	var level = {'T': 'instructor', 'U': 'undergraduate', 'M': 'master', 'D': 'doctor', 'P': 'post doc.', 'A': 'alumni', 'G': 'guest', 'V': 'visiting'}
+	var level = {'T': 'instructor', 'U': 'undergraduate', 'M': 'M.S. candidate', 'D': 'Ph.D. candidate', 'P': 'post doc.', 'A': 'alumni', 'G': 'guest', 'V': 'visiting'}
 	var postfix = {'P': 's', 'A': '', 'G': ' students', 'V': ' students', 'U': 's'}
 	var horlist = ['U', 'A', 'G', 'V']
 	var curlevel = 'T'
