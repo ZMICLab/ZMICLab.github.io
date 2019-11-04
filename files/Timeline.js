@@ -7,7 +7,7 @@ time_list = [
 {
 	'date': '10/13/2019',
 	'name': 'Xiahai Zhuang, Lei Li, Jiahang Xu, Xinzhe Luo and Yechong Huang attended MICCAI',
-	'info': '<img src="WechatIMG1450.jpeg" width="80%"/>'
+	'info': '<img src="MICCAI2019.jpeg" width="80%"/>'
 },
 {
 	'date': '10/13/2019',
