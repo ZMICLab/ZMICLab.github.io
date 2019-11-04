@@ -6,13 +6,13 @@ time_list = [
 },
 {
 	'date': '10/13/2019',
-	'name': 'Xiahai Zhuang, Lei Li, Jiahang Xu, Xinzhe Luo and Yechong Huang attended MICCAI',
-	'info': '<img src="MICCAI2019.jpeg" width="80%"/>'
+	'name': 'ZMICers in MICCAI',
+	'info': 'ZMICers in MICCAI2019 <img src="MICCAI2019.jpeg" width="80%"/>'
 },
 {
 	'date': '10/13/2019',
 	'name': 'MS-CMR Seg Challenge is successfully held',
-	'info': 'After nearly half a year of hardwork and all kinds of troubles, the <a href="https://mp.weixin.qq.com/s/SbgrNPk0xO-6VKEqzsdnTQ">MS-CMR Seg Challenge finally get to an end</a>. '
+	'info': 'After nearly half a year of hardwork and all kinds of troubles, the <a href="https://sds.fudan.edu.cn/0b/57/c17412a199511/page.htm">MS-CMR Seg Challenge finally had a great success</a>. '
 },
 {
 	'date': 'Aug. , 2019',
