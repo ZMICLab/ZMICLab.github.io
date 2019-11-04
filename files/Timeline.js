@@ -7,7 +7,7 @@ time_list = [
 {
 	'date': 'Oct. , 2019',
 	'name': 'Lei Li et al. had a paper accepted to Medical Image Analysis',
-	'info': '[2]	Lei Li, Fuping Wu, Guang Yang, Lingchao Xu, Tom Wong, Raad Mohiaddin, David Firmin, Jenny Keegan, Xiahai Zhuang*: Atrial Scar Quantification via Multi-scale CNN in the Graph-cuts Framework, Medical Image Analysis, 2019+ (accepted 2019 Oct 26)  (IF: 8.88)'
+	'info': 'Lei Li, Fuping Wu, Guang Yang, Lingchao Xu, Tom Wong, Raad Mohiaddin, David Firmin, Jenny Keegan, Xiahai Zhuang*: Atrial Scar Quantification via Multi-scale CNN in the Graph-cuts Framework, Medical Image Analysis, 2019+ (accepted 2019 Oct 26)  (IF: 8.88)'
 },
 {
 	'date': '10/13/2019',
@@ -32,7 +32,7 @@ time_list = [
 {
 	'date': '7/22/2019',
 	'name': 'Xiahai Zhuang et al. published a paper on Medical Image Analysis',
-	'info': 'X Zhuang et al. Evaluation of Algorithms for Multi-Modality Whole Heart Segmentation: An Open-Access Grand Challenge, Medical Image Analysis, 2019+ (accepted 2019 July 22), doi: 10.1016/j.media.2019.101537  (IF: 8.88)'
+	'info': 'X Zhuang et al.: Evaluation of Algorithms for Multi-Modality Whole Heart Segmentation: An Open-Access Grand Challenge, Medical Image Analysis, 2019+ (accepted 2019 July 22), doi: 10.1016/j.media.2019.101537  (IF: 8.88)'
 },
 {
 	'date': 'Jun. , 2019',
