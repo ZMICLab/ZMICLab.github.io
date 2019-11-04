@@ -12,7 +12,7 @@ time_list = [
 {
 	'date': '10/13/2019',
 	'name': 'ZMICers in MICCAI',
-	'info': 'ZMICers in MICCAI2019 <img src="MICCAI2019.jpg" width="80%"/>'
+	'info': 'ZMICers in MICCAI2019 <img src="https://zmiclab.github.io/MICCAI2019.jpg" width="80%"/>'
 },
 {
 	'date': '10/13/2019',
@@ -31,7 +31,7 @@ time_list = [
 },
 {
 	'date': '7/22/2019',
-	'name': 'Xiahai Zhuang et al. published a paper on MEDIA',
+	'name': 'Xiahai Zhuang et al. published a paper on Medical Image Analysis',
 	'info': 'X Zhuang et al. Evaluation of Algorithms for Multi-Modality Whole Heart Segmentation: An Open-Access Grand Challenge, Medical Image Analysis, 2019+ (accepted 2019 July 22), doi: 10.1016/j.media.2019.101537  (IF: 8.88)'
 },
 {
@@ -40,7 +40,7 @@ time_list = [
 },
 {
 	'date': '6/5/2019',
-	'name': 'Qian Yue et al. has a paper accepte by the MICCAI conference'
+	'name': 'Qian Yue et al. had a paper accepte by the MICCAI conference'
 },
 {
 	'date': '5/31/2019',
