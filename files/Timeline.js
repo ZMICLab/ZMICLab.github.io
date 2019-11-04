@@ -1,5 +1,20 @@
 time_list = [
 {
+	'date': '11/4/2019',
+	'name': 'Xiahai Zhuang was invited to be the SPC for IJCAI-PRICAI 2020',
+	'info': 'Xiahai Zhuang was invited to be the senior program committee for <a href="http://www.ijcai20.org/">the 29th International Joint Conference on Artificial Intelligence and the 17th Pacific Rim International Conference on Artificial Intelligence</a>.'
+},
+{
+	'date': '10/13/2019',
+	'name': 'Xiahai Zhuang, Lei Li, Jiahang Xu, Xinzhe Luo and Yechong Huang attended MICCAI',
+	'info': '<img src="WechatIMG1450.jpeg" width="80%"/>'
+},
+{
+	'date': '10/13/2019',
+	'name': 'MS-CMR Seg Challenge is successfully held',
+	'info': 'After nearly half a year of hardwork and all kinds of troubles, the <a href="https://mp.weixin.qq.com/s/SbgrNPk0xO-6VKEqzsdnTQ">MS-CMR Seg Challenge finally get to an end</a>. '
+},
+{
 	'date': 'Aug. , 2019',
 	'name': 'Shangqi Gao and Xiahai Zhuang published a paper on Neurocomputing',
 	'info': 'Shangqi Gao and Xiahai Zhuang: Robust Approximations of Low-Rank Minimization for Tensor Completion. Neurocomputing, 2019+ (IF: 4.072)'
