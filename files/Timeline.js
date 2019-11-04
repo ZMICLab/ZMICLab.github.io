@@ -5,13 +5,18 @@ time_list = [
 	'info': 'Xiahai Zhuang was invited to be the senior program committee for <a href="http://www.ijcai20.org/">the 29th International Joint Conference on Artificial Intelligence and the 17th Pacific Rim International Conference on Artificial Intelligence</a>.'
 },
 {
-	'date': '10/13/2019',
-	'name': 'ZMICers in MICCAI',
-	'info': 'ZMICers in MICCAI2019 <img src="MICCAI2019.jpeg" width="80%"/>'
+	'date': 'Oct. , 2019',
+	'name': 'Lei Li et al. had a paper accepted to Medical Image Analysis',
+	'info': '[2]	Lei Li, Fuping Wu, Guang Yang, Lingchao Xu, Tom Wong, Raad Mohiaddin, David Firmin, Jenny Keegan, Xiahai Zhuang*: Atrial Scar Quantification via Multi-scale CNN in the Graph-cuts Framework, Medical Image Analysis, 2019+ (accepted 2019 Oct 26)  (IF: 8.88)'
 },
 {
 	'date': '10/13/2019',
-	'name': 'MS-CMR Seg Challenge is successfully held',
+	'name': 'ZMICers in MICCAI',
+	'info': 'ZMICers in MICCAI2019 <img src="MICCAI2019.jpg" width="80%"/>'
+},
+{
+	'date': '10/13/2019',
+	'name': 'MS-CMR Seg Challenge had a great success',
 	'info': 'After nearly half a year of hardwork and all kinds of troubles, the <a href="https://sds.fudan.edu.cn/0b/57/c17412a199511/page.htm">MS-CMR Seg Challenge finally had a great success</a>. '
 },
 {
@@ -26,8 +31,8 @@ time_list = [
 },
 {
 	'date': '7/22/2019',
-	'name': 'Xiahai Zhuang and Lei Li et al. published a paper on MEDIA',
-	'info': 'X Zhuang and L Li et al. Evaluation of Algorithms for Multi-Modality Whole Heart Segmentation: An Open-Access Grand Challenge, Medical Image Analysis, 2019+ (accepted 2019 July 22), doi: 10.1016/j.media.2019.101537  (IF: 8.88)'
+	'name': 'Xiahai Zhuang et al. published a paper on MEDIA',
+	'info': 'X Zhuang et al. Evaluation of Algorithms for Multi-Modality Whole Heart Segmentation: An Open-Access Grand Challenge, Medical Image Analysis, 2019+ (accepted 2019 July 22), doi: 10.1016/j.media.2019.101537  (IF: 8.88)'
 },
 {
 	'date': 'Jun. , 2019',
@@ -35,7 +40,7 @@ time_list = [
 },
 {
 	'date': '6/5/2019',
-	'name': 'Qian Yue has a paper accepte by the MICCAI conference'
+	'name': 'Qian Yue et al. has a paper accepte by the MICCAI conference'
 },
 {
 	'date': '5/31/2019',
