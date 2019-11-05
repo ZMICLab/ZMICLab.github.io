@@ -2,7 +2,7 @@ time_list = [
 {
 	'date': '11/4/2019',
 	'name': 'Xiahai Zhuang was invited to be the SPC for IJCAI-PRICAI 2020',
-	'info': 'Xiahai Zhuang was invited to be the senior program committee for <a href="http://www.ijcai20.org/">the 29th International Joint Conference on Artificial Intelligence and the 17th Pacific Rim International Conference on Artificial Intelligence</a>.'
+	'info': 'Xiahai Zhuang was invited to be a member of the senior program committee for <a href="http://www.ijcai20.org/">the 29th International Joint Conference on Artificial Intelligence and the 17th Pacific Rim International Conference on Artificial Intelligence</a>, but he did not respond in time, too bad :(.'
 },
 {
 	'date': 'Oct. , 2019',
