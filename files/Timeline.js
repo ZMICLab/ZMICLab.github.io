@@ -1,5 +1,20 @@
 time_list = [
 {
+	'date': '10/Dec/2019',
+	'name': 'Congratulations to Yechong and Shangqi',
+	'info': 'Congratulations to Yechong and Shangqi who won the Fudan-BCM scholarship 2019, well done! <img src="./gallery/2019/stu_scholarship.jpg" width="80%"/>'
+},
+{
+	'date': '7/Dec/2019',
+	'name': 'ZMICers having a party ^)^',
+	'info': 'ZMICers having a party ^_^ <img src="./gallery/2019/20191207party.jpg" width="80%"/>'
+},
+{
+	'date': '30/Nov/2019',
+	'name': 'ZMICers in Fudan AI-MI forum',
+	'info': 'Congratulations on the success of The 2nd Fudan Artificial Intelligence Medical Imaging Forum, which ZMICers co-organized, well done! <img src="./gallery/2019/fdaimi_1.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_2.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_3.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_4.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_5.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_6.jpg" width="80%"/>'
+},
+{
 	'date': '11/4/2019',
 	'name': 'Xiahai Zhuang was invited to be the SPC for IJCAI-PRICAI 2020',
 	'info': 'Xiahai Zhuang was invited to be a member of the senior program committee for <a href="http://www.ijcai20.org/">the 29th International Joint Conference on Artificial Intelligence and the 17th Pacific Rim International Conference on Artificial Intelligence</a>, but he did not respond in time, too bad :(.'
@@ -12,7 +27,7 @@ time_list = [
 {
 	'date': '10/13/2019',
 	'name': 'ZMICers in MICCAI',
-	'info': 'ZMICers in MICCAI2019 <img src="https://zmiclab.github.io/MICCAI2019.jpg" width="80%"/>'
+	'info': 'ZMICers in MICCAI2019 <img src="https://zmiclab.github.io/gallery/2019/MICCAI2019.jpg" width="80%"/>'
 },
 {
 	'date': '10/13/2019',
