@@ -96,6 +96,30 @@ members_list = [
 	'introduction': ""
 },
 {
+	'name': 'He Zhou',
+	'gender': 'female',
+	'level': 'M',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'Meng Gao',
+	'gender': 'female',
+	'level': 'M',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': "My name is GaoMeng.I’m doing my master’s degree in School of data science,Fudan University,with Prof.Zhuang Xiahai.Not good enough, but study hard."
+},
+{
+	'name': 'Xin Weng',
+	'gender': 'female',
+	'level': 'M',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': "I am doing my master's degree in School of Data Science, Fudan University, with Prof. Zhuang Xiahai. Before that, I did my bachelor's degree in Tianjin University."
+},
+{
 	'name': 'Chang Sun',
 	'gender': 'male',
 	'level': 'P',
@@ -125,11 +149,19 @@ members_list = [
 	'level': 'U',
 	'photo': '',
 	'homepage': '',
-	'introduction': ""
+	'introduction': "I am now a junior in School of Data Science, Fudan University, learning how to debug and struggle with strange network structures in ZMIC lab."
 },
 {
 	'name': 'Dan Chen',
 	'gender': 'male',
+	'level': 'U',
+	'photo': '',
+	'homepage': '',
+	'introduction': "I'm an undergraduate student studying about preventive medicine in Shanghai Medical College,  Fudan University. My recent works are related to the classification and segmentation of pulmonary nodules through medical image processing."
+},
+{
+	'name': 'Ke Zhang',
+	'gender': 'female',
 	'level': 'U',
 	'photo': '',
 	'homepage': '',
@@ -165,7 +197,7 @@ members_list = [
 	'level': 'U',
 	'photo': '',
 	'homepage': '',
-	'introduction': ""
+	'introduction': "I am Chen Xiao from Data Science of Fudan， one student used to addicted with Finance but now fall in love with CV and medical image analysis, meanwhile struggling coding and reading papers in ZMIC."
 },
 {
 	'name': 'Ben Fei',
