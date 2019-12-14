@@ -195,7 +195,7 @@ members_list = [
 	'name': 'Xiao Chen',
 	'gender': 'male',
 	'level': 'U',
-	'photo': 'cz.jpeg',
+	'photo': 'cx.jpeg',
 	'homepage': '',
 	'introduction': "I am Chen Xiao from Data Science of Fudan， one student used to addicted with Finance but now fall in love with CV and medical image analysis, meanwhile struggling coding and reading papers in ZMIC."
 },
