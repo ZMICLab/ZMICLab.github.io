@@ -112,14 +112,6 @@ members_list = [
 	'introduction': "I'm doing my PhD in SJTU-CU ICRC, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. Before that, I did my bachelor degree in Nanjing University of Science and Technology."
 },
 {
-	'name': 'Lingchao Xu',
-	'gender': 'male',
-	'level': 'D',
-	'photo': 'xlc.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/xulingchao/',
-	'introduction': "I'm doing my Master Dgree in School of NAOCE, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. <br> I did my bachelor degree in Shanghai Jiao Tong University."
-},
-{
 	'name': 'Cheng Zhong',
 	'gender': 'male',
 	'level': 'U',
@@ -176,7 +168,15 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'Long Chen',
+	'name': 'Lingchao Xu (M.S.)',
+	'gender': 'male',
+	'level': 'A',
+	'photo': 'xlc.jpg',
+	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/xulingchao/',
+	'introduction': "I'm doing my Master Dgree in School of NAOCE, Shanghai Jiao Tong University, with Prof. Zhuang Xiahai. <br> I did my bachelor degree in Shanghai Jiao Tong University." 
+},
+{
+	'name': 'Long Chen (M.S.)',
 	'gender': 'male',
 	'level': 'A',
 	'photo': 'default.jpg',
@@ -184,7 +184,7 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'Ying Duan',
+	'name': 'Ying Duan (M.S.)',
 	'gender': 'female',
 	'level': 'A',
 	'photo': 'default.jpg',
@@ -192,7 +192,7 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'SA Mohadeskasaei',
+	'name': 'SA Mohadeskasaei (postdoc)',
 	'gender': 'male',
 	'level': 'A',
 	'photo': 'default.jpg',
@@ -200,7 +200,7 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'Marta Nunez',
+	'name': 'Marta Nunez (visit)',
 	'gender': 'female',
 	'level': 'A',
 	'photo': 'default.jpg',
