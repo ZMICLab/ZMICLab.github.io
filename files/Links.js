@@ -1,6 +1,12 @@
 links_list = [
 {
-	'name': 'MS-CMRSeg19 Challenge',
+	'name': 'MyoPS\'20 Challenge',
+	'url': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/',
+	'image': 'myops20/images/pathologyseg.png',
+	'introduction': 'The target of this challenge is to segment the myocardial pathology combining multi-sequence CMR. Specifically, the myocardium will be classified into normal, infarcted and edema regions, which is important for the diagnosis and treatment management of patients.'
+},
+{
+	'name': 'MS-CMRSeg\'19 Challenge',
 	'url': 'mscmrseg19/',
 	'image': 'files/imgs_links/data-header-imgc53d26ff.jpg',
 	'introduction': 'We provide 45 multi-sequence CMR images from patients who underwent cardiomyopathy. Each patient had been scanned using the three CMR sequences, i.e. the LGE, T2 and bSSFP. The task of this challenge is to segment the ventricles and myocardium from LGE CMR, combing with other two sequences (T2 and bSSFP) from same patients, which can be used to assist the LGE CMR segmentation.'
