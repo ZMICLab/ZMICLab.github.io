@@ -1,18 +1,23 @@
 time_list = [
 {
+	'date': 'Dec/2019',
+	'name': 'ZMIC did well in the FBDC\'19 poster session',
+	'info': 'Congratulations to<br> * Xin Weng and Lei Li, * Yuncheng Zhou and Dan Chen, both being finalist (runnerups) of FBDC best paper awards.<br> * Jiahang Xu and Shihong Liu, * Qian Yue and Xinzhe Luo, both won Student Travel Awards <img src="./gallery/2019/fbdcposter1.png" width="105%"/><img src="./gallery/2019/fbdcposter2.png" width="105%"/>'
+},
+{
 	'date': '10/Dec/2019',
 	'name': 'Congratulations to Yechong and Shangqi',
-	'info': 'Congratulations to Yechong and Shangqi who won the Fudan-BCM scholarship 2019, well done! <img src="./gallery/2019/stu_scholarship.jpg" width="80%"/>'
+	'info': 'Congratulations to Yechong and Shangqi who won the Fudan-BCM scholarship 2019, well done! <img src="./gallery/2019/stu_scholarship.jpg" width="100%"/>'
 },
 {
 	'date': '7/Dec/2019',
 	'name': 'ZMICers having a party ^)^',
-	'info': 'ZMICers having a party ^_^ <img src="./gallery/2019/20191207party.jpg" width="80%"/>'
+	'info': 'ZMICers having a party ^_^ <img src="./gallery/2019/20191207party.jpg" width="100%"/>'
 },
 {
 	'date': '30/Nov/2019',
 	'name': 'ZMICers in Fudan AI-MI forum',
-	'info': 'Congratulations on the success of The 2nd Fudan Artificial Intelligence Medical Imaging Forum, which ZMICers co-organized, well done! <img src="./gallery/2019/fdaimi_1.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_2.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_3.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_4.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_5.jpg" width="80%"/> <img src="./gallery/2019/fdaimi_6.jpg" width="80%"/>'
+	'info': 'Congratulations on the success of The 2nd Fudan Artificial Intelligence Medical Imaging Forum, which ZMICers co-organized, well done! <img src="./gallery/2019/fdaimi_1.jpg" width="100%"/> <img src="./gallery/2019/fdaimi_2.jpg" width="100%"/> <img src="./gallery/2019/fdaimi_3.jpg" width="100%"/> <img src="./gallery/2019/fdaimi_4.jpg" width="100%"/> <img src="./gallery/2019/fdaimi_5.jpg" width="100%"/> <img src="./gallery/2019/fdaimi_6.jpg" width="100%"/>'
 },
 {
 	'date': '11/4/2019',
