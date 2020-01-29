@@ -1,5 +1,15 @@
 time_list = [
 {
+	'date': '2019-2020',
+	'name': 'ZMIC fighting the battle against 2019-nCoV !!!',
+	'info': 'With all, ZMICers are fighting against 2019-nCoV and we are winning this battle !!!'
+},
+{
+	'date': 'Jan/2020',
+	'name': 'ZMIC in the annual seminar of Fudan Institute of Medical Imaging',
+	'info': '<img src="./gallery/2020/2020-01-imi1.jpg" width="105%"/><img src="./gallery/2020/2020-01-imi2.jpg" width="105%"/><img src="./gallery/2020/2020-01-imi3.jpg" width="105%"/><img src="./gallery/2020/2020-01-imi4.jpg" width="105%"/>'
+},
+{
 	'date': 'Dec/2019',
 	'name': 'ZMIC did great in FBDC\'19 poster session',
 	'info': 'Congratulations to<br> * Xin Weng and Lei Li, * Yuncheng Zhou and Dan Chen, both being finalist (runnerups) of FBDC best paper awards.<br> * Jiahang Xu and Shihong Liu, * Qian Yue and Xinzhe Luo, both won Student Travel Awards <img src="./gallery/2019/fbdcposter1.png" width="105%"/><img src="./gallery/2019/fbdcposter2.png" width="105%"/>'
