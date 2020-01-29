@@ -1,7 +1,7 @@
 time_list = [
 {
 	'date': 'Dec/2019',
-	'name': 'ZMIC did well in the FBDC\'19 poster session',
+	'name': 'ZMIC did great in FBDC\'19 poster session',
 	'info': 'Congratulations to<br> * Xin Weng and Lei Li, * Yuncheng Zhou and Dan Chen, both being finalist (runnerups) of FBDC best paper awards.<br> * Jiahang Xu and Shihong Liu, * Qian Yue and Xinzhe Luo, both won Student Travel Awards <img src="./gallery/2019/fbdcposter1.png" width="105%"/><img src="./gallery/2019/fbdcposter2.png" width="105%"/>'
 },
 {
