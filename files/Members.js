@@ -24,7 +24,7 @@ members_list = [
 	'gender': 'female',
 	'level': 'D',
 	'photo': 'lei.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/lilei/',
+	'homepage': ' https://marie0909.github.io/',
 	'introduction': "Thesis topic includes cardiac image segmentation and registration. Currently visiting <a href=https://www.kcl.ac.uk/>King's College London (2019.12-2020.12)</a>. Selected publications:<br> * L Li et al.: Atrial Scar Quantification via Multi-scale CNN in the Graph-cuts Framework. Medical Image Analysis 2020.<br> * X Zhuang, L Li et al.: Evaluation of Algorithms for Multi-Modality Whole Heart Segmentation: An Open-Access Grand Challenge. Medical Image Analysis 2019."
 },
 {
@@ -286,7 +286,7 @@ members_list = [
 	'level': 'A',
 	'photo': '',
 	'homepage': '',
-	'introduction': "Thesis (A): Enhanced U-Net with Reconstruction Constraint for Myocardium Segmentation from LGE MRI"
+	'introduction': "Thesis (A): 基于增强U型网络和图像重构正则化的心脏磁共振分割算法"
 },
 {
 	'name': 'Lingchao Xu',

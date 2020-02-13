@@ -1,9 +1,40 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>data | MS-CMR Segmentation</title><meta name="viewport" content="width=device-width, initial-scale=1"><link href="style/main5049f252.css" rel="stylesheet"></head><body><iframe width="100%" src="header.html" style="top: 0; position: fixed; border: none; z-index: 10;"></iframe><iframe width="100%" height="120px" src="banner.html" style="position: fixed; border: none; z-index: 0;"></iframe><div class="content-outer content-outer--data"><div class="content-head"><div class="content-head__title"></div><div class="content-head__text"><div class="p">The CMR data from 45 patients, who underwent cardiomyopathy, had been collected from Shanghai
-Renji hospital with institutional ethics approval and had been anonymized. Each patient had been scanned using
-the three CMR sequences, i.e. the LGE, T2 and bSSFP. The three CMR sequences were all breath-hold, multi-slice,
-acquired in the ventricular short-axis views.</div><div class="p">(To register, please download <a href="./file/ParticipantsAgreement.pdf" download="Data Access Agreement for Participants.pdf">"Data Use Agreement Document"</a>,
-and return the signed version to the organizers. Then we'll get in touch and send you
-back the data link.)</div><div class="p">Please cite <a href="#reference">these papers</a> when you use the data for publications.</div></div></div><div class="section-outer"><div class="section"><div class="section-inner"><div class="section__side section__side--justify-equal"><div class="section__title">Training data</div><div class="section__text"><div class="p"><div class="list-item">Patient 1-5:<div class="list-item--two">LGE CMR (image + manual label) for validation <br><br></div><div class="list-item--two">T2-weight CMR (image + manual label)</div><div class="list-item--two">bSSFP CMR (image + manual label)</div></div></div><div class="p"><div class="list-item">Patient 6-35:<div class="list-item--two">T2-weight CMR (image + manual label)</div><div class="list-item--two">bSSFP CMR (image + manual label)</div></div></div><div class="p"><div class="list-item">Patient 36-45:<div class="list-item--two">T2-weight CMR (only image)</div><div class="list-item--two">bSSFP CMR (only image)</div></div></div></div></div><div class="section__content section__content--start"><div class="section__title">Test data</div><div class="section__text"><div class="p"><div class="list-item">Patient 6-45:<div class="list-item--two">LGE CMR (only image<!-- + <span style="color: red">manual label</span> <span class="tag_new" style="background: red">new</span>-->)</div></div></div></div></div></div></div><div class="section"><div class="section-inner"><div class="section__content"><div class="section__title">Gold Standards</div><div class="section__text"><div class="p">In the proposed challenge, we will use manual segmentation as gold-standard for final evaluation of
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>data | MS-CMR Segmentation</title><meta name="viewport" content="width=device-width, initial-scale=1"><link href="style/main5049f252.css" rel="stylesheet"></head><body><iframe width="100%" src="header.html" style="top: 0; position: fixed; border: none; z-index: 10;"></iframe><iframe width="100%" height="120px" src="banner.html" style="position: fixed; border: none; z-index: 0;"></iframe>
+
+<div class="content-outer content-outer--data"><div class="content-head"> 
+	<div class="content-head__title"></div> 
+<div class="content-head__text">
+
+
+
+<div class="p">The event is closed, but the MSCMR data with gold standard are available after registration.<br>
+To register, please download <a href="./file/ParticipantsAgreement.pdf" download="Data Access Agreement for Participants.pdf">"Data Use Agreement Document"</a>,
+and return the signed version to the Ms Xu (jiahang.shu at gmail dot com). Then we'll get in touch and send you back the data link.</div>
+<div class="p">Please cite these two papers when you use the data for publications.</div>
+<div class="p"> 
+    [1] Xiahai Zhuang: Multivariate mixture model for myocardial segmentation combining multi-source images.
+    IEEE Transactions on Pattern Analysis and Machine Intelligence (T PAMI), vol. 41, no. 12, 2933-2946, Dec 2019.   
+    <a href=https://ieeexplore.ieee.org/document/8458220/>link</a>.<br>
+    [2] Xiahai Zhuang: Multivariate mixture model for cardiac segmentation from multi-sequence MRI. 
+International Conference on Medical Image Computing and Computer-Assisted Intervention, pp.581-588, 2016.
+</div>
+
+
+
+
+</div></div>
+
+
+
+
+<div class="section-outer"><div class="section">
+
+<div class="section-inner">
+<div class="p">The CMR data from 45 patients, who underwent cardiomyopathy, had been collected with institutional ethics approval and had been anonymized. Each patient had been scanned using
+the three CMR sequences, i.e. the LGE, T2 and bSSFP. The three CMR sequences were all breath-hold, multi-slice, acquired in the ventricular short-axis views.</div>
+<div class="section__side section__side--justify-equal">
+
+
+<div class="section__title">Training data</div><div class="section__text"><div class="p"><div class="list-item">Patient 1-5:<div class="list-item--two">LGE CMR (image + manual label) for validation <br><br></div><div class="list-item--two">T2-weight CMR (image + manual label)</div><div class="list-item--two">bSSFP CMR (image + manual label)</div></div></div><div class="p"><div class="list-item">Patient 6-35:<div class="list-item--two">T2-weight CMR (image + manual label)</div><div class="list-item--two">bSSFP CMR (image + manual label)</div></div></div><div class="p"><div class="list-item">Patient 36-45:<div class="list-item--two">T2-weight CMR (only image)</div><div class="list-item--two">bSSFP CMR (only image)</div></div></div></div></div><div class="section__content section__content--start"><div class="section__title">Test data</div><div class="section__text"><div class="p"><div class="list-item">Patient 6-45:<div class="list-item--two">LGE CMR (only image<!-- + <span style="color: red">manual label</span> <span class="tag_new" style="background: red">new</span>-->)</div></div></div></div></div></div></div><div class="section"><div class="section-inner"><div class="section__content"><div class="section__title">Gold Standards</div><div class="section__text"><div class="p">In the proposed challenge, we will use manual segmentation as gold-standard for final evaluation of
 submitted algorithms. Eventually, we hope that an automated ventricle segmentation method can be
 translational to clinical applications.</div><div class="p"> Manual segmentation of the right and left ventricular, and ventricular myocardium was performed by
 trained raters (master or PhD student in BME or medical imaging field), and validated by experts in
