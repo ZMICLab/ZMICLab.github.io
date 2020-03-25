@@ -2,7 +2,7 @@ links_list = [
 {
 	'name': 'MyoPS\'20 Challenge',
 	'url': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/',
-	'image': 'myops20/images/pathologyseg.png',
+	'image': 'myops20/pathologyseg.png',
 	'introduction': 'The target of this challenge is to segment the myocardial pathology combining multi-sequence CMR. Specifically, the myocardium will be classified into normal, infarcted and edema regions, which is important for the diagnosis and treatment management of patients.'
 },
 {

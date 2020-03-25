@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': 'Mar/2020',
+	'name': '<a href="http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/">MyoPS 2020</a> open!!!',
+	'info': 'The website of <a href="http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/">MyoPS 2020 Challenge</a> (Myocardial pathology segmentation combining multi-sequence CMR) is officially released now!'
+},
+{
 	'date': '2019-2020',
 	'name': 'ZMIC fighting the battle against 2019-nCoV !!!',
 	'info': 'With all, ZMICers are fighting against 2019-nCoV and we are winning this battle !!!'

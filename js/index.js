@@ -256,30 +256,5 @@ $(function () {
         time_table.find('tr').append(entry)
     }
     $('#timeline').append(time_table)
-    
-//    bubble = function (radius) {
-//        return $('<div class="bubble" style="--radius: ' + String(radius) + 'px; --padding: ' + String(0.4 * radius) + 'px; position: absolute; width: calc(2 * (var(--radius) - var(--padding))); height: calc(2 * (var(--radius) - var(--padding))); border-radius: var(--radius);"><div class="bubble-light" style="width: 60%; height: 60%; border-radius: 60%;"></div></div>')
-//    }
-//    var baseline = -100
-//    setInterval(function () {
-//        radius = Math.random() * 20 + 10
-//        x = $('#page').width() * Math.random()
-//        y = baseline + Math.random() * 150
-//        var new_bubble = bubble(0)
-//        new_bubble.css('margin-top', y)
-//        new_bubble.css('margin-left', x)
-//        $('#main-title').append(new_bubble)
-//        new_bubble.animate({
-//            'width': 1.2 * radius, 'height': 1.2 * radius, 
-//            'margin-top': y - radius, 'margin-left': x - radius, 
-//            'border-radius': radius, 'padding': 0.4 * radius
-//        }, 1000, 'linear', function () {
-//            setTimeout(function () {
-//                new_bubble.fadeOut(200)
-//            }, 800)
-//            new_bubble.animate({'margin-top': baseline - radius}, (y - baseline) * 8, function () {
-//                new_bubble.fadeOut(200)
-//            })
-//        })
-//    }, 100)
+     
 })
