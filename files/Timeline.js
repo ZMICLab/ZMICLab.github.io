@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': 'April/2020',
+	'name': 'Congratulations to Excellent Grads Yechong and Qian Yue',
+	'info': 'Congratulations to Yechong Huang and Qian Yue who had been awarded the Excellent Graduates (post-grads) of Shanghai 2020. Very well done! <img src="./gallery/2020/2020-04_excellentgrads.jpg" width="100%"/!'
+},
+{
 	'date': 'Mar/2020',
 	'name': '<a href="http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/">MyoPS 2020</a> open!!!',
 	'info': 'The website of <a href="http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/">MyoPS 2020 Challenge</a> (Myocardial pathology segmentation combining multi-sequence CMR) is officially released now!'

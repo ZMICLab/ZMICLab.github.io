@@ -295,7 +295,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'xlc.jpg',
 	'homepage': '',
-	'introduction': "Dest: PhD in Shanghai Jiao Tong University." 
+	'introduction': "Next stop: PhD in Shanghai Jiao Tong University." 
 },
 {
 	'name': 'Long Chen',
@@ -313,7 +313,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': "Dest: https://www.seagroup.com/home"
+	'introduction': "Next stop: https://www.seagroup.com/home"
 },
 {
 	'name': 'SA Mohadeskasaei',
@@ -322,7 +322,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': "Dest: Assistant Professor, Isfahan University of Technology"
+	'introduction': "Next stop: Assistant Professor, Isfahan University of Technology"
 },
 {
 	'name': 'Marta Nunez',

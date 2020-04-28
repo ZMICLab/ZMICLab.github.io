@@ -1,4 +1,10 @@
-links_list = [
+links_list = [ 
+{
+	'name': 'Image Restoration',
+	'url': 'projects/imagerestoration/',
+	'image': 'res/logo.png',
+	'introduction': 'We investigate image restoration (super-resolution, denoise and deblur) and image reconstruction in different domains.'
+},
 {
 	'name': 'MyoPS\'20 Challenge',
 	'url': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/',

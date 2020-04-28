@@ -191,6 +191,31 @@ $(function () {
         })
     }
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     var axis = $('<div class="axis"></div>')
     axis.css('width', time_item_width * time_list.length + time_item_width / 2 + 15)
     $('#timeline').append(axis)
