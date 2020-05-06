@@ -7,6 +7,7 @@ $(function () {
     var tooltip_height
     var time_item_width
     if (navigator.userAgent.match(/AppleWebKit.*Mobile.*/)) {
+		// Mobile screen
         $('link[href="css/style.css"]').attr('href', 'css/style_mobile.css')
         $('img[src="res/logo_long.png"]').attr('width', '60%')
         var box = $('.slide-box')
@@ -18,8 +19,8 @@ $(function () {
         text.remove()
         slide_width = 900
         slide_height = 600
-        tooltip_width = 320
-        tooltip_height = 240
+        tooltip_width = 420
+        tooltip_height = 340
         time_item_width = 300
         table.css('margin', 'auto')
         $('.slide-box').css('margin', 'auto')
@@ -27,13 +28,23 @@ $(function () {
         $('.slide-box').css('height', slide_height)
     }
     else {
+		// computer screen
         slide_width = 600
         slide_height = 400
-        tooltip_width = 320
-        tooltip_height = 180
+        tooltip_width = 420
+        tooltip_height = 340
         time_item_width = 210
     }
     
+	
+	
+	
+	
+	
+	
+	
+	
+	//intro and photos
     var button_size = 44
     var duration = 5000
     var slide_anim_duration = 400
@@ -114,6 +125,93 @@ $(function () {
     right_button.click(move_next)
     setInterval(move_next, duration)
     
+	
+	
+	
+	
+	// for time line now
+    var axis = $('<div class="axis"></div>')
+    axis.css('width', time_item_width * time_list.length + time_item_width / 2 + 50)
+    $('#timeline').append(axis)
+    var time_table = $('<table class="time-table"><tr></tr></table>')
+    var tooltip_map = {}
+    var labels_map = {}
+    for (i in time_list) {
+        var date = time_list[i]['date']
+        var name = time_list[i]['name']
+        var info = time_list[i]['info']
+        if (info == undefined) {info = name}
+        var upper
+        var lower
+        if (i % 2 == 0) {upper=date; lower=name}
+        else {upper=name; lower=date}
+        var entry = $('<td class="time-entry"></td>')
+        var dot = $('<div class="dot"></div>')
+        var label1 = $('<div class="label-wrapper"><p class="label">' + upper + '</p></div>')
+        label1.children('p').css('vertical-align', 'bottom')
+        var label2 = $('<div class="label-wrapper"><p class="label">' + lower + '</p></div>')
+        label2.css('margin-top', 28)
+        label2.children('p').css('vertical-align', 'top')
+        var tooltip = $('<div class="tooltip-wrapper"><p class="tooltip">' + info + '</p></div>')
+        entry.append(dot)
+        entry.append(label1)
+        entry.append(label2)
+        entry.append(tooltip)
+        tooltip.css('visibility', 'hidden')
+        tooltip_map[entry.text()] = tooltip
+        labels_map[entry.text()] = [label1, label2]
+        entry.hover(function () {
+            var key = $(this).text() 
+            time_table.find('tr:first').children('td').each(function () {
+                if ($(this).text().indexOf(tooltip_map[key].text()) > -1) return
+                $(this).stop()
+                $(this).animate({opacity: 0.5})
+            })
+            tooltip_map[key].css('visibility', '')
+            tooltip_map[key].stop()
+            tooltip_map[key].animate({height: tooltip_height, width: tooltip_width, 'margin-left': 10, 'margin-right': 10, 'margin-top': - tooltip_height / 2 - 80, opacity: 1})
+            for (i in labels_map[key]) {
+                labels_map[key][i].stop()
+                labels_map[key][i].animate({opacity: 0}, function () {
+                    $(this).css('visibility', 'hidden')
+                })
+            }
+        }, function () {
+            var key = $(this).text()
+            for (i in labels_map[key]) {
+                labels_map[key][i].stop()
+                labels_map[key][i].css('visibility', '')
+                labels_map[key][i].animate({opacity: 1})
+            }
+            tooltip_map[key].stop()
+            tooltip_map[key].animate({height: 0, width: 0, 'margin-left': 145, 'margin-right': 0, 'margin-top': -120, opacity: 0}, function () {$(this).css('visibility', 'hidden')})
+            $('#timeline').children(':not(table)').css('opacity', 1)
+            time_table.find('tr:first').children('td').each(function () {
+                $(this).stop()
+                $(this).animate({opacity: 1})
+            })
+        })
+        time_table.find('tr').append(entry)
+    }
+    $('#timeline').append(time_table)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     var U_count = 0
     var M_count = 0
     var D_count = 0
@@ -215,71 +313,5 @@ $(function () {
 	
 	
 	
-	
-    var axis = $('<div class="axis"></div>')
-    axis.css('width', time_item_width * time_list.length + time_item_width / 2 + 15)
-    $('#timeline').append(axis)
-    var time_table = $('<table class="time-table"><tr></tr></table>')
-    var tooltip_map = {}
-    var labels_map = {}
-    for (i in time_list) {
-        var date = time_list[i]['date']
-        var name = time_list[i]['name']
-        var info = time_list[i]['info']
-        if (info == undefined) {info = name}
-        var upper
-        var lower
-        if (i % 2 == 0) {upper=date; lower=name}
-        else {upper=name; lower=date}
-        var entry = $('<td class="time-entry"></td>')
-        var dot = $('<div class="dot"></div>')
-        var label1 = $('<div class="label-wrapper"><p class="label">' + upper + '</p></div>')
-        label1.children('p').css('vertical-align', 'bottom')
-        var label2 = $('<div class="label-wrapper"><p class="label">' + lower + '</p></div>')
-        label2.css('margin-top', 28)
-        label2.children('p').css('vertical-align', 'top')
-        var tooltip = $('<div class="tooltip-wrapper"><p class="tooltip">' + info + '</p></div>')
-        entry.append(dot)
-        entry.append(label1)
-        entry.append(label2)
-        entry.append(tooltip)
-        tooltip.css('visibility', 'hidden')
-        tooltip_map[entry.text()] = tooltip
-        labels_map[entry.text()] = [label1, label2]
-        entry.hover(function () {
-            var key = $(this).text()
-//            $('#timeline').children(':not(table)').css('opacity', 0.5)
-            time_table.find('tr:first').children('td').each(function () {
-                if ($(this).text().indexOf(tooltip_map[key].text()) > -1) return
-                $(this).stop()
-                $(this).animate({opacity: 0.5})
-            })
-            tooltip_map[key].css('visibility', '')
-            tooltip_map[key].stop()
-            tooltip_map[key].animate({height: tooltip_height, width: tooltip_width, 'margin-left': 20, 'margin-right': 20, 'margin-top': - tooltip_height / 2 - 120, opacity: 1})
-            for (i in labels_map[key]) {
-                labels_map[key][i].stop()
-                labels_map[key][i].animate({opacity: 0}, function () {
-                    $(this).css('visibility', 'hidden')
-                })
-            }
-        }, function () {
-            var key = $(this).text()
-            for (i in labels_map[key]) {
-                labels_map[key][i].stop()
-                labels_map[key][i].css('visibility', '')
-                labels_map[key][i].animate({opacity: 1})
-            }
-            tooltip_map[key].stop()
-            tooltip_map[key].animate({height: 0, width: 0, 'margin-left': 145, 'margin-right': 0, 'margin-top': -120, opacity: 0}, function () {$(this).css('visibility', 'hidden')})
-            $('#timeline').children(':not(table)').css('opacity', 1)
-            time_table.find('tr:first').children('td').each(function () {
-                $(this).stop()
-                $(this).animate({opacity: 1})
-            })
-        })
-        time_table.find('tr').append(entry)
-    }
-    $('#timeline').append(time_table)
      
 })

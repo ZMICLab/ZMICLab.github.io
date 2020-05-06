@@ -6,7 +6,7 @@ members_list = [
 	'level': 'T', /*T(teacher) or U(under graduate) or M(M.S. candidate) or D(Ph.D. candidate) or P(post Doc.) or G(guest) or V(visiting) or A(alumni)*/
 	'photo': 'zxh.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/', /*https://zmiclab.github.io/zxh/*/
-	'introduction': "Xiahai Zhuang, Ph.D., Associate Professor of Medical Image Computing, School of Data Science, Fudan University.<br>DR. Zhuang has bachelor and master degrees in computer science (Tianjin Univ.; Shanghai Jiao Tong Univ.) and PhD in medical image computing (University College London)."
+	'introduction': "Xiahai Zhuang, Ph.D., Professor, School of Data Science, Fudan University.<br>DR. Zhuang has bachelor and master degrees in computer science (Tianjin Univ.; Shanghai Jiao Tong Univ.) and PhD in medical image computing (University College London)."
 },
 /* PHD and Postdoc*/
 {
