@@ -96,7 +96,8 @@ time_list = [
 },
 {
 	'date': '4/20/2019',
-	'name': 'Spring outing',
+	'name': 'Spring outing ^_^',
+	'info': 'ZMICers outing ^_^ <img src="./gallery/slides/6.jpg" width="100%"/> <img src="./gallery/slides/5.jpg" width="100%"/> <img src="./gallery/slides/4.jpg" width="100%"/>'
 },
 {
 	'date': '4/5/2019',
