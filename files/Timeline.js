@@ -1,8 +1,13 @@
 time_list = [
 {
+	'date': 'June/2020',
+	'name': 'Graduation (online mostly) ^_^',
+	'info': 'Congratulations to HUANG Yechong (master), YUE Qian (master), ZHANG Ke, YE Qing and Mengdi Feng who had passed their viva. Very well done! Note: no photo taken due to COVID-19 who should take all blames!'
+}, 
+{
 	'date': 'April/2020',
 	'name': 'Congratulations to Excellent Grads Yechong and Qian Yue',
-	'info': 'Congratulations to Yechong Huang and Qian Yue who had been awarded the Excellent Graduates (post-grads) of Shanghai 2020. Very well done! <img src="./gallery/2020/2020-04_excellentgrads.jpg" width="100%"/!'
+	'info': 'Congratulations to Yechong Huang and Qian Yue who had been awarded the Excellent Graduates (post-grads) of Shanghai 2020. Very well done! <img src="./gallery/2020/2020-04_excellentgrads.jpg" width="100%"/>'
 },
 {
 	'date': 'Mar/2020',
