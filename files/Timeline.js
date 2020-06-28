@@ -1,6 +1,11 @@
 time_list = [
 {
 	'date': 'June/2020',
+	'name': 'ZMIC has 3 papers accpeted to MICCAI2020 ^_^',
+	'info': 'Congratulations to <br>* Xinzhe et al.: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. <br>* Wangbing&LiLei et al.: Cross-Modality Multi-Atlas Segmentation Using Deep Neural Networks. <br>* LI Lei et al.: Joint Left Atrial Segmentation and Scar Quantification Based on a DNN with Spatial Encoding and Shape Attention. <br> Very well done!'
+}, 
+{
+	'date': 'June/2020',
 	'name': 'Graduation (online mostly) ^_^',
 	'info': 'Congratulations to HUANG Yechong (master), YUE Qian (master), ZHANG Ke, YE Qing and Mengdi Feng who had passed their viva. Very well done! Note: no photo taken due to COVID-19 who should take all blames!'
 }, 

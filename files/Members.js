@@ -74,14 +74,15 @@ members_list = [
 },
 
 /* ************************************ Master ***************************************** */
+
 {
-	'name': 'XU, Jiahang',
-	'year': '(2018-)',
+	'name': 'ZHANG, Ke',
+	'year': '(2020-)',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'xjh.jpg',
+	'photo': 'zhangke.jpg',
 	'homepage': '',
-	'introduction': "Thesis topic: AI and DNN for classification of neurodegenerated diseases, weakly/semi-supervised learning, DNN-based registration. Selected publication:<br>* J Xu et al.: A Fully-Automatic Framework for Parkinson's Disease Diagnosis by Multi-Modality Images. Frontiers in Neuroscience 2019"
+	'introduction': "Research: "
 },
 {
 	'name': 'GAO, Meng',
@@ -129,13 +130,13 @@ members_list = [
 	'introduction': ""
 },
 {
-	'name': 'ZHANG, Ke',
-	'year': '(2020-)',
+	'name': 'XU, Jiahang',
+	'year': '(2018-)',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'zhangke.jpg',
+	'photo': 'xjh.jpg',
 	'homepage': '',
-	'introduction': "Research: "
+	'introduction': "Thesis topic: AI and DNN for classification of neurodegenerated diseases, weakly/semi-supervised learning, DNN-based registration. Selected publication:<br>* J Xu et al.: A Fully-Automatic Framework for Parkinson's Disease Diagnosis by Multi-Modality Images. Frontiers in Neuroscience 2019"
 },
 
 
