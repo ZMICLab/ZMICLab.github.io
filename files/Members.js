@@ -25,7 +25,7 @@ members_list = [
 	'level': 'D',
 	'photo': 'lxz.jpg',
 	'homepage': '',
-	'introduction': "Research interests include multivariate medical image analysis"
+	'introduction': "Research interests include multivariate medical image analysis. Selected paper:<br> *X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. "
 }, 
 {
 	'name': 'LI, Lei',
@@ -76,11 +76,29 @@ members_list = [
 /* ************************************ Master ***************************************** */
 
 {
+	'name': 'FU, Yating',
+	'year': '(2020-)',
+	'gender': 'female',
+	'level': 'M',
+	'photo': '2020_fyt.jpg',
+	'homepage': 'https://yatingfu.github.io',
+	'introduction': "I’m doing my master’s degree in School of data science, Fudan University, with Prof.Zhuang Xiahai. "
+},
+{
+	'name': 'LI, Yunjiang',
+	'year': '(2020-)',
+	'gender': 'female',
+	'level': 'M',
+	'photo': '2020_lyj.jpg',
+	'homepage': '',
+	'introduction': "I am doing my master's degree in School of Data Science, Fudan University, with Prof. Zhuang Xiahai. I did my bachelor's degree in Tianjin University. "
+},
+{
 	'name': 'ZHANG, Ke',
 	'year': '(2020-)',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'zhangke.jpg',
+	'photo': '2020_zhangke.jpg',
 	'homepage': '',
 	'introduction': "Research: "
 },
@@ -141,12 +159,12 @@ members_list = [
 
 
 
-/* under and visitiing */
+/* under and visitiing 
 {
 	'name': 'CHEN, Dan',
 	'year': ' ',
 	'gender': 'female',
-	'level': 'U',
+	'level': 'V',
 	'photo': 'cd.jpeg',
 	'homepage': '',
 	'introduction': "I'm an undergraduate student studying about preventive medicine in Shanghai Medical College,  Fudan University. My recent works are related to the classification and segmentation of pulmonary nodules through medical image processing."
@@ -155,7 +173,7 @@ members_list = [
 	'name': 'CHEN, Xiao',
 	'year': ' ',
 	'gender': 'male',
-	'level': 'U',
+	'level': 'V',
 	'photo': 'cx.jpeg',
 	'homepage': '',
 	'introduction': "I am Chen Xiao from Data Science of Fudan， one student used to addicted with Finance but now fall in love with CV and medical image analysis, meanwhile struggling coding and reading papers in ZMIC."
@@ -164,7 +182,7 @@ members_list = [
 	'name': 'WANG, Sihan',
 	'year': ' ',
 	'gender': 'female',
-	'level': 'U',
+	'level': 'V',
 	'photo': '',
 	'homepage': '',
 	'introduction': ""
@@ -173,30 +191,11 @@ members_list = [
 	'name': 'ZHONG, Cheng',
 	'year': ' ',
 	'gender': 'male',
-	'level': 'U',
+	'level': 'V',
 	'photo': 'zc.jpg',
 	'homepage': '',
 	'introduction': "I am now a junior in School of Data Science, Fudan University, learning how to debug and struggle with strange network structures in ZMIC lab."
-},
-{
-	'name': 'Ruohan Liu',
-	'year': ' ',
-	'gender': 'male',
-	'level': 'U',
-	'photo': '',
-	'homepage': '',
-	'introduction': ""
-},
-/* visiting and undergrads*/ 
-{
-	'name': 'Ben Fei',
-	'year': ' ',
-	'gender': 'male',
-	'level': 'V',
-	'photo': 'default.jpg',
-	'homepage': '',
-	'introduction': ""
-}, 
+},  */
 
 
 /* **************************************************** Alumni **************************************************** */
@@ -232,7 +231,7 @@ members_list = [
 	'year': '(2020, Undergrad SDS)',
 	'gender': 'female',
 	'level': 'A',
-	'photo': 'zhangke.jpg',
+	'photo': '2020_zhangke.jpg',
 	'homepage': '',
 	'introduction': "Thesis (A): 未完全标注心脏图像多标签 图谱条件分割方法 | Next stop: Msc stu@ SDS, Fudan Univ"
 },
@@ -362,5 +361,14 @@ members_list = [
 	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': "PHD, Universitat Pompeu Fabra (UPF)"
+}, 
+{
+	'name': 'Ben Fei',
+	'year': '(2019, visiting)',
+	'gender': 'male',
+	'level': 'A',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
 }, 
 ]
