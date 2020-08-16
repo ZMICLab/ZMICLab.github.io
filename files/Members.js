@@ -68,9 +68,9 @@ members_list = [
 	'year': '',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'jdq.jpg',
+	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': "Research interests include coronary image analysis"
+	'introduction': ""
 },
 
 /* ************************************ Master ***************************************** */
@@ -370,5 +370,14 @@ members_list = [
 	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': ""
+}, 
+{
+	'name': 'LIU, Shihong',
+	'year': '(2019, visiting)',
+	'gender': 'male',
+	'level': 'A',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': "next: Nottingham Univ"
 }, 
 ]
