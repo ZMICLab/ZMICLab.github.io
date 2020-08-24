@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': 'Aug/2020',
+	'name': 'Fuping has IEEE TMI paper accepted ^_^',
+	'info': 'F Wu \& X Zhuang: CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE Transactions on Medical Imaging. DOI: 10.1109/TMI.2020.3016144. <br> Congratulations, and very well done, Fuping!'
+}, 
+{
 	'date': 'June/2020',
 	'name': 'ZMIC has 3 papers accpeted to MICCAI2020 ^_^',
 	'info': 'Congratulations to <br>* Xinzhe et al.: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. <br>* Wangbing&LiLei et al.: Cross-Modality Multi-Atlas Segmentation Using Deep Neural Networks. <br>* LI Lei et al.: Joint Left Atrial Segmentation and Scar Quantification Based on a DNN with Spatial Encoding and Shape Attention. <br> Very well done!'

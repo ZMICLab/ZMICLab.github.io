@@ -1,6 +1,6 @@
 
 $(function () {
-	var level = {'T': 'Faculty', 'U': 'Undergrad', 'M': 'Master student', 'D': 'PhD student', 'P': 'Post doc', 'A': 'Alumni', 'G': 'Guest', 'V': 'Visiting'}
+	var level = {'T': 'Faculty', 'U': 'Undergrad', 'M': 'Postgrad', 'D': 'Postgrad', 'P': 'Post doc', 'A': 'Alumni', 'G': 'Guest', 'V': 'Visiting'}
 	var postfix = {'P': 's', 'A': '', 'G': ' students', 'V': ' students', 'U': 's'}
 	var horlist = ['A']
 	var curlevel = 'Null'
