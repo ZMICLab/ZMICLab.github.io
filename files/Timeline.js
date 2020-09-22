@@ -1,8 +1,23 @@
 time_list = [
 {
+	'date': '10/Jul/2020',
+	'name': 'Prof. KS Zhou gave a talk at ZMIC',
+	'info': '<img src="./gallery/2020/2020-09-03_KSZhoutalk.jpg" width="100%"/> '
+}, 
+{
+	'date': '16/Aug/2020',
+	'name': 'X Zhuang gave a talk at CAAI',
+	'info': '<img src="./gallery/2020/2020-08-16_ccaitalk.png" width="100%"/> <br> Here is the <a href="https://mp.weixin.qq.com/s/BlLSJLcamf9hyAqnad6ofw">link</a>.'
+}, 
+{
 	'date': 'Aug/2020',
 	'name': 'Fuping has IEEE TMI paper accepted ^_^',
 	'info': 'F Wu \& X Zhuang: CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE Transactions on Medical Imaging. DOI: 10.1109/TMI.2020.3016144. <br> Congratulations, and very well done, Fuping!'
+}, 
+{
+	'date': '10/Jul/2020',
+	'name': 'Dr Wenjia Bai from Imperial gave a talk at ZMIC',
+	'info': '<img src="./gallery/2020/2020-07-10_wenjiatalk.jpg" width="100%"/> '
 }, 
 {
 	'date': 'June/2020',

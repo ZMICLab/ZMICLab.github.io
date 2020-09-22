@@ -19,14 +19,14 @@ members_list = [
 	'introduction': "Research interests include Craniofacial Reconstruction and Human Population Genetics"
 },
 {
-	'name': 'LUO, Xinzhe',
-	'year': '(2019-)',
+	'name': 'WU, Fuping',
+	'year': '(2017-)',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'lxz.jpg',
-	'homepage': '',
-	'introduction': "Research interests include multivariate medical image analysis. Selected paper:<br> *X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. "
-}, 
+	'photo': 'wfp.jpg',
+	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
+	'introduction': "Research interests include deeping learning for domain adaptation and medical image analysis. Selected publications:<br> *F Wu & X Zhuang. CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE Transactions on Medical Imaging 2020+. <a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> "
+},
 {
 	'name': 'LI, Lei',
 	'year': '(2016-)',
@@ -55,13 +55,31 @@ members_list = [
 	'introduction': "Research interests include reinforcement learning for medical image analysis."
 },
 {
-	'name': 'WU, Fuping',
-	'year': '(2017-)',
+	'name': 'LUO, Xinzhe',
+	'year': '(2019-)',
 	'gender': 'male',
 	'level': 'D',
-	'photo': 'wfp.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
-	'introduction': "Research interests include deeping learning for domain adaptation and medical image analysis"
+	'photo': 'lxz.jpg',
+	'homepage': '',
+	'introduction': "Research interests include multivariate medical image analysis. Selected paper:<br> *X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. "
+}, 
+{
+	'name': 'GAO, Zheyao',
+	'year': '(2020-)',
+	'gender': 'male',
+	'level': 'D',
+	'photo': '2020_gzy.jpg',
+	'homepage': 'www.linkedin.com/in/GaoZheyao-1828a21b7/',
+	'introduction': "Research interests:"
+},
+{
+	'name': 'WANG, Xin',
+	'year': '(2020-)',
+	'gender': 'male',
+	'level': 'D',
+	'photo': '',
+	'homepage': '',
+	'introduction': "Research interests:"
 },
 {
 	'name': 'JIA, Dengqiang',
@@ -76,31 +94,22 @@ members_list = [
 /* ************************************ Master ***************************************** */
 
 {
-	'name': 'FU, Yating',
-	'year': '(2020-)',
+	'name': 'XU, Jiahang',
+	'year': '(2018-)',
 	'gender': 'female',
 	'level': 'M',
-	'photo': '2020_fyt.jpg',
-	'homepage': 'https://yatingfu.github.io',
-	'introduction': "I’m doing my master’s degree in School of data science, Fudan University, with Prof.Zhuang Xiahai. "
+	'photo': 'xjh.jpg',
+	'homepage': '',
+	'introduction': "Thesis topic: AI and DNN for classification of neurodegenerated diseases, weakly/semi-supervised learning, DNN-based registration. Selected publication:<br>* J Xu et al.: A Fully-Automatic Framework for Parkinson's Disease Diagnosis by Multi-Modality Images. Frontiers in Neuroscience 2019"
 },
 {
-	'name': 'LI, Yunjiang',
-	'year': '(2020-)',
-	'gender': 'female',
+	'name': 'ZHOU, Yuncheng',
+	'year': '(2019-)',
+	'gender': 'male',
 	'level': 'M',
-	'photo': '2020_lyj.jpg',
-	'homepage': '',
-	'introduction': "I am doing my master's degree in School of Data Science, Fudan University, with Prof. Zhuang Xiahai. I did my bachelor's degree in Tianjin University. "
-},
-{
-	'name': 'ZHANG, Ke',
-	'year': '(2020-)',
-	'gender': 'female',
-	'level': 'M',
-	'photo': '2020_zhangke.jpg',
-	'homepage': '',
-	'introduction': "Research: "
+	'photo': 'zyc.jpg',
+	'homepage': 'https://bertie97.github.io/',
+	'introduction': "Research: Medical Image Registration and AI-assisted diagnosis. "
 },
 {
 	'name': 'GAO, Meng',
@@ -130,15 +139,6 @@ members_list = [
 	'introduction': "I am doing my master's degree in School of Data Science, Fudan University, with Prof. Zhuang Xiahai. Before that, I did my bachelor's degree in Tianjin University."
 },
 {
-	'name': 'ZHOU, Yuncheng',
-	'year': '(2019-)',
-	'gender': 'male',
-	'level': 'M',
-	'photo': 'zyc.jpg',
-	'homepage': 'https://bertie97.github.io/',
-	'introduction': "Research: Medical Image Registration and AI-assisted diagnosis. "
-},
-{
 	'name': 'ZHOU, He',
 	'year': '(2019-)',
 	'gender': 'female',
@@ -147,14 +147,42 @@ members_list = [
 	'homepage': '',
 	'introduction': ""
 },
+
 {
-	'name': 'XU, Jiahang',
-	'year': '(2018-)',
+	'name': 'ZHANG, Ke',
+	'year': '(2020-)',
 	'gender': 'female',
 	'level': 'M',
-	'photo': 'xjh.jpg',
+	'photo': '2020_zhangke.jpg',
 	'homepage': '',
-	'introduction': "Thesis topic: AI and DNN for classification of neurodegenerated diseases, weakly/semi-supervised learning, DNN-based registration. Selected publication:<br>* J Xu et al.: A Fully-Automatic Framework for Parkinson's Disease Diagnosis by Multi-Modality Images. Frontiers in Neuroscience 2019"
+	'introduction': "Research: "
+},
+{
+	'name': 'QIU, Junyi',
+	'year': '(2020-)',
+	'gender': 'male',
+	'level': 'M',
+	'photo': '2020_qjy.jpg',
+	'homepage': '',
+	'introduction': "I am a postgrad in SDS. I graduated from School of Computer Science, Fudan Univ. 2020."
+},
+{
+	'name': 'FU, Yating',
+	'year': '(2020-)',
+	'gender': 'female',
+	'level': 'M',
+	'photo': '2020_fyt.jpg',
+	'homepage': 'https://yatingfu.github.io',
+	'introduction': "I’m doing my master’s degree in School of data science, Fudan University, with Prof.Zhuang Xiahai. "
+},
+{
+	'name': 'LI, Yunjiang',
+	'year': '(2020-)',
+	'gender': 'female',
+	'level': 'M',
+	'photo': '2020_lyj.jpg',
+	'homepage': '',
+	'introduction': "I am doing my master's degree in School of Data Science, Fudan University, with Prof. Zhuang Xiahai. I did my bachelor's degree in Tianjin University. "
 },
 
 
