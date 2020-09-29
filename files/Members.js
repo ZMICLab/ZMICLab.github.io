@@ -82,13 +82,22 @@ members_list = [
 	'introduction': "Research interests:"
 },
 {
+	'name': 'ZHOU, Hangqi',
+	'year': '(2020-)',
+	'gender': 'female',
+	'level': 'D',
+	'photo': '',
+	'homepage': '',
+	'introduction': "Research interests:"
+},
+{
 	'name': 'JIA, Dengqiang',
 	'year': '',
 	'gender': 'male',
 	'level': 'D',
 	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': ""
+	'introduction': "Research interests:"
 },
 
 /* ************************************ Master ***************************************** */
@@ -167,6 +176,15 @@ members_list = [
 	'introduction': "I am a postgrad in SDS. I graduated from School of Computer Science, Fudan Univ. 2020."
 },
 {
+	'name': 'JIN, Jianhua',
+	'year': '(2020-)',
+	'gender': 'male',
+	'level': 'M',
+	'photo': '',
+	'homepage': '',
+	'introduction': "Research interests:"
+},
+{
 	'name': 'FU, Yating',
 	'year': '(2020-)',
 	'gender': 'female',
@@ -229,15 +247,15 @@ members_list = [
 /* **************************************************** Alumni **************************************************** */
 {
 	'name': 'HUANG, Yechong',
-	'year': '(2018-2020,Master)',
+	'year': '(2018-2020, Master)',
 	'gender': 'male',
 	'level': 'A',
 	'photo': 'hyc.jpg',
 	'homepage': '',
-	'introduction': "Thesis: 3D CNN-based Multi-modality Medical Image Analysis and its Application on Early Diagnosis of Alzheimer’s Disease. | Next stop: SenseTime"
+	'introduction': "Thesis: 3D CNN-based Multi-modality Medical Image Analysis and its Application on Early Diagnosis of Alzheimer’s Disease. (Excellent Graduate Award of Shanghai 上海市优秀毕业生) | First/Curr Position: SenseTime"
 },
 {
-	'name': 'Luo, Wenqi',
+	'name': 'LUO, Wenqi',
 	'year': '(2018-2020,Master)',
 	'gender': 'female',
 	'level': 'A',
@@ -247,12 +265,12 @@ members_list = [
 },
 {
 	'name': 'YUE, Qian',
-	'year': '(2018-2020,Master)',
+	'year': '(2018-2020, Master)',
 	'gender': 'female',
 	'level': 'A',
 	'photo': 'yueq.jpg',
 	'homepage': '',
-	'introduction': "Thesis: Application Demand of Real-time Ship Positioning in International Trade and the Technology of Artificial Intelligence. | Next stop: Huawei Shanghai Research"
+	'introduction': "Thesis: Application Demand of Real-time Ship Positioning in International Trade and the Technology of Artificial Intelligence. (Excellent Graduate Award of Shanghai 上海市优秀毕业生) | First/Curr Position: Huawei Shanghai Research"
 },
 {
 	'name': 'ZHANG, Ke',
@@ -261,7 +279,7 @@ members_list = [
 	'level': 'A',
 	'photo': '2020_zhangke.jpg',
 	'homepage': '',
-	'introduction': "Thesis (A): 未完全标注心脏图像多标签 图谱条件分割方法 | Next stop: Msc stu@ SDS, Fudan Univ"
+	'introduction': "Thesis (A): 未完全标注心脏图像多标签 图谱条件分割方法 | First/Curr Position: Msc stu@ SDS, Fudan Univ"
 },
 {
 	'name': 'YE, Qing',
@@ -279,7 +297,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'fengmengdi.jpg',
 	'homepage': '',
-	'introduction': "Thesis: 基于LGE MRI的房颤患者左心房疤痕半自动分割方法研究 | Next stop: 网易"
+	'introduction': "Thesis: 基于LGE MRI的房颤患者左心房疤痕半自动分割方法研究 | First/Curr Position: 网易NetEase"
 },
 
 {
@@ -289,7 +307,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'lxz.jpg',
 	'homepage': '',
-	'introduction': "Thesis (A): 基于神经网络的心脏医学图像分割 | Next stop: PhD stu@ SDS, Fudan Univ"
+	'introduction': "Thesis (A): 基于神经网络的心脏医学图像分割 | First/Curr Position: PhD stu@ SDS, Fudan Univ"
 },
 {
 	'name': 'Zi Zhuang',
@@ -298,7 +316,7 @@ members_list = [
 	'level': 'A',
 	'photo': '',
 	'homepage': '',
-	'introduction': "Thesis (A): 基于UNet的未完全标注心脏图像分割 | Next stop: Fudan Univ"
+	'introduction': "Thesis (A): 基于UNet的未完全标注心脏图像分割 | Fudan Univ"
 },
 {
 	'name': 'Yuncheng Zhou',
@@ -307,7 +325,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'zyc.jpg',
 	'homepage': '',
-	'introduction': "Thesis: 基于无监督学习的医学图像配准网络研究 | Next stop: Msc stu@ SDS, Fudan Univ"
+	'introduction': "Thesis: 基于无监督学习的医学图像配准网络研究 | First/Curr Position: Msc stu@ SDS, Fudan Univ"
 },
 {
 	'name': 'Shihao Sun',
@@ -316,7 +334,7 @@ members_list = [
 	'level': 'A',
 	'photo': '',
 	'homepage': '',
-	'introduction': "Thesis: 基于最大信息系数的相关性分析和预测 | Next stop: Fudan Univ"
+	'introduction': "Thesis: 基于最大信息系数的相关性分析和预测 | First Position: Fudan Univ"
 },
 {
 	'name': 'Yechong Huang',
@@ -325,7 +343,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'hyc.jpg',
 	'homepage': '',
-	'introduction': "Thesis (A): 基于sMRI数据的阿尔茨海默病诊断 | Next stop: Msc stu@ SDS, Fudan Univ"
+	'introduction': "Thesis (A): 基于sMRI数据的阿尔茨海默病诊断 | First Position: Msc stu@ SDS, Fudan Univ"
 },
 {
 	'name': 'Yuming Sun',
@@ -343,7 +361,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'xlc.jpg',
 	'homepage': '',
-	'introduction': "Next stop: PhD in Shanghai Jiao Tong University." 
+	'introduction': "First/Curr Position: PhD in Shanghai Jiao Tong University." 
 },
 {
 	'name': 'Long Chen',
@@ -361,7 +379,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': "Next stop: https://www.seagroup.com/home"
+	'introduction': "First/Curr Position: https://www.seagroup.com/home"
 },
 /*{
 	'name': 'Ben Fei',
@@ -379,7 +397,7 @@ members_list = [
 	'level': 'A',
 	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': "Next stop: Assistant Professor, Isfahan University of Technology"
+	'introduction': "First Position/Curr Institution: Assistant Professor, Isfahan University of Technology"
 },
 {
 	'name': 'Marta Nunez',
@@ -406,6 +424,6 @@ members_list = [
 	'level': 'A',
 	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': "next: Nottingham Univ"
+	'introduction': "Nottingham/Ningbo Univ"
 }, 
 ]
