@@ -1,5 +1,198 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript">
+    window["_gaUserPrefs"] = {
+        ioo: function() {
+            return true;
+        }
+    }
+</script>
+
 <head>
-<meta http-equiv="refresh" content="10; url=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>MyoPS 2020</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./res/bootstrap_custom.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="./res/dashboard.css" rel="stylesheet">
+ 
+    <script src="./res/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./res/ie10-viewport-bug-workaround.js"></script>
+ 
+    <style id="holderjs-style" type="text/css"></style>
 </head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
+<div class="container" ;>
+<div id="top_menu" > 
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="data1.html">Data</a></li>
+<!--li><a href="dates1.html">Dates</a></li>
+<li><a href="participate1.html">Participate</a></li>
+<li><a href="program.html">Program</a></li-->
+<li><a href="people.html">People</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="submit.html">Submit</a></li> 
+<li><a href="result.html">Result</a></li> 
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+
+<div style="background-color:cornflowerblue;" ; id="title">
+<br> 
+<div style=" color:black; font-size: 200%; text-align: center;"> 
+MyoPS 2020: Myocardial pathology segmentation combining multi-sequence CMR<br>
+<div style="font-size: 60%">in conjunction with 
+<a href="https://miccai2020.org/en/default.asp"; style="color:blue">MICCAI</a> 2020 (Oct 4, 2020, Lima, Peru)</div>
+</div>
+<br> 
+</div>
+
+
+<div class="container-fluid">
+        <div class="row">
+
+            <!--div class="col-sm-7 col-sm-offset-3 col-md-10 col-md-offset-2 main-->
+            <div class="col-md-10 col-md-offset-1 main">
+                <div id="main_content"> 
+                    <h2 style=" font-size: 150%;" ; class="sub-header">
+<table width="70%"><tr><td width="30%">OverView</td><td></td> 
+<td align='right'><a href=result.html>New: program released!</a></td></tr></table></h2>
+
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="well well-lg"; style="font-size: 120%";>
+<p>
+Assessment of myocardial viability is essential in the diagnosis and treatment management for patients suffering
+from myocardial infarction (MI). Cardiac magnetic resonance (CMR) is particularly used to provide imaging
+anatomical and functional information of heart, such as the late gadolinium enhancement (LGE) CMR sequence
+which visualizes MI, the T2-weighted CMR which images the acute injury and ischemic regions, and the balanced-
+Steady State Free Precession (bSSFP) cine sequence which captures cardiac motions and presents clear
+boundaries. Combining these multi-sequence CMR data can provide rich and reliable information regarding to the
+pathological as well as morphological information of the myocardium.
+</p>
+<p>
+The target of this challenge is combining multi-sequence CMR data to classify the myocardial pathology.
+Specifically, the myocardium will be classified into normal, infarcted and edema regions, which is important for the
+diagnosis and treatment management of patients. This is however still arduous. Since manual delineation is generally time-consuming, tedious and subject to inter- and intraobserver
+variations, automating this segmentation is highly desired in clinical practice.
+</p>
+<br>
+<img border=200pt width=600pt src="images/myops2.png"> 
+<br>
+<br>
+<p>
+The proposed challenge will provide the three-sequence CMR from 45 patients, for developing novel algorithms
+that can classify myocardial pathology combining the complementary information from these three-sequence
+CMR images. The challenge presents an open and fair platform for various research groups to test and validate
+their methods on these datasets acquired from the clinical environment. The aim of the challenge will not only be
+benchmarking various myocardial pathology segmentation algorithms, but also to cover the topic of general
+cardiac image segmentation, registration and modeling, and raise discussions for further technical development
+and clinical deployment. </p>
+
+<p>
+The best work will be selected with awards, similar to <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/>MS-CMRseg 2019</a>.
+A work is assessed based on the novelty of the methodologies, quality of the  manuscript, presentation of their paper as well as the test results.
+The selected papers will be published in our proceedings 
+ (<a href=http://stacom.cardiacatlas.org/ style='color:black'>see previous proceedings</a>). 
+</p>
+<p>
+Topics may cover (not exclusively):<br>
+- Pathology segmentation <br>
+- Myocardial segmentation<br>
+- Cardiac image processing<br>
+- Registration and modeling for cardiac images<br>
+</p>
+<p>
+This year, we particularly focus on the myocardial pathology segmentation, and the segmentation results submitted will be evaluated.
+</p>
+</div>
+	
+<div class="p">Please cite these two papers when you use the data for publications.</div>
+<div class="p"> 
+    [1] Xiahai Zhuang: Multivariate mixture model for myocardial segmentation combining multi-source images.
+    IEEE Transactions on Pattern Analysis and Machine Intelligence (T PAMI), vol. 41, no. 12, 2933-2946, Dec 2019.   
+    <a href=https://ieeexplore.ieee.org/document/8458220/>link</a>.<br>
+    [2] Xiahai Zhuang: Multivariate mixture model for cardiac segmentation from multi-sequence MRI. 
+International Conference on Medical Image Computing and Computer-Assisted Intervention, pp.581-588, 2016.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>  
+
+
+</div>
+	
+ 
+<div class="col-md-2" style="font-size: 120%">  
+<b>Key dates</b> <br><br>
+Training data release:<br>
+<div>
+2020-April-01st</div><br> 
+Test data release:<br>
+<div>
+2020-July-01st</div><br> 
+
+Result evaluation (deadline):<br>
+<strike>2020-July-15th</strike><br>
+<div  style="color:black">2020-July-22nd</div> <br>
+ 
+Paper submission (deadline):<br>
+<strike>2020-July-22nd</strike><br>
+<div  style="color:black">2020-July-29th </div> <br>
+Notification:<br>
+<div  style="color:black">2020-Aug-08st</div><br> 
+
+<!--Camera ready:<br>
+<div  style="color:gray">2020-Aug-17th</div><br-->
+Workshop:<br>
+<div  style="color:red">2020-Oct-4th</div> <br>
+
+<br>
+<div style="color:blue">
+<b>SPONSORS</b>
+<br>  
+<a href=https://www.deepvessel.net/en/>  <img src="./images/keya.png" width="120px"/>  </a> <br><br>
+<a href=https://sds.fudan.edu.cn/>  <img src="./images/fudansds.png" width="200px"/>  </a>
+</div>
+<br>
+
+ 
+</div>
+
+	
+</div>
+</div>
+</div>
+</div>
+</div>
+ 
+    <!--script src="./res/jquery.js"></script>
+    <script src="./res/bootstrap.min.js"></script>
+    <script src="./res/docs.min.js"></script>
+    <script> 
+        $(function() {
+            $("#top_menu").load("top_menu.html");
+        });
+    </script-->
+
+
+
+</body>
+
 </html>

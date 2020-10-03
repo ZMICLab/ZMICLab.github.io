@@ -27,7 +27,7 @@ members_list = [
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
 	'introduction': "Research interests include deeping learning for domain adaptation and medical image analysis. Selected publications:<br> *F Wu & X Zhuang. CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE Transactions on Medical Imaging 2020+. <a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> "
 },
-{
+{ 
 	'name': 'LI, Lei',
 	'year': '(2016-)',
 	'gender': 'female',
@@ -43,7 +43,7 @@ members_list = [
 	'level': 'D',
 	'photo': 'gsq.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/shangqigao/',
-	'introduction': "I am doing my PhD in School of Data Science, Fudan University, with Prof. Xiahai Zhuang. My current research interests are Image Super-Resolution and Computaional methods of Inverse Problem. I am exploring the deep learning based methods for Image reconstruction."
+	'introduction': "I am doing my PhD in School of Data Science, Fudan University, with Prof. Xiahai Zhuang. My current research interests are Image Super-Resolution and Computational methods of Inverse Problem. I am exploring the deep learning based methods for Image reconstruction."
 },
 {
 	'name': 'WAN, Kaiwen',
@@ -337,23 +337,23 @@ members_list = [
 	'introduction': "Thesis: 基于最大信息系数的相关性分析和预测 | First Position: Fudan Univ"
 },
 {
-	'name': 'Yechong Huang',
-	'year': '(2018, Undergrad)',
+	'name': 'Ben Fei',
+	'year': '(2019, visiting)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'hyc.jpg',
+	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': "Thesis (A): 基于sMRI数据的阿尔茨海默病诊断 | First Position: Msc stu@ SDS, Fudan Univ"
-},
+	'introduction': ""
+}, 
 {
-	'name': 'Yuming Sun',
-	'year': '(2018, Undergrad SDS)',
+	'name': 'LIU, Shihong',
+	'year': '(2019, visiting)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': '',
+	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': "Thesis (A): 基于增强U型网络和图像重构正则化的心脏磁共振分割算法"
-},
+	'introduction': "Nottingham/Ningbo Univ"
+}, 
 {
 	'name': 'Lingchao Xu',
 	'year': '(2017-2019, Master SJTU)',
@@ -380,24 +380,24 @@ members_list = [
 	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': "First/Curr Position: https://www.seagroup.com/home"
-},
-/*{
-	'name': 'Ben Fei',
-	'year': '(2019, visiting)',
-	'gender': 'male',
-	'level': 'A',
-	'photo': 'default.jpg',
-	'homepage': '',
-	'introduction': ""
-}, */
+}, 
 {
-	'name': 'SA Mohadeskasaei',
-	'year': '(2017-2018, postdoc)',
+	'name': 'Yechong Huang',
+	'year': '(2018, Undergrad)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': 'hyc.jpg',
 	'homepage': '',
-	'introduction': "First Position/Curr Institution: Assistant Professor, Isfahan University of Technology"
+	'introduction': "Thesis (A): 基于sMRI数据的阿尔茨海默病诊断 | First Position: Msc stu@ SDS, Fudan Univ"
+},
+{
+	'name': 'Yuming Sun',
+	'year': '(2018, Undergrad SDS)',
+	'gender': 'male',
+	'level': 'A',
+	'photo': '',
+	'homepage': '',
+	'introduction': "Thesis (A): 基于增强U型网络和图像重构正则化的心脏磁共振分割算法"
 },
 {
 	'name': 'Marta Nunez',
@@ -409,21 +409,12 @@ members_list = [
 	'introduction': "PHD, Universitat Pompeu Fabra (UPF)"
 }, 
 {
-	'name': 'Ben Fei',
-	'year': '(2019, visiting)',
+	'name': 'SA Mohadeskasaei',
+	'year': '(2017-2018, postdoc)',
 	'gender': 'male',
 	'level': 'A',
 	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': ""
-}, 
-{
-	'name': 'LIU, Shihong',
-	'year': '(2019, visiting)',
-	'gender': 'male',
-	'level': 'A',
-	'photo': 'default.jpg',
-	'homepage': '',
-	'introduction': "Nottingham/Ningbo Univ"
-}, 
+	'introduction': "First Position/Curr Institution: Assistant Professor, Isfahan University of Technology"
+},
 ]
