@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': '4/OCT/2020',
+	'name': 'MyoPS 2020 was a success, well done ZMICers ^_^',
+	'info': 'MyoPS 2020 was run virtually via online platform, and was a success, thanks to all the participants, IT supporters and organizers. Two teams respectively won the Challenge and Best Paper Award, Congratulations!'
+}, 
+{
 	'date': '10/Jul/2020',
 	'name': 'Prof. KS Zhou gave a talk at ZMIC',
 	'info': '<img src="./gallery/2020/2020-09-03_KSZhoutalk.jpg" width="100%"/> '
