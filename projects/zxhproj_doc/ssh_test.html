@@ -1,0 +1,187 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ZXHProj</title>
+<script type="text/javascript" src="att/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+$(function () {
+	const ssh2 = require('ssh2')
+})
+</script>
+<style type="text/css">
+body {
+	margin: 0;
+	font-family: Courier;
+}
+.body {
+	width: 70%;
+	position: absolute;
+	line-height: 1.6rem;
+	margin: 80px 5% 0 25%;
+	padding: 0 0 80px 0;
+}
+.header {
+	width: 70%;
+	position: fixed;
+	padding: 20px 0;
+	margin: 0 5% 0 25%;
+	background: white;
+	vertical-align: middle;
+	z-index: 4;
+}
+.header-buttons {
+	display: block;
+	float: right;
+	width: 45%;
+	table-layout: fixed;
+	text-align: center;
+	margin: 6px 0;
+}
+.header-search {
+	display: block;
+	float: left;
+	width: 35%;
+	table-layout: fixed;
+	text-align: left;
+}
+.header-button {
+	cursor: hand;
+}
+.footer {
+	width: 70%;
+	height: 20px;
+	position: fixed;
+	bottom: 0;
+	padding: 20px;
+	margin: 0 5% 0 25%;
+	background: white;
+	text-align: center;
+}
+code {
+	font-weight: bold;
+	border: solid 1px #AAA;
+	padding: 4px;
+	margin: 4px;
+	border-radius: 5px;
+}
+.code-fence {
+	color: blue;
+	display: block;
+	background: #FFE;
+	width: 90%;
+	padding: 10px;
+	margin: 20px 0;
+	border: solid 1px #EEE;
+	overflow-x: scroll;
+}
+.code-options {
+	color: green;
+}
+.code-operators {
+	color: darkblue;
+}
+.code-strings {
+	color: purple;
+}
+.default::before {
+	content: "default: ";
+	font-weight: bold;
+}
+.default {
+	color: green;
+	font-size: 0.9rem;
+	border: solid 1px #AFA;
+	padding: 4px;
+	margin: 4px;
+	border-radius: 5px;
+}
+h2 {
+	text-align: center;
+/*	width: 90%;*/
+}
+h3 {
+	margin: 20px 0 0 0;
+	padding: 10px;
+	cursor: hand;
+	border-bottom: solid 1px #BBB;
+}
+em {
+	color: orange;
+}
+.toc {
+	border: solid 1px #AAA;
+	position: fixed;
+	top: 80px;
+	left: 5%;
+	width: 19%;
+	border-radius: 20px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+.toc-title {
+	position: fixed;
+	top: 20px;
+	left: 5%;
+	width: 19%;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+}
+.entry {
+	cursor: hand;
+	margin-left: 40px;
+}
+blockquote {
+	border-left: solid 4px #EEE;
+	padding-left: 20px;
+}
+.searchbox {
+	width: 0;
+	opacity: 0;
+	margin: 6px;
+	padding: 4px;
+	border-radius: 5px;
+	border: solid 1px #AAA;
+}
+.phantom-searchbox {
+	opacity: 0;
+}
+.magnifier {
+	vertical-align: middle;
+	cursor: hand;
+}
+.go {
+	display: inline-block;
+	width: 0;
+	overflow: hidden;
+	cursor: hand;
+}
+.HL {
+	background-color: gold;
+}
+</style>
+</head>
+<body>
+<span class="toc-title">ZXHProj</span>
+<div class="toc"></div>
+<div class="header">
+<table class="header-search"><tr>
+	<td>
+		<input class="searchbox"/><span class="go">&rarr;</span>
+		<img src="att/mag.jpg" height="16px" class="magnifier"/>
+		<input class="phantom-searchbox"/>
+	</td>
+</tr></table>
+<table class="header-buttons"><tr></tr></table>
+</div>
+<div class="body" id="document"></div>
+<div class="body" id="tutorial"></div>
+<div class="footer">made by Yuncheng Zhou, copyright&copy; 2019, Xiahai Zhuang. All rights reserved.</div>
+<xmp class="introduction" name="Introduction" foldable="false" hidden>
+</xmp>
+<xmp class="document" name="Documentation" foldable="true" hidden>
+</xmp>
+<xmp class="tutorial" name="Tutorial" foldable="false" hidden>
+</xmp>
+</body>
+</html>
