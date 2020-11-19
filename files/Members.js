@@ -173,8 +173,8 @@ members_list=[
 	'gender': 'female',
 	'level': 'M',
 	'photo': '2020_zhangke.jpg',
-	'homepage': '',
-	'introduction': "Research: "
+	'homepage': 'https://bwgzk.github.io/KeZhang.github.io/',
+	'introduction': "Research: Computer Vision, AI in healthcare, Medical image analysis"
 },
 {
 	'name': 'QIU, Junyi',
@@ -288,7 +288,7 @@ members_list=[
 	'gender': 'female',
 	'level': 'A',
 	'photo': '2020_zhangke.jpg',
-	'homepage': '',
+	'homepage': 'https://bwgzk.github.io/KeZhang.github.io/',
 	'introduction': "Thesis (A): 未完全标注心脏图像多标签 图谱条件分割方法 | First/Curr Position: Msc stu@ SDS, Fudan Univ"
 },
 {

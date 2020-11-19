@@ -1,8 +1,23 @@
 time_list = [
 {
+	'date': '18/Nov/2020',
+	'name': 'Prof. Gang Pan from Zhejiang Univ. gave a talk at ZMIC',
+	'info': '<img src="./gallery/2020/2020-11-18_Pan.jpg" width="100%"/> '
+}, 
+{
+	'date': '8/OCT/2020',
+	'name': 'Happy birthday to School of Data Science!',
+	'info': 'School of Data Science had a celebration for her five year old birthday, and X Zhuang had the honor to attending the ceremony in Zibin Building. <img src="./gallery/2020/2020-10-08_sds5.jpg" width="100%"/> '
+}, 
+{
+	'date': '5/OCT/2020',
+	'name': 'X Zhuang chair Reg1/2 and PET sessions at MICCAI!',
+	'info': '<img src="./gallery/2020/2020-10-05_miccai_regA.jpg" width="100%"/><img src="./gallery/2020/2020-10-05_miccai_regB.jpg" width="100%"/><img src="./gallery/2020/2020-10-05_miccai_PET.jpg" width="100%"/>'
+}, 
+{
 	'date': '4/OCT/2020',
-	'name': 'MyoPS 2020 was a success, well done ZMICers ^_^',
-	'info': 'MyoPS 2020 was run virtually via online platform, and was a success, thanks to all the participants, IT supporters and organizers. Two teams respectively won the Challenge and Best Paper Award, Congratulations!'
+	'name': 'MyoPS was a success @ MICCAI, well done ZMICers ^_^',
+	'info': 'MyoPS 2020 was run virtually via online platform, and was a success, thanks to all the participants, IT supporters and organizers. Two teams respectively won the Challenge and Best Paper Award, Congratulations! <img src="./gallery/2020/2020-10-04_myops.jpg" width="100%"/>'
 }, 
 {
 	'date': '10/Jul/2020',
