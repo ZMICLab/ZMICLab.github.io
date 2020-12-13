@@ -1,5 +1,25 @@
 time_list = [
 {
+	'date': '11/Dec/2020', 
+	'name': 'Xiahai invited to Editorial Board of Med Imag Ana ^_^',
+	'info': '<a href="https://www.journals.elsevier.com/medical-image-analysis">It is a great honor to work for Medical Image Analysis (IF: 11.148), the top journal in our field, thanks ^)^ <img src="./gallery/2020/2020-12_media.jpg" width="100%"/></a>'
+},
+{
+	'date': 'Dec/2020', 
+	'name': 'Shangqi has a paper on IEEE TPAMI (IF 17.86), well done ^_^',
+	'info': '<a href="https://zmiclab.github.io/projects.html">S Gao \& X Zhuang: Rank-One Network: An Effective Framework for Image Restoration. IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), Impact Factor: 17.86.<br> Congratulations, and very well done, Shangqi! <img src="./gallery/2020/2020-12_ronet.jpg" width="100%"/></a>'
+},  
+{
+	'date': '8/Dec/2020',
+	'name': 'ZMICers having a party ^)^',
+	'info': 'A good time for team building. ZMICers, arround or not, are all thanked and missed ^)^ <img src="./gallery/2020/2020-12-08_zmic.jpg" width="100%"/> '
+}, 
+{
+	'date': '5/Dec/2020',
+	'name': 'The 3rd Fudan AI-MI annual conference was a great success',
+	'info': 'ZMICers co-organized the 3rd Fudan Artificial Intelligence Medical Imaging, which turned out to be a great success <img src="./gallery/2020/2020-12-05_zmic.jpg" width="100%"/> <img src="./gallery/2020/2020-12-05_1.png" width="100%"/><img src="./gallery/2020/2020-12-05_2.png" width="100%"/><img src="./gallery/2020/2020-12-05_3.png" width="100%"/><img src="./gallery/2020/2020-12-05_4.png" width="100%"/><img src="./gallery/2020/2020-12-05_5.png" width="100%"/><img src="./gallery/2020/2020-12-05_6.png" width="100%"/><img src="./gallery/2020/2020-12-05_7.png" width="100%"/>'
+}, 
+{
 	'date': '18/Nov/2020',
 	'name': 'Prof. Gang Pan from Zhejiang Univ. gave a talk at ZMIC',
 	'info': '<img src="./gallery/2020/2020-11-18_Pan.jpg" width="100%"/> '
