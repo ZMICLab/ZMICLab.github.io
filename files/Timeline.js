@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': 'Dec/2020',
+	'name': 'Congrats to Xinzhe, winner of National Scholarship^)^',
+	'info': 'Congratulations and very well done, Xinzhe!<img src="./gallery/2020/2020-12-25_nationalstuaward.png" width="100%"/>'
+},
+{
 	'date': '11/Dec/2020', 
 	'name': 'Xiahai invited to Editorial Board of Med Imag Ana ^_^',
 	'info': '<a href="https://www.journals.elsevier.com/medical-image-analysis">It is a great honor to work for Medical Image Analysis (IF: 11.148), the top journal in our field, thanks ^)^ <img src="./gallery/2020/2020-12_media.jpg" width="100%"/></a>'
@@ -9,6 +14,11 @@ time_list = [
 	'name': 'Shangqi has a paper on IEEE TPAMI (IF 17.86), well done ^_^',
 	'info': '<a href="https://zmiclab.github.io/projects.html">S Gao \& X Zhuang: Rank-One Network: An Effective Framework for Image Restoration. IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), Impact Factor: 17.86.<br> Congratulations, and very well done, Shangqi! <img src="./gallery/2020/2020-12_ronet.jpg" width="100%"/></a>'
 },  
+{
+	'date': 'Dec/2020', 
+	'name': 'Dengqiang has a paper on CMIG',
+	'info': 'D Jia & X Zhuang: Learning-Based Algorithms for Vessel Tracking: A Review. to appear in Computerized Medical Imaging and Graphics.'
+},
 {
 	'date': '8/Dec/2020',
 	'name': 'ZMICers having a party ^)^',
