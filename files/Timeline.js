@@ -1,5 +1,22 @@
 time_list = [
 {
+	'date': '11/Jan/2021',
+	'name': 'ZMIC awarded a grant from NSFC-STINT ^_^',
+	'info': ' '
+
+},
+{
+	'date': '01/Jan/2021',
+	'name': 'Happy New Year 2021^^',
+	'info': ' '
+
+},
+{
+	'date': 'Dec/2020',
+	'name': 'Congrats to Lei\'s offer from Oxford!',
+	'info': 'Congratulations to Li,Lei who was just offered a post-doc position from Univ. of Oxford ^)^'
+},
+{
 	'date': 'Dec/2020',
 	'name': 'Congrats to Xinzhe, winner of National Scholarship^)^',
 	'info': 'Congratulations and very well done, Xinzhe!<img src="./gallery/2020/2020-12-25_nationalstuaward.png" width="100%"/>'
@@ -29,6 +46,17 @@ time_list = [
 	'name': 'The 3rd Fudan AI-MI annual conference was a great success',
 	'info': 'ZMICers co-organized the 3rd Fudan Artificial Intelligence Medical Imaging, which turned out to be a great success <img src="./gallery/2020/2020-12-05_zmic.jpg" width="100%"/> <img src="./gallery/2020/2020-12-05_1.png" width="100%"/><img src="./gallery/2020/2020-12-05_2.png" width="100%"/><img src="./gallery/2020/2020-12-05_3.png" width="100%"/><img src="./gallery/2020/2020-12-05_4.png" width="100%"/><img src="./gallery/2020/2020-12-05_5.png" width="100%"/><img src="./gallery/2020/2020-12-05_6.png" width="100%"/><img src="./gallery/2020/2020-12-05_7.png" width="100%"/>'
 }, 
+{
+	'date': 'NOV/2020',
+	'name': 'Awarded a grant for Shanghai talents ^_^',
+	'info': 'Xiahai has been awarded a grant from the development fund for Shanghai talents ^_^'
+
+},
+{
+	'date': 'OCT/2020',
+	'name': 'ZMIC recieved a grant from NSFC-NRF ^_^',
+	'info': ' ' 
+},
 {
 	'date': '18/Nov/2020',
 	'name': 'Prof. Gang Pan from Zhejiang Univ. gave a talk at ZMIC',
