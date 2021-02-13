@@ -1,5 +1,16 @@
 time_list = [
 {
+	'date': '12/Feb/2021',
+	'name': 'Happy Chinese New Year 牛年快乐 ^)^',
+	'info': 'Happy New Year of ox by Lunar Calendar!<img src="http://www.xinhuanet.com/titlepic/112709/1127098398_1613195553088_title0h.jpg" width="100%"/>'
+},
+{
+	'date': '15/Jan/2021',
+	'name': 'Xiahai invited as Area Chair for MICCAI 2021!',
+	'info': '<a href="https://miccai2021.org/en/"> <img src="https://miccai2021.org/files/images/layout/en/miccai2021-logo.png" width="100%"/> </a>'
+
+},
+{
 	'date': '11/Jan/2021',
 	'name': 'ZMIC awarded a grant from NSFC-STINT ^_^',
 	'info': ' '
