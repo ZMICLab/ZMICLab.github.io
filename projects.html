@@ -1,10 +1,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="keywords" content="ZMIC,ZMICLab,Lab,庄吓海"> 
- 
-<title>ZMIC Lab Projects</title>
+<link rel="stylesheet" type="text/css" href="css/main_style.css" />
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="files/Members.js"></script>
+<script type="text/javascript" src="js/members.js"></script>
+<title>ZMIC Lab Members</title>
 </head>
+
+<body id="page">
+<iframe src="header.html"id="page" height="80px" style="border: none; position: fixed; padding: 0; z-index: 2;"></iframe>
+<div style="display: inline-block; margin: 45px;"></div><br>
+ 
+ 
  
 <body id="page">
 
@@ -14,12 +22,12 @@
  
 <center> <br><br><br><br>
 <table> 
-<tr><td width="1200"  align=center>
-<h1>Projects/code/data in <a href=https://zmiclab.github.io/>ZMIC Lab</a> </h1> 
+<tr><td width="1000"  align=center>
+<h1>Projects/ code/ data </h1> 
 </td></tr>
 </table>
 
-<table width="1200" border=40 bordercolor="white" cellpadding=10> 
+<table width="1000" border=20 bordercolor="white" cellpadding=10> 
 
 <!-- todo 
 * Fuping's VAE-DA with CFD 
@@ -28,41 +36,34 @@
 
 <!-- ------------------------------------------------- -->
 <tr>
- <td width="10%" valign=top><div class="pane-left color=blue">
+ <td width="10%" valign=top> 
  <font size="8" face="Verdana"><span style="color:green">NEW</span><span style="color:yellow">!!!</span></font>
- </div> </td>
- <td><div class="col-md-10; pane-right">  
- 
+ </td>
+ <td> 
 ★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> IEEE T PAMI 2020
 <a href=https://github.com/shangqigao/RONet>code</a> <br>
 ★ F Wu & X Zhuang. <a href=https://ieeexplore.ieee.org/abstract/document/9165963/>CF Distance: A new domain discrepancy metric and application to explicit domain adaptation for cross-modality cardiac image segmentation.</a> IEEE TMI 2020. 	
 <a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> <br>
 ★ Xiahai Zhuang: <a href=https://ieeexplore.ieee.org/document/8458220/>Multivariate mixture model for myocardial segmentation combining multi-source images.</a>
     IEEE T PAMI 41 (12), 2933-2946, 2019. 
-	<a href=https://github.com/xzluo97/MvMM-Demo>code</a> <a href=./projects/mvmm_lecture_note_demo_by_LuoXinzhe.pdf>note&demo</a> <br>
-	</div>
+	<a href=https://github.com/xzluo97/MvMM-Demo>code</a> <a href=./projects/mvmm_lecture_note_demo_by_LuoXinzhe.pdf>note&demo</a> <br> 
  </td>
 </tr>  
 
 
 <tr>
- <td width="10%"><div class="pane-left"><a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/lascarqs21/><img style="width: 150px;" src="projects/lascarqs21/logo.png"> </a></div> </td>
- <td><div class="col-md-10; pane-right"> <h2> <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/lascarqs21/>LAScarQS'21 Challenge</a> </h2>
-	<p> We provide 200+ subjects, and the target of this challenge is to quantify or segment the myocardial pathology (scars) of left atrial walls from LGE MRI of patients suffering atrial fibrillation.</p>
-	</div>
+ <td width="10%"> <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/lascarqs21/><img style="width: 150px;" src="projects/lascarqs21/logo.png"> </a> </td>
+ <td> <h2> <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/lascarqs21/>LAScarQS'21 Challenge</a> </h2>
+	<p> We provide 200+ subjects, and the target of this challenge is to quantify or segment the myocardial pathology (scars) of left atrial walls from LGE MRI of patients suffering atrial fibrillation.</p> 
  </td>
 </tr>
-
-
-
-
+ 
 
 
 
 <tr>
- <td width="10%" valign=top><div class="pane-left">Multi-modality and combined computing</div> </td>
- <td><div class="col-md-10; pane-right">  
- 
+ <td width="10%" valign=top> Multi-modality and combined computing </td>
+ <td> 
 	We investigate algorithms for multi-modality image analysis, particularly for combined computing: <br> <br> 
 	★ X Luo & X Zhuang. MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. In Proc. MICCAI 2020. <a href=https://github.com/xzluo97/MvMM-RegNet/>code</a> <br>
 	★ Xiahai Zhuang: <a href=https://ieeexplore.ieee.org/document/8458220/>Multivariate mixture model for myocardial segmentation combining multi-source images.</a>
@@ -72,15 +73,14 @@
 	<br>Others:<br><br>
 	
 	★ Y Huang, J Xu, Y Zhou, T Tong, X Zhuang. Diagnosis of Alzheimer’s Disease via Multi-Modality 3D Convolutional Neural Network. Frontiers in Neuroscience 2019.
-	<a href=https://github.com/huohuayuzhong/ADClassifierTorch>code</a><br>
-	</div>
+	<a href=https://github.com/huohuayuzhong/ADClassifierTorch>code</a><br> 
  </td>
 </tr> 
 
 <!-- ------------------------------------------------- -->
 <tr>
- <td width="10%" valign=top><div class="pane-left">Cross-modality (domain)</div> </td>
- <td><div class="col-md-10; pane-right">  
+ <td width="10%" valign=top> Cross-modality (domain) </td>
+ <td> 
 	We investigate domain adpatation and domain generalization, particularly for cross-modality image segmentation:<br> <br>
 	★ F Wu & X Zhuang. <a href=https://ieeexplore.ieee.org/abstract/document/9165963/>CF Distance: A new domain discrepancy metric and application to explicit domain adaptation for cross-modality cardiac image segmentation.</a> IEEE TMI 2020. 	
 	<a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> <br>
@@ -90,16 +90,14 @@
 	
 	<!--p>Others' useful links: 
 	<a href=https://github.com/carrenD/Medical-Cross-Modality-Domain-Adaptation>PnP-Ada from Q Dou</a>;
-	<a href=https://github.com/cchen-cc/SIFA>SIFA from C Chen</a>.</p-->
-	</div>
+	<a href=https://github.com/cchen-cc/SIFA>SIFA from C Chen</a>.</p--> 
  </td>
 </tr> 
   
 <!-- ------------------------------------------------- -->
 <tr>
- <td width="10%" valign=top><div class="pane-left">Single modality image and others</div> </td>
- <td ><div class="col-md-10; pane-right">  
- 
+ <td width="10%" valign=top> Single modality image and others </td>
+ <td>
 	We investigate single image restoration (super-resolution, denoise and deblur) and reconstruction: <br><br> 
 	★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> 
 	IEEE T PAMI 2020 <a href=https://github.com/shangqigao/RONet>code</a> <br>
@@ -110,42 +108,36 @@
 	★ K Zhang & X Zhuang: CMRadjustNet: Recognition and standardization of cardiac MRI orientation via multi-tasking learning and deep neural networks, MyoPS2020 (a tool for detecting and changing orientation of 2D cardiac bSSFP/LGE/T2 MRI)
 	<a href=https://github.com/BWGZK/Orientation-Adjust-Tool>code</a><br>
 	★ Q Yue, X Luo, Q Ye, L, Xu, X Zhuang. Cardiac Segmentation from LGE MRI Using Deep Neural Network Incorporating Shape and Spatial Priors. MICCAI 2019, LNCS 11765, pp. 559-567, 2019.
-	<a href=https://github.com/xzluo97/LGE_SRSCN>code</a><br>
-	
-	 
-	</div>
+	<a href=https://github.com/xzluo97/LGE_SRSCN>code</a><br> 
  </td>
 </tr> 
 
 
 
 <tr>
- <td width="10%"><div class="pane-left"><a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/><img style="width: 150px;" src="projects/myops20/pathologyseg.png"></a> </div> </td>
- <td><div class="col-md-10; pane-right"> <h2> <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/>MyoPS'20 Challenge</a> </h2>
-	<p> The challenge provides aligned cardiac T2/bSSFP/LGE MRI, which had been manually segmented the scars, edema, normal myocardium and LV/RV blood pool, from 45 patients. The target is to segment the myocardial pathology combining multi-sequence CMR. Specifically, the myocardium will be classified into normal, infarcted and edema regions, which is important for the diagnosis and treatment management of patients. </p>
-	</div>
+ <td width="10%"><a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/><img style="width: 150px;" src="projects/myops20/pathologyseg.png"></a> </td>
+ <td><h2> <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/>MyoPS'20 Challenge</a> </h2>
+	<p> The challenge provides aligned cardiac T2/bSSFP/LGE MRI, which had been manually segmented the scars, edema, normal myocardium and LV/RV blood pool, from 45 patients. The target is to segment the myocardial pathology combining multi-sequence CMR. Specifically, the myocardium will be classified into normal, infarcted and edema regions, which is important for the diagnosis and treatment management of patients. </p> 
  </td>
 </tr>
 
 <tr>
- <td width="10%"><div class="pane-left"> <a href=https://zmiclab.github.io/projects/mscmrseg19/><img style="width: 150px;" src="files/imgs_links/data-header-imgc53d26ff.jpg"> </a></div> </td>
- <td><div class="col-md-10; pane-right"> <h2> <a href=https://zmiclab.github.io/projects/mscmrseg19/>MS-CMRSeg'19 Challenge</a> </h2>
-	<p> We provide 45 multi-sequence CMR images from patients who underwent cardiomyopathy. Each patient had been scanned using the three CMR sequences, i.e. the LGE, T2 and bSSFP. The task of this challenge is to segment the ventricles and myocardium from LGE CMR, combing with other two sequences (T2 and bSSFP) from same patients, which can be used to assist the LGE CMR segmentation. </p>
-	</div>
+ <td width="10%"> <a href=https://zmiclab.github.io/projects/mscmrseg19/><img style="width: 150px;" src="files/imgs_links/data-header-imgc53d26ff.jpg"> </a> </td>
+ <td> <h2> <a href=https://zmiclab.github.io/projects/mscmrseg19/>MS-CMRSeg'19 Challenge</a> </h2>
+	<p> We provide 45 multi-sequence CMR images from patients who underwent cardiomyopathy. Each patient had been scanned using the three CMR sequences, i.e. the LGE, T2 and bSSFP. The task of this challenge is to segment the ventricles and myocardium from LGE CMR, combing with other two sequences (T2 and bSSFP) from same patients, which can be used to assist the LGE CMR segmentation. </p> 
  </td>
 </tr>
 
 <tr>
- <td width="10%"><div class="pane-left"><a href=https://zmiclab.github.io/projects/mmwhs/><img style="width: 150px;" src="files/imgs_links/ED3F168D-7FDA-46B9-A108-ECAF74F2ABC7.png"> </a></div> </td>
- <td><div class="col-md-10; pane-right"> <h2> <a href=https://zmiclab.github.io/projects/mmwhs/>MMWHS Challenge</a> </h2>
-	<p> The challenge provides 120 multi-modality cardiac images acquired in real clinical environment. It aims at creating an open and fair competition for various research groups to test and validate their methods, particularly for the multi-modality whole heart segmentation. It is not only to benchmark various whole heart segmentation algorithms, but also to cover the topic of general cardiac image segmentation and registration and modeling.</p>
-	</div>
+ <td width="10%"> <a href=https://zmiclab.github.io/projects/mmwhs/><img style="width: 150px;" src="files/imgs_links/ED3F168D-7FDA-46B9-A108-ECAF74F2ABC7.png"> </a> </td>
+ <td> <h2> <a href=https://zmiclab.github.io/projects/mmwhs/>MMWHS Challenge</a> </h2>
+	<p> The challenge provides 120 multi-modality cardiac images acquired in real clinical environment. It aims at creating an open and fair competition for various research groups to test and validate their methods, particularly for the multi-modality whole heart segmentation. It is not only to benchmark various whole heart segmentation algorithms, but also to cover the topic of general cardiac image segmentation and registration and modeling.</p> 
  </td>
 </tr>
   
 <tr>
  <td width="10%"><div class="pane-left"><a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/zxhproj/><img style="width: 150px;" src="files/imgs_links/C6635319-78D7-4859-8DC0-6203F81928FA.png"></a> </div> </td>
- <td><div class="col-md-10; pane-right"> <h2> <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/zxhproj/>S/W zxhproj</a> </h2>
+ <td><div class="pane-right"> <h2> <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/zxhproj/>S/W zxhproj</a> </h2>
 	<p> zxhproj is a medical image computing platform, being developed and maintained by Xiahai Zhuang since 2004. Based on it, several image registration and segmentation tools have been developed, such as multivariate mixture model, cardiac segmentation, locally affine registration method (LARM), spatially encoded mutual information (SEMI), as well as other image/vector field processing tools. The tools work with nifty (nii/nii.gz) and gipl short int data formats.</p>
 	</div>
  </td>
@@ -163,13 +155,14 @@
 
 
 <br><br><br><br><br><br><br>
-<iframe src="footer.html" id="page" height="40px" style="border: none; position: absolute; padding: 0; z-index: 2;"></iframe>
-
+ 
 <br><br><br><br><br><br><br>
 
 
 
 </center>  
 </div>
+
+<iframe src="footer.html" id="page" height="40px" style="border: none; position: absolute; padding: 0; z-index: 2;"></iframe>
 </body>
 </html>
