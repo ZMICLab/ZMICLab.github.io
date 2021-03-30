@@ -1,5 +1,15 @@
 time_list = [
 {
+	'date': '26/03/2021',
+	'name': 'Chenhao\'s paper accepted to MedIA (IF 11.148), well done ^_^',
+	'info': ' '
+},
+{
+	'date': '23/Feb/2021',
+	'name': 'TMI Distinguished Reviewer XD',
+	'info': 'IEEE Transactions on Medical Imaging (TMI) Distinguished Reviewer Certificate? ooops a treat for a junior though. TMI was the same tier as MedIA. Keen to see its back to the position it was!!!'
+},
+{
 	'date': '12/Feb/2021',
 	'name': 'Happy Chinese New Year 牛年快乐 ^)^',
 	'info': 'Happy New Year of ox by Lunar Calendar!<img src="http://www.xinhuanet.com/titlepic/112709/1127098398_1613195553088_title0h.jpg" width="100%"/>'
