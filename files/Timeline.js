@@ -1,8 +1,13 @@
 time_list = [
 {
+	'date': 'Apri/2021',
+	'name': 'Xiahai invited to CAAI',
+	'info': '<a href="https://mp.weixin.qq.com/s?__biz=MzI5MjUyMjkxMg==&mid=2247494380&idx=1&sn=635e31955737f6f4c4d1eeb33239e180&chksm=ec02b423db753d3513cfabdfb337ad989d475942da35959347fb45d5d2dc651747ec3efc82d4&mpshare=1&scene=1&srcid=0406YY5EBHUbbFOB34W3Ewbh&sharer_sharetime=1617708521290&sharer_shareid=95821710a35b83171a3cdd6a6fb41395&key=0a36f797a3211af5393cbe16b10d6a61cbe20471ef79a152d9a9867f489b54269a31f3a7bee88295188d67258c4933e2bcde7ff1ed9dceacab41a28f2bfc0b2dc3023d8d762d284d1835003eb56580337328e5f835689026482570a06a978438ae24d56b0461bb949cd0c2a8d567d88996a963a0461e42ee0356c2705cd413fd&ascene=1&uin=MTU0ODQ2MTUyMA%3D%3D&devicetype=Windows+10+x64&version=62090523&lang=zh_CN&exportkey=AcTrMMcsWDIqnvZaubo5kO8%3D&pass_ticket=rP7Jm%2B3Rrw3DWcBj3qVp6t0pMX3RzJBUcGPemEprauLIv%2Fk3aV%2BG62xViWqtr4Xq&wx_header=0">h5</a> and <a href="https://wx.vzan.com/live/tvchat-1048526715?&shareuid=139620101&vprid=0&sharetstamp=1618196690322#/">video</a> <img src="./gallery/2021/2021-04-11_CAIIAM.jpg" width="100%"/>'
+},
+{
 	'date': '26/03/2021',
 	'name': 'Chenhao\'s paper accepted to MedIA (IF 11.148), well done ^_^',
-	'info': ' '
+	'info': '<a href="https://doi.org/10.1016/j.media.2021.102078">link</a> and <a href="https://github.com/Endless-Hao/DDFSeg">code</a> <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1361841521001249-fx1_lrg.jpg" width="100%"/>'
 },
 {
 	'date': '23/Feb/2021',
@@ -31,11 +36,6 @@ time_list = [
 	'name': 'Happy New Year 2021^^',
 	'info': ' '
 
-},
-{
-	'date': 'Dec/2020',
-	'name': 'Congrats to Lei\'s offer from Oxford!',
-	'info': 'Congratulations to Li,Lei who was just offered a post-doc position from Univ. of Oxford ^)^'
 },
 {
 	'date': 'Dec/2020',
