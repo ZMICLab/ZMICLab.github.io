@@ -1,5 +1,20 @@
 time_list = [
 {
+	'date': '2021-Jun-16',
+	'name': 'Congratulations to all graduates 2021 ^_^',
+	'info': 'We have celebration at the graduation 2021 of School of Data Science, Fudan University. Congratulations!'
+},
+{
+	'date': 'June/2021',
+	'name': 'Fuping has IEEE TMI paper accepted ^_^',
+	'info': 'F Wu \& X Zhuang: Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation. IEEE Transactions on Medical Imaging. <br> Congratulations, and very well done, Fuping!'
+}, 
+{
+	'date': 'June/2021',
+	'name': 'LI Lei has a MICCAI paper ^_^',
+	'info': 'Congratulations to LI Lei for the paper<br>L Li, V Zimmer, J Schanable, X Zhuang: AtrialGeneral: Domain Generalization for Left Atrial Segmentation of Multi-Center LGE MRIs. <br> Very well done, Lei!'
+}, 
+{
 	'date': '2021-May-26',
 	'name': 'Congratulations to Dr WU Fuping and Dr LI Lei ^_^',
 	'info': 'Congratulations to Dr WU Fuping and Dr LI Lei who had passed their PhD viva, and to XU Jiahang who passed here master degree viva. Excellent achievements! <img src="./gallery/2021/2021-05-26_DrLI.jpg" width="100%"/> <img src="./gallery/2021/2021-05-26_DrWU.jpg" width="100%"/>'
