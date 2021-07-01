@@ -1,8 +1,13 @@
 time_list = [
 {
+	'date': '2021-Jun',
+	'name': 'Hangqi awarded Fudan Excellent Thesis!',
+	'info': 'Congratulations to Hangqi, whose thesis ranked the best in the School, and won the Fudan Excellent Thesis. Very well done Hangqi, and congratulations!'
+},
+{
 	'date': '2021-Jun-16',
 	'name': 'Congratulations to all graduates 2021 ^_^',
-	'info': 'We have celebration at the graduation 2021 of School of Data Science, Fudan University. Congratulations!'
+	'info': 'We have celebration at the graduation 2021 of School of Data Science, Fudan University. Congratulations! <img src="./gallery/2021/2021-06-16_gradceremony-zmic.jpg" width="100%"/> <img src="./gallery/2021/2021-06-16_gradceremony1.jpg" width="100%"/> <img src="./gallery/2021/2021-06-16_gradceremony2.jpg" width="100%"/> <img src="./gallery/2021/2021-06-16_gradceremony3.jpg" width="100%"/>'
 },
 {
 	'date': 'June/2021',
