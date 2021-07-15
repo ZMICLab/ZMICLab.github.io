@@ -37,15 +37,6 @@ members_list=[
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
 	'introduction': "Research interests include deeping learning for domain adaptation and medical image analysis. Selected publications:<br> *F Wu & X Zhuang. CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE Transactions on Medical Imaging 2020+. <a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> "
 },
-{ 
-	'name': 'LI, Lei',
-	'year': '(2016-)',
-	'gender': 'female',
-	'level': 'D',
-	'photo': 'lei.jpg',
-	'homepage': ' https://marie0909.github.io/',
-	'introduction': "Thesis topic includes cardiac image segmentation and registration. Currently visiting <a href=https://www.kcl.ac.uk/>King's College London (2019.12-2020.12)</a>. Selected publications:<br> * L Li et al.: Atrial Scar Quantification via Multi-scale CNN in the Graph-cuts Framework. Medical Image Analysis 2020.<br> * X Zhuang, L Li et al.: Evaluation of Algorithms for Multi-Modality Whole Heart Segmentation: An Open-Access Grand Challenge. Medical Image Analysis 2019."
-},
 {
 	'name': 'GAO, Shangqi',
 	'year': '(2018-)',
@@ -112,15 +103,6 @@ members_list=[
 
 /* ************************************ Master ***************************************** */
 
-{
-	'name': 'XU, Jiahang',
-	'year': '(2018-)',
-	'gender': 'female',
-	'level': 'M',
-	'photo': 'xjh.jpg',
-	'homepage': '',
-	'introduction': "Thesis topic: AI and DNN for classification of neurodegenerated diseases, weakly/semi-supervised learning, DNN-based registration. Selected publication:<br>* J Xu et al.: A Fully-Automatic Framework for Parkinson's Disease Diagnosis by Multi-Modality Images. Frontiers in Neuroscience 2019"
-},
 {
 	'name': 'ZHOU, Yuncheng',
 	'year': '(2019-)',
@@ -255,6 +237,25 @@ members_list=[
 
 
 /* **************************************************** Alumni **************************************************** */
+
+{ 
+	'name': 'LI, Lei',
+	'year': '(2016-2021, PhD)',
+	'gender': 'female',
+	'level': 'A',
+	'photo': 'lei.jpg',
+	'homepage': ' https://marie0909.github.io/',
+	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images | First/Curr Position: Univ of Oxford"
+},
+{
+	'name': 'XU, Jiahang',
+	'year': '(2018-2021, Master)',
+	'gender': 'female',
+	'level': 'A',
+	'photo': 'xjh.jpg',
+	'homepage': '',
+	'introduction': "Thesis: Diagnosis of Parkinsonian Disorders Based on Multi-Modality Medical Images | First/Curr Position: Microsoft"
+},
 {
 	'name': 'HUANG, Yechong',
 	'year': '(2018-2020, Master)',
