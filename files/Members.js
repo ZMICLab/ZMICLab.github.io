@@ -35,7 +35,7 @@ members_list=[
 	'level': 'D',
 	'photo': 'wfp.jpg',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
-	'introduction': "Research interests include deeping learning for domain adaptation and medical image analysis. Selected publications:<br> *F Wu & X Zhuang. CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE Transactions on Medical Imaging 2020+. <a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> "
+	'introduction': "Research interests include deeping learning for domain adaptation and medical image analysis. Selected publications:<br> ★ F Wu & X Zhuang. <a href=https://ieeexplore.ieee.org/abstract/document/9459711/>Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation.</a> IEEE TMI 2021. <a href=https://github.com/FupingWu90/VarDA>code&data</a><br> ★ F Wu & X Zhuang. CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE TMI 2020. <a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> "
 },
 {
 	'name': 'GAO, Shangqi',
@@ -43,8 +43,8 @@ members_list=[
 	'gender': 'male',
 	'level': 'D',
 	'photo': 'gsq.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/shangqigao/',
-	'introduction': "I am doing my PhD in School of Data Science, Fudan University, with Prof. Xiahai Zhuang. My current research interests are Image Super-Resolution and Computational methods of Inverse Problem. I am exploring the deep learning based methods for Image reconstruction."
+	'homepage': 'https://github.com/shangqigao/',
+	'introduction': "My current research interests are Image Super-Resolution and Computational methods of Inverse Problem. I am exploring the deep learning based methods for Image reconstruction. Selected publications<br>★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> IEEE T PAMI 2020 <a href=https://github.com/shangqigao/RONet>code</a>"
 },
 {
 	'name': 'WAN, Kaiwen',
@@ -65,6 +65,15 @@ members_list=[
 	'introduction': "Research interests include multivariate medical image analysis. Selected paper:<br> *X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. "
 }, 
 {
+	'name': 'ZHOU, Yuncheng',
+	'year': '(2019-)',
+	'gender': 'male',
+	'level': 'D',
+	'photo': 'zyc.jpg',
+	'homepage': 'https://bertie97.github.io/',
+	'introduction': "Research: Medical Image Registration and AI-assisted diagnosis. "
+},
+{
 	'name': 'GAO, Zheyao',
 	'year': '(2020-)',
 	'gender': 'male',
@@ -81,15 +90,15 @@ members_list=[
 	'photo': '',
 	'homepage': '',
 	'introduction': "Research interests:"
-},
+}, 
 {
-	'name': 'ZHOU, Hangqi',
-	'year': '(2020-)',
-	'gender': 'female',
-	'level': 'D',
-	'photo': '',
-	'homepage': '',
-	'introduction': "Research interests:"
+ 'name': 'ZHOU, Hangqi',
+ 'year': '(2021-)',
+ 'gender': 'female',
+ 'level': 'D',
+ 'photo': '',
+ 'homepage': '',
+ 'introduction': "Recently, I focus on new trends in the SR problem like degredation estimation and explorable SR."
 },
 {
 	'name': 'JIA, Dengqiang',
@@ -102,53 +111,6 @@ members_list=[
 },
 
 /* ************************************ Master ***************************************** */
-
-{
-	'name': 'ZHOU, Yuncheng',
-	'year': '(2019-)',
-	'gender': 'male',
-	'level': 'M',
-	'photo': 'zyc.jpg',
-	'homepage': 'https://bertie97.github.io/',
-	'introduction': "Research: Medical Image Registration and AI-assisted diagnosis. "
-},
-{
-	'name': 'GAO, Meng',
-	'year': '(2019-)',
-	'gender': 'female',
-	'level': 'M',
-	'photo': 'gm.jpg',
-	'homepage': '',
-	'introduction': "My name is GaoMeng. I’m doing my master’s degree in School of data science, Fudan University, with Prof.Zhuang Xiahai. Not good enough, but study hard."
-},
-{
-	'name': 'TAN, XueTong',
-	'year': '(2019-)',
-	'gender': 'female',
-	'level': 'M',
-	'photo': 'txt.jpg',
-	'homepage': '',
-	'introduction': ""
-},
-{
-	'name': 'WENG, Xin',
-	'year': '(2019-)',
-	'gender': 'female',
-	'level': 'M',
-	'photo': 'wx.png',
-	'homepage': '',
-	'introduction': "I am doing my master's degree in School of Data Science, Fudan University, with Prof. Zhuang Xiahai. Before that, I did my bachelor's degree in Tianjin University."
-},
-{
-	'name': 'ZHOU, He',
-	'year': '(2019-)',
-	'gender': 'female',
-	'level': 'M',
-	'photo': 'default.jpg',
-	'homepage': '',
-	'introduction': ""
-},
-
 {
 	'name': 'ZHANG, Ke',
 	'year': '(2020-)',
@@ -238,6 +200,8 @@ members_list=[
 
 /* **************************************************** Alumni **************************************************** */
 
+
+/* ********************************************** 2020 ************************************************ */
 { 
 	'name': 'LI, Lei',
 	'year': '(2016-2021, PhD)',
@@ -254,8 +218,74 @@ members_list=[
 	'level': 'A',
 	'photo': 'xjh.jpg',
 	'homepage': '',
-	'introduction': "Thesis: Diagnosis of Parkinsonian Disorders Based on Multi-Modality Medical Images | First/Curr Position: Microsoft"
+	'introduction': "Thesis: Diagnosis of Parkinsonian Disorders Based on Multi-Modality Medical Images. (Excellent Graduate Award of Fudan University 复旦大学优秀毕业生) | First/Curr Position: Microsoft Research Asia"
 },
+{
+	'name': 'GAO, Meng',
+	'year': '(2019-2021, Master)',
+	'gender': 'female',
+	'level': 'A',
+	'photo': 'gm.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'TAN, XueTong',
+	'year': '(2019-2021, Master)',
+	'gender': 'female',
+	'level': 'A',
+	'photo': 'txt.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'WENG, Xin',
+	'year': '(2019-2021, Master)',
+	'gender': 'female',
+	'level': 'A',
+	'photo': 'wx.png',
+	'homepage': '',
+	'introduction': ""
+},
+{
+	'name': 'ZHOU, He',
+	'year': '(2019-2021, Master)',
+	'gender': 'female',
+	'level': 'A',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': ""
+},
+{
+ 'name': 'DENG, Qisheng',
+ 'year': '(2021, Undergrad)',
+ 'gender': 'male',
+ 'level': 'A',
+ 'photo': '',
+ 'homepage': '',
+ 'introduction': 'Thesis: Research on Histopathological Tumor Classification Based on Vision Transformer Model. | Curr Position: Meituan 美团'
+},
+{
+ 'name': 'WANG, Sihan',
+ 'year': '(2021, Undergrad)',
+ 'gender': 'female',
+ 'level': 'A',
+ 'photo': '',
+ 'homepage': '',
+ 'introduction': "Thesis (A): 基于协同学习的多模态心脏MRI分割（Excellent Graduate Award of Fudan 复旦优秀毕业生)  | First/Curr Position: Ph.D. stu@ SDS, Fudan Univ"
+}, 
+{
+ 'name': 'ZHOU, Hangqi',
+ 'year': '(2021, Undergrad)',
+ 'gender': 'female',
+ 'level': 'A',
+ 'photo': '',
+ 'homepage': '',
+ 'introduction': "Thesis (A): 基于变分稀疏表示的探索性图像超分辨率重建 | First/Curr Position: Ph.D. stu@ SDS, Fudan Univ"
+},
+
+
+/* ********************************************** 2020 ************************************************ */
 {
 	'name': 'HUANG, Yechong',
 	'year': '(2018-2020, Master)',
