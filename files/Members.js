@@ -29,15 +29,6 @@ members_list=[
 	'introduction': "Research interests include Craniofacial Reconstruction and Human Population Genetics"
 },
 {
-	'name': 'WU, Fuping',
-	'year': '(2017-)',
-	'gender': 'male',
-	'level': 'D',
-	'photo': 'wfp.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
-	'introduction': "Research interests include deeping learning for domain adaptation and medical image analysis. Selected publications:<br> ★ F Wu & X Zhuang. <a href=https://ieeexplore.ieee.org/abstract/document/9459711/>Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation.</a> IEEE TMI 2021. <a href=https://github.com/FupingWu90/VarDA>code&data</a><br> ★ F Wu & X Zhuang. CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE TMI 2020. <a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> "
-},
-{
 	'name': 'GAO, Shangqi',
 	'year': '(2018-)',
 	'gender': 'male',
@@ -108,6 +99,15 @@ members_list=[
 	'photo': 'default.jpg',
 	'homepage': '',
 	'introduction': "Research interests:"
+},
+{
+	'name': 'WU, Fuping',
+	'year': '(2017-)',
+	'gender': 'male',
+	'level': 'D',
+	'photo': 'wfp.jpg',
+	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
+	'introduction': "Research interests include deeping learning for domain adaptation and medical image analysis. Selected publications:<br> ★ F Wu & X Zhuang. <a href=https://ieeexplore.ieee.org/abstract/document/9459711/>Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation.</a> IEEE TMI 2021. <a href=https://github.com/FupingWu90/VarDA>code&data</a><br> ★ F Wu & X Zhuang. CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE TMI 2020. <a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> "
 },
 
 /* ************************************ Master ***************************************** */
@@ -225,9 +225,9 @@ members_list=[
 	'year': '(2019-2021, Master)',
 	'gender': 'female',
 	'level': 'A',
-	'photo': 'gm.jpg',
+	'photo': '2021_gm.jpg',
 	'homepage': '',
-	'introduction': ""
+	'introduction': "Thesis: 基于因子特征的多因子择时模型 | First/Curr Position: BD team Research Assistant, Everestmedicines"
 },
 {
 	'name': 'TAN, XueTong',
@@ -236,7 +236,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'txt.jpg',
 	'homepage': '',
-	'introduction': ""
+	'introduction': "Thesis: Deep Learning-based Multi-modality Liver Image Registration and Segmentation | First/Curr Position: 上海银行（Bank of Shanghai）数据管理与应用部"
 },
 {
 	'name': 'WENG, Xin',
@@ -245,7 +245,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'wx.png',
 	'homepage': '',
-	'introduction': ""
+	'introduction': "Thesis: Left atrial scar localization and segmentation based on reinforcement learning and U-Net | First/Curr Position: 中国农业银行信用卡中心Agricultural Bank of China, Credit Card Center"
 },
 {
 	'name': 'ZHOU, He',
@@ -254,7 +254,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': ""
+	'introduction': "Thesis: 基于机器学习的信用债违约模型研究--以A股上市公司违约债券为例 | First/Curr Position: 长江三峡投资管理Yangytz Three Gorges Investment Management"
 },
 {
  'name': 'DENG, Qisheng',
