@@ -74,15 +74,6 @@ members_list=[
 	'introduction': "Research interests:"
 },
 {
-	'name': 'WANG, Xin',
-	'year': '(2020-)',
-	'gender': 'male',
-	'level': 'D',
-	'photo': '',
-	'homepage': '',
-	'introduction': "Research interests:"
-}, 
-{
  'name': 'ZHOU, Hangqi',
  'year': '(2021-)',
  'gender': 'female',
@@ -282,8 +273,16 @@ members_list=[
  'photo': '',
  'homepage': '',
  'introduction': "Thesis (A): 基于变分稀疏表示的探索性图像超分辨率重建 | First/Curr Position: Ph.D. stu@ SDS, Fudan Univ"
-},
-
+}, 
+{
+	'name': 'WANG, Xin',
+	'year': '(2020-2021)',
+	'gender': 'male',
+	'level': 'A',
+	'photo': '',
+	'homepage': '',
+	'introduction': "First/Curr Position: Ph.D. stu@ University of Washington"
+}, 
 
 /* ********************************************** 2020 ************************************************ */
 {

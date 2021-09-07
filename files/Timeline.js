@@ -1,5 +1,15 @@
 time_list = [
 {
+	'date': '06/Sept/2021',
+	'name': 'Warmly welcome our new ZMICers 2021',
+	'info': 'This year, we have Chen Yi, Ding Hongyu, Jiang Min and Li Yixiao master students joining us, and Wang Bomin, Wang Sihan and Zhou Hangqi persueing PhD with us. Very welcome!<img src="./gallery/2021/2021-09_new_stu.jpg" width="100%"/>'
+},
+{
+	'date': '30/Aug/2021',
+	'name': 'Xiahai invited to OCR2021', 
+	'info': 'Xiahai invited to give a talk at The 11th Oriental Congress of Radiology <img src="./gallery/2021/2021-08-30_ocrtalk.png" width="100%"/>'
+},
+{
 	'date': '2021-Jun',
 	'name': 'Hangqi awarded Fudan Excellent Thesis!',
 	'info': 'Congratulations to Hangqi, whose thesis ranked the best in the School, and won the Fudan Excellent Thesis. Very well done Hangqi, and congratulations!'
