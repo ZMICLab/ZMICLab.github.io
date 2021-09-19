@@ -97,7 +97,7 @@ members_list=[
 	'gender': 'male',
 	'level': 'D',
 	'photo': 'wfp.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/wufuping/',
+	'homepage': 'https://fupingwu90.github.io/cv/',
 	'introduction': "Research interests include deeping learning for domain adaptation and medical image analysis. Selected publications:<br> ★ F Wu & X Zhuang. <a href=https://ieeexplore.ieee.org/abstract/document/9459711/>Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation.</a> IEEE TMI 2021. <a href=https://github.com/FupingWu90/VarDA>code&data</a><br> ★ F Wu & X Zhuang. CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation. IEEE TMI 2020. <a href=https://github.com/FupingWu90/CFDnet>code</a>  and  <a href=https://github.com/FupingWu90/CT_MR_2D_Dataset_DA>data (2D WHS)</a> "
 },
 
