@@ -2,7 +2,7 @@ time_list = [
 {
 	'date': '06/Sept/2021',
 	'name': 'Warmly welcome our new ZMICers 2021',
-	'info': 'This year, we have Chen Yi, Ding Hongyu, Jiang Min and Li Yixiao master students joining us, and Wang Bomin, Wang Sihan and Zhou Hangqi persueing PhD with us. Very welcome!<img src="./gallery/2021/2021-09_new_stu.jpg" width="100%"/>'
+	'info': 'This year, we have Chen Yi and Jiang Min master students joining us, and Wang Bomin, Wang Sihan and Zhou Hangqi persueing PhD with us. Very welcome!<img src="./gallery/2021/2021-09_new_stu.jpg" width="100%"/>'
 },
 {
 	'date': '30/Aug/2021',
