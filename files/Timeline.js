@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': '13/Oct/2021',
+	'name': 'Prof. Jiang LIU visit us and give a talk at ZMIC',
+	'info': 'Prof. Jiang LIU from Southern University of Science and Technology visit us and give a talk at ZMIC<img src="./gallery/2021/2021-10-13_jliuvisit.jpg" width="100%"/><img src="./gallery/2021/2021-10-13_liuvisitposter.png" width="100%"/>' 
+},
+{
 	'date': '06/Sept/2021',
 	'name': 'Warmly welcome our new ZMICers 2021',
 	'info': 'This year, we have Chen Yi and Jiang Min master students joining us, and Wang Bomin, Wang Sihan and Zhou Hangqi persueing PhD with us. Very welcome!<img src="./gallery/2021/2021-09_new_stu.jpg" width="100%"/>'
@@ -63,14 +68,12 @@ time_list = [
 {
 	'date': '11/Jan/2021',
 	'name': 'ZMIC awarded a grant from NSFC-STINT ^_^',
-	'info': ' '
-
+	'info': ' ' 
 },
 {
 	'date': '01/Jan/2021',
 	'name': 'Happy New Year 2021^^',
-	'info': ' '
-
+	'info': ' ' 
 },
 {
 	'date': 'Dec/2020',
