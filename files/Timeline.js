@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': 'OCT/2021',
+	'name': 'Congrats to Shangqi, solely PhD National Scholarship^)^',
+	'info': 'Congratulations and very well done, Shangqi, who wins the solely one national scholarship of PhD students in our school<img src="./gallery/2021/2021-10-21 nationalscholarship.jpg" width="100%"/>'
+},
+{
 	'date': '13/Oct/2021',
 	'name': 'Prof. Jiang LIU visit us and give a talk at ZMIC',
 	'info': 'Prof. Jiang LIU from Southern University of Science and Technology visit us and give a talk at ZMIC<img src="./gallery/2021/2021-10-13_jliuvisit.jpg" width="100%"/><img src="./gallery/2021/2021-10-13_liuvisitposter.png" width="100%"/>' 
