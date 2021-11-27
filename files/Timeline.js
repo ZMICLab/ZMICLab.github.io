@@ -1,12 +1,17 @@
 time_list = [  
 {
+	'date': '20/Nov/2021',
+	'name': 'Fuping to accept the offer from Oxford ^_^',
+	'info': 'Congratulations to Fuping, who decided to take the offer from University of Oxford, as a researcher there. Wish you all the best!</a>'
+}, 
+{
 	'date': '09/Nov/2021',
 	'name': 'Lei\'s paper accepted to MedIA, again, bravo ^_^',
 	'info': 'Lei Li, Veronika A. Zimmer, Julia A. Schnabel, Xiahai Zhuang. AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information. Medical Image Analysis 2021+ <a href="https://arxiv.org/abs/2008.04729">link</a>'
 }, 
 {
 	'date': '30/OCT/2021',
-	'name': 'Xiahai invited to OCR2021', 
+	'name': 'Xiahai invited to the Frontier Forum', 
 	'info': 'Xiahai invited to give a talk at Frontier Forum at Artificial Intelligence in Medical Imaging, Hangzhou <a href="https://x.eqxiu.com/s/amuIoAnG?eqrcode=1&share_level=3&from_user=202110149405a2e9&from_id=d63f6701-b&share_time=1634177127044">h5</a>'
 },
 {
