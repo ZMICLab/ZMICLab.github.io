@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript">
+    window["_gaUserPrefs"] = {
+        ioo: function() {
+            return true;
+        }
+    }
+</script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>LAScarQS 2022</title>
+    <link rel="icon" href="images/logo-LAScarQS-2022.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./res/bootstrap_custom.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="./res/dashboard.css" rel="stylesheet">
+ 
+    <script src="./res/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./res/ie10-viewport-bug-workaround.js"></script>
+ 
+    <style id="holderjs-style" type="text/css"></style>
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style=background-color:rgb(3,22,52)> 
+<div class="container">
+<div id="top_menu" > 
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="data.html">Data</a></li>
+<!--li><a href="dates1.html">Dates</a></li>
+<li><a href="participate1.html">Participate</a></li>
+<li><a href="program.html">Program</a></li-->
+<li><a href="people.html">People</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="submit.html">Submit</a></li> 
+<li><a href="result.html">Result</a></li> 
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+
+<div style="background-color:rgb(3, 54, 73);" ; id="title">
+<br> 
+<div style=" color:white; font-size: 200%; text-align: center;"> 
+LAScarQS 2022: Left Atrial and Scar Quantification & Segmentation Challenge<br>
+<div style="font-size: 60%">in conjunction with <a href="http://stacom.cardiacatlas.org/"; style="color:rgb(222, 125, 44)">STACOM</a> and 
+<a href="https://conferences.miccai.org/2022/en/"; style="color:rgb(222, 125, 44)">MICCAI 2022 </a> (Sep 18th, 2022, Singapore)</div>
+</div>
+<br> 
+</div>
+
+
+<div class="container-fluid">
+        <div class="row">
+
+            <!--div class="col-sm-7 col-sm-offset-3 col-md-10 col-md-offset-2 main-->
+            <div class="col-md-10 col-md-offset-1 main">
+                <div id="main_content"> 
+                    <h2 style=" font-size: 150%;" ; class="sub-header">
+<table width="70%"><tr><td width="30%">OverView</td><td></td>
+<!-- <td align='right'><a >Full program unreleased yet!</a></td></tr></table></h2> -->
+<td align='right'><a ></a></td></tr></table></h2>
+
+<div class="row">
+<div class="col-md-9">
+<div class="well well-lg"; style="font-size: 120%";>
+<p style="text-align:justify; text-justify:inter-ideograph;">
+The Challenge provides <span style="color:rgb(222, 125, 44)"><b> 194 (+)</b></span> LGE MRIs acquired in real clinical environment from patients suffering Atrial fibrillation (AF). 
+It is aimed to create an open and fair competition for various research. 
+AF is the most common arrhythmia observed in clinical practice, occurring in up to 1% of the population and rising fast with advancing age. 
+Radiofrequency catheter ablation using the pulmonary vein (PV) isolation technique has emerged as one of the most common methods for the treatment of AF patients. 
+The position and extent of scars provide important information of the pathophysiology and progression of AF. 
+Late gadolinium enhancement magnetic resonance imaging (LGE MRI) is a promising technique to visualize and quantify the atrial scars. 
+Many clinical studies mainly focus on the location and extent of scarring areas of the left atrium (LA) myocardium. 
+</p>
+<p style="text-align:justify; text-justify:inter-ideograph;">
+The target of this challenge is to automatically segment LA cavity and quantify LA scars from LGE MRI. 
+This is however still arduous. First, the image quality of LGE MRI could be poor. 
+Second, the prior model of scars is hard to construct on account of the various LA shapes, the thin wall (mean thickness 1.89 ± 0.48 mm reported by Beinart et al), the surrounding enhanced regions and the complex patterns of scars in AF patients. 
+To the best of our knowledge, few work has been reported in the literature to achieve the fully automatic segmentation and quantification of LA cavity and scars from LGE MRI. 
+</p>
+<br>
+<div align="center">
+    <img border=100pt width=650pt src="images/task.png">
+</div>
+<br>
+
+<p style="text-align:justify; text-justify:inter-ideograph;">
+Note that the LA segmentation is normally required as an initialization for scar quantification. 
+This is because atrial scars are located on the LA wall, and it is too hard to directly localize scars due to its small size. 
+However, previous methods normally solved the two tasks independently and ignored the intrinsic spatial relationship between LA and scars. 
+Therefore, in this challenge, we encourage the participants to achieve joint segmentation and quantification of LA and scars. 
+</p>
+
+<p style="text-align:justify; text-justify:inter-ideograph;">
+The challenge will provide <span style="color:rgb(222, 125, 44)"><b> 194 (+)</b></span> LGE MRIs globally, i.e., from multiple imaging centers around the world, for developing novel algorithms that can quantify or segment LA cavity and scars. 
+The challenge presents an open and fair platform for various research groups to test and validate their methods on these datasets acquired from the clinical environment.
+To ensure data privacy, the platform will enable remote training and testing on the dataset from different centers in local and the dataset can keep invisible. 
+</p>
+
+<p style="text-align:justify; text-justify:inter-ideograph;">
+The best work will be selected with awards, similar to <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20//>MyoPS 2020</a>.
+A work is assessed based on the novelty of the methodologies, quality of the  manuscript, presentation of their paper as well as the test results.
+The selected papers will be published in our proceedings 
+ (<a href=http://stacom.cardiacatlas.org/ style='color:rgb(205, 179, 128)'>see previous proceedings</a>). 
+</p>
+<p>
+Topics may cover (not exclusively):<br>
+- Cardiac segmentation <br>
+- Joint optimization<br>
+- Model generalization<br>
+- Cardiac image processing<br>
+</p>
+<p>
+This year, we introduce two tasks for LA LGE MRI computing, and the model submitted for the two tasks will be evaluated separately.
+</p>
+</div>
+	
+<div class="p">Please cite these two papers when you use the data for publications.</div>
+<div class="p"> 
+    [1]  Lei Li, Veronika A Zimmer, Julia A Schnabel, Xiahai Zhuang*: AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information, Medical Image Analysis, 102303, 2022.   
+    <a href=https://www.sciencedirect.com/science/article/pii/S1361841521003480/>link</a>.<br>
+    [2] Lei Li, Veronika A Zimmer, Julia A Schnabel, Xiahai Zhuang*: AtrialGeneral: Domain Generalization for Left Atrial Segmentation of Multi-Center LGE MRIs, MICCAI, 557–566, 2021. <a href=https://link.springer.com/chapter/10.1007%2F978-3-030-87231-1_54>link</a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>  
+
+
+</div>
+	
+ 
+<div class="col-md-2" style="font-size: 120%">  
+<b>Key dates</b> <br><br>
+Training data release:<br>
+<div style="color:gray"> 2022-April-01st</div><br> 
+Result evaluation:<br>
+<div style="color:gray"> 2022-May-01st</div><br> 
+
+<!-- <a href=https://cmt3.research.microsoft.com/LAScarQS2022/Submission/Index>
+Paper submission (deadline)</a>:<br> -->
+Paper submission:<br>
+<!-- <strike>2022-July-30th</strike><br> -->
+<div  style="color:gray">2022-July-15th </div> <br>
+Notification:<br>
+<div  style="color:gray">2022-Aug-23rd</div><br> 
+Camera ready:<br>
+<div  style="color:gray">2022-July-31th</div><br>
+Workshop (half-day):<br>
+<div  style="color:gray">2022-Sep-27th</div> <br>
+
+<br>
+<div >
+<b>Sponsors (call for sponsors)</b>
+<br> <br> 
+<!-- <a href=https://www.deepvessel.net/en/>  <img src="./images/logo-KeyaMedical.png" width="200px"/>  </a>  -->
+<a href=https://sds.fudan.edu.cn/>  <img src="./images/logo-FudanSDS.png" width="200px"/>  </a>
+</div>
+<br>
+
+<br>
+<!-- <div style="color:rgb(0, 0, 0)"> -->
+<div >
+<b>Logo</b> 
+<br> <br> 
+<a href=https://sds.fudan.edu.cn/>  <img src="./images/logo-LAScarQS-2022 new.png" width="180px"/>  </a>
+</div>
+<br>
+
+ 
+</div>
+
+	
+</div>
+</div>
+</div>
+</div>
+</div>
+ 
+    <!--script src="./res/jquery.js"></script>
+    <script src="./res/bootstrap.min.js"></script>
+    <script src="./res/docs.min.js"></script>
+    <script> 
+        $(function() {
+            $("#top_menu").load("top_menu.html");
+        });
+    </script-->
+
+
+
+</body>
+
+</html>

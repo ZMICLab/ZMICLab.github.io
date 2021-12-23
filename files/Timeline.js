@@ -1,8 +1,28 @@
-time_list = [  
+time_list = [ 
+{
+	'date': '22/Dec/2021', 
+	'name': 'Xiahai invited to Editorial Board of IEEE TMI ^_^',
+	'info': '<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42">It is a great honor to work as an Associate Editor for IEEE Transactions on Medical Imaging (IF: 10.0), one of the top journals in our field, thanks ^)^ </a>'
+},
+{
+	'date': 'Dec/2021',
+	'name': 'Xiahai elected to MICCAI Board ^_^',
+	'info': 'Xiahai has been elected to the Board of Directors, MICCAI Society, in the recent voting round for a membership-elected Board member. The tenure will be four years, starting from 1 February 2022.'
+}, 
+{
+	'date': '11/Dec/2021',
+	'name': 'Fudan AI-MI annual conference ^_^',
+	'info': 'We co-organized the 4th Fudan Artificial Intelligence Medical Imaging 2021, a hybrid meeting with great success!<img src="./gallery/2021/2021-12-11_fudan_aimi.jpg" width="100%"/>'
+}, 
+{
+	'date': '4/Dec/2021',
+	'name': 'Xiahai give a talk at Shanghai BME-AI',
+	'info': '<img src="./gallery/2021/2021-12-04_shanghaibmeai.jpg" width="100%"/>' 
+},
 {
 	'date': '20/Nov/2021',
 	'name': 'Fuping to accept the offer from Oxford ^_^',
-	'info': 'Congratulations to Fuping, who decided to take the offer from University of Oxford, as a researcher there. Wish you all the best!</a>'
+	'info': 'Congratulations to Fuping, who decided to take the offer from University of Oxford, as a researcher there. Wish you all the best!'
 }, 
 {
 	'date': '09/Nov/2021',
@@ -262,36 +282,36 @@ time_list = [
 	'info': 'X Zhuang et al.: Evaluation of Algorithms for Multi-Modality Whole Heart Segmentation: An Open-Access Grand Challenge, Medical Image Analysis, 2019+ (accepted 2019 July 22), doi: 10.1016/j.media.2019.101537  (IF: 8.88)'
 },
 {
-	'date': 'Jun. , 2019',
+	'date': 'Jun/2019',
 	'name': 'Xingzhe Luo, Yuncheng Zhou and Zi Zhuang graduated from Fudan University',
+}, 
+{
+	'date': 'June/2019',
+	'name': 'Qian Yue et al. had a paper accepted to MICCAI'
 },
 {
-	'date': '6/5/2019',
-	'name': 'Qian Yue et al. had a paper accepte by the MICCAI conference'
-},
+	'date': 'May/2019',
+	'name': 'Dengqiang Jia published a paper on Computers in Biology and Medicine',
+}, 
 {
-	'date': '5/31/2019',
+	'date': 'May/2019',
 	'name': 'Yechong Huang et al. published a paper on <i>Frontiers in Neuroscience</i>',
 },
 {
-	'date': 'May , 2019',
+	'date': 'May/2019',
 	'name': 'MS-CMRseg19 was offically released',
 },
 {
-	'date': '5/1/2019',
+	'date': '1/May/2019',
 	'name': 'This <a href="#">website</a> is established',
 },
 {
-	'date': '4/20/2019',
+	'date': '20/April/2019',
 	'name': 'Spring outing ^_^',
 	'info': 'ZMICers outing ^_^ <img src="./gallery/slides/6.jpg" width="100%"/> <img src="./gallery/slides/5.jpg" width="100%"/> <img src="./gallery/slides/4.jpg" width="100%"/>'
 },
 {
-	'date': '4/5/2019',
-	'name': 'Dengqiang Jia published a paper on <i>Computers in Biology and Medicine</i>',
-},
-{
-	'date': 'Jan. , 2019',
-	'name': 'ZMIC Lab is founded',
+	'date': '2016',
+	'name': 'ZMIC Lab was born',
 },
 ]
