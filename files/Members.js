@@ -120,6 +120,10 @@ members_list=[
 	'homepage': '',
 	'introduction': "Research interests:"
 },
+
+
+
+/* others 
 {
 	'name': 'FU, Yating',
 	'year': '(2020-)',
@@ -138,10 +142,6 @@ members_list=[
 	'homepage': '',
 	'introduction': "I am doing my master's degree in School of Data Science, Fudan University, with Prof. Zhuang Xiahai. I did my bachelor's degree in Tianjin University. "
 },
-
-
-
-/* under and visitiing 
 {
 	'name': 'CHEN, Dan',
 	'year': ' ',

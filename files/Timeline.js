@@ -1,5 +1,10 @@
 time_list = [ 
 {
+	'date': '01/Jan/2022', 
+	'name': 'Happy New Year of 2022 ^_^',
+	'info': 'Year of Tiger is coming ^_^<img src="./gallery/2022/2022-01-01.jpg" width="100%"/>'
+},
+{
 	'date': '22/Dec/2021', 
 	'name': 'Xiahai invited to Editorial Board of IEEE TMI ^_^',
 	'info': '<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42">It is a great honor to work as an Associate Editor for IEEE Transactions on Medical Imaging (IF: 10.0), one of the top journals in our field, thanks ^)^ </a>'
