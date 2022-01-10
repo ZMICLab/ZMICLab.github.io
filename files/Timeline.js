@@ -1,5 +1,20 @@
 time_list = [ 
 {
+	'date': '10/Jan/2021',
+	'name': 'Lei\'s paper accepted to MedIA, 3rd one, bravo ^_^',
+	'info': 'Lei Li, Veronika A. Zimmer, Julia A. Schnabel, Xiahai Zhuang. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review. Medical Image Analysis 2022+<a href="https://arxiv.org/abs/2106.09862v1">link</a>'
+}, 
+{
+	'date': 'Jan/2022', 
+	'name': 'Lei received an award from university, congratulations!',
+	'info': '恭喜李雷同学获得学校优秀博士毕业生奖学金。李雷是我在交大招的第一个直博生，谦虚努力因而优秀。预祝以后的研究生涯更上一层楼。(<a href=https://www.gs.sjtu.edu.cn/info/1136/8764.htm>link</a>) <img src="./gallery/2022/2022-01_DrLilei_award.jpg" width="100%"/>'
+},
+{
+	'date': '07/Jan/2022', 
+	'name': 'ZMIC party and memory ^_^',
+	'info': 'I am grateful to all of you <img src="./gallery/2022/2022-01-07_zmicmemorygrateful.jpg" width="100%"/>'
+},
+{
 	'date': '01/Jan/2022', 
 	'name': 'Happy New Year of 2022 ^_^',
 	'info': 'Year of Tiger is coming ^_^<img src="./gallery/2022/2022-01-01.jpg" width="100%"/>'
