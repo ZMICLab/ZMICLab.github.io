@@ -85,17 +85,17 @@ LAScarQS 2022: Left Atrial and Scar Quantification & Segmentation Challenge<br>
 <p style="text-align:justify; text-justify:inter-ideograph;">
 The Challenge provides <span style="color:rgb(222, 125, 44)"><b> 194 (+)</b></span> LGE MRIs acquired in real clinical environment from patients suffering Atrial fibrillation (AF). 
 It is aimed to create an open and fair competition for various research. 
-AF is the most common arrhythmia observed in clinical practice, occurring in up to 1% of the population and rising fast with advancing age. 
-Radiofrequency catheter ablation using the pulmonary vein (PV) isolation technique has emerged as one of the most common methods for the treatment of AF patients. 
+AF is the most common arrhythmia observed in clinical practice, occurring in up to 1% of the population and rising fast with advancing age [1]. 
+Radiofrequency catheter ablation using the pulmonary vein (PV) isolation technique has emerged as one of the most common methods for the treatment of AF patients [2]. 
 The position and extent of scars provide important information of the pathophysiology and progression of AF. 
-Late gadolinium enhancement magnetic resonance imaging (LGE MRI) is a promising technique to visualize and quantify the atrial scars. 
-Many clinical studies mainly focus on the location and extent of scarring areas of the left atrium (LA) myocardium. 
+Late gadolinium enhancement magnetic resonance imaging (LGE MRI) is a promising technique to visualize and quantify the atrial scars [3]. 
+Many clinical studies mainly focus on the location and extent of scarring areas of the left atrium (LA) myocardium [4-6]. 
 </p>
 <p style="text-align:justify; text-justify:inter-ideograph;">
-The target of this challenge is to automatically segment LA cavity and quantify LA scars from LGE MRI. 
+The target of this challenge is to (semi-)automatically segment LA cavity and quantify LA scars from LGE MRI. 
 This is however still arduous. First, the image quality of LGE MRI could be poor. 
-Second, the prior model of scars is hard to construct on account of the various LA shapes, the thin wall (mean thickness 1.89 ± 0.48 mm reported by Beinart et al), the surrounding enhanced regions and the complex patterns of scars in AF patients. 
-To the best of our knowledge, few work has been reported in the literature to achieve the fully automatic segmentation and quantification of LA cavity and scars from LGE MRI. 
+Second, the prior model of scars is hard to construct on account of the various LA shapes, the thin wall (mean thickness 1.89 ± 0.48 mm reported by Beinart et al [7]), the surrounding enhanced regions and the complex patterns of scars in AF patients. 
+To the best of our knowledge, few work has been reported in the literature to achieve the (semi-)automatic segmentation and quantification of LA cavity and scars from LGE MRI. 
 </p>
 <br>
 <div align="center">
@@ -106,8 +106,11 @@ To the best of our knowledge, few work has been reported in the literature to ac
 <p style="text-align:justify; text-justify:inter-ideograph;">
 Note that the LA segmentation is normally required as an initialization for scar quantification. 
 This is because atrial scars are located on the LA wall, and it is too hard to directly localize scars due to its small size. 
-However, previous methods normally solved the two tasks independently and ignored the intrinsic spatial relationship between LA and scars. 
+However, previous methods normally solved the two tasks independently and ignored the intrinsic spatial relationship between LA and scars [8]. 
 Therefore, in this challenge, we encourage the participants to achieve joint segmentation and quantification of LA and scars. 
+We design two tasks (tracks) in this challenge, i.e., "LA Scar Quantification" and "Left Atrial Segmentation from Multi-Center LGE MRIs". 
+The submitted joint optimization algorithms will be evaluated on both of the two tracks (tasks) for ranking their performance. 
+Therefore, the works on joint segmentation of the two targets are included, though they are not evaluated separately as a new group.
 </p>
 
 <p style="text-align:justify; text-justify:inter-ideograph;">
@@ -120,7 +123,7 @@ To ensure data privacy, the platform will enable remote training and testing on 
 The best work will be selected with awards, similar to <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20//>MyoPS 2020</a>.
 A work is assessed based on the novelty of the methodologies, quality of the  manuscript, presentation of their paper as well as the test results.
 The selected papers will be published in our proceedings 
- (<a href=http://stacom.cardiacatlas.org/ style='color:rgb(205, 179, 128)'>see previous proceedings</a>). 
+ (<a href=https://link.springer.com/book/10.1007/978-3-030-65651-5 style='color:rgb(205, 179, 128)'>see previous proceedings</a>). 
 </p>
 <p>
 Topics may cover (not exclusively):<br>
@@ -134,11 +137,16 @@ This year, we introduce two tasks for LA LGE MRI computing, and the model submit
 </p>
 </div>
 	
-<div class="p">Please cite these two papers when you use the data for publications.</div>
+<div class="p">Reference</div>
 <div class="p"> 
-    [1]  Lei Li, Veronika A Zimmer, Julia A Schnabel, Xiahai Zhuang*: AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information, Medical Image Analysis, 102303, 2022.   
-    <a href=https://www.sciencedirect.com/science/article/pii/S1361841521003480/>link</a>.<br>
-    [2] Lei Li, Veronika A Zimmer, Julia A Schnabel, Xiahai Zhuang*: AtrialGeneral: Domain Generalization for Left Atrial Segmentation of Multi-Center LGE MRIs, MICCAI, 557–566, 2021. <a href=https://link.springer.com/chapter/10.1007%2F978-3-030-87231-1_54>link</a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p style="text-align:justify; text-justify:inter-ideograph;">[1] Chugh, S.S., Y.H., McAnulty Jr, J.H., Zheng, Z.J., et al., 2014. Worldwide epidemiology of atrial fibrillation: a global burden of disease 2010 study. Circulation 129, 837–847. </p>
+<p style="text-align:justify; text-justify:inter-ideograph;">[2] Wilber, D.J. , Pappone, C. , Neuzil, P. , De Paola, A. , Marchlinski, F. , Natale, A. , Macle, L. , Daoud, E.G. , Calkins, H. , Hall, B. , et al. , 2010. Comparison of antiarrhythmic drug therapy and radiofrequency catheter ablation in patients with paroxysmal atrial fibrillation: a randomized controlled trial. JAMA 303 (4), 333–340. </p>
+<p style="text-align:justify; text-justify:inter-ideograph;">[3] Vergara, G.R. , Marrouche, N.F. , 2011. Tailored management of atrial fibrillation using a LGE-MRI based model: From the clinic to the electrophysiology laboratory. J. Cardiovasc. Electrophysiol. 22 (4), 4 81–4 87. </p>
+<p style="text-align:justify; text-justify:inter-ideograph;">[4] McGann, C.J. , Kholmovski, E.G. , Oakes, R.S. , Blauer, J.J. , Daccarett, M. , Segerson, N. , Airey, K.J. , Akoum, N. , Fish, E. , Badger, T.J. , et al. , 2008. New magnetic resonance imaging-based method for defining the extent of left atrial wall injury after the ablation of atrial fibrillation. J. Am. Coll. Cardiol. 52 (15), 1263–1271. </p>
+<p style="text-align:justify; text-justify:inter-ideograph;">[5] Vergara, G.R. , Vijayakumar, S. , Kholmovski, E.G. , Blauer, J.J. , Guttman, M.A. , Gloschat, C. , Payne, G. , Vij, K. , Akoum, N.W. , Daccarett, M. , et al. ,2011. Real-time magnetic resonance imaging–guided radiofrequency atrial ablation and visualization of lesion formation at 3 Tesla. Heart Rhythm 8 (2), 295–303.</p>
+<p style="text-align:justify; text-justify:inter-ideograph;">[6] Badger, T.J. , Daccarett, M. , Akoum, N.W. , Adjei-Poku, Y.A. , Burgon, N.S. , Haslam, T.S. , Kalvaitis, S. , et al. ,2010. Evaluation of left atrial lesions after initial and repeat atrial fibrillation ablation: lessons learned from delayed-enhancement MRI in repeat ablation procedures. Circul.: Arrhyth. Electrophysiol. 3 (3), 249–259. </p>
+<p style="text-align:justify; text-justify:inter-ideograph;">[7] Beinart, R. , Abbara, S. , Blum, A. , Ferencik, M. , Heist, K. , Ruskin, J. , Mansour, M. , 2011. Left atrial wall thickness variability measured by CT scans in patients undergoing pulmonary vein isolation. J. Cardiovasc. Electrophysiol. 22 (11), 1232–1236.</p>
+<p style="text-align:justify; text-justify:inter-ideograph;">[8] Li,  L.,  Zimmer,  V.A.,  Schnabel,  J.A.,  Zhuang,  X.,  2022.  Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review. Medical Image Analysis 77, 102360.</p>
 </div>  
 
 
