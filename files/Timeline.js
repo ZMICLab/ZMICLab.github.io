@@ -1,6 +1,11 @@
-time_list = [ 
+time_list = [   
 {
-	'date': '10/Jan/2021',
+	'date': 'Feb/2022',
+	'name': 'LAScarQS\'22 Challenge Webpage setup!',
+	'info': '<a href=projects/lascarqs22/index.html><img src="./projects/lascarqs22/images/logo-LAScarQS-2022 new.png" width="100%"/></a>' 
+}, 
+{
+	'date': '10/Jan/2022',
 	'name': 'Lei\'s paper accepted to MedIA, 3rd one, bravo ^_^',
 	'info': 'Lei Li, Veronika A. Zimmer, Julia A. Schnabel, Xiahai Zhuang. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review. Medical Image Analysis 2022+<a href="https://arxiv.org/abs/2106.09862v1">link</a>'
 }, 
