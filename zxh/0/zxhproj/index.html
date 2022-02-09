@@ -1,0 +1,139 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<title>zxhproj: ZHUANG, Xiahai's Medical Image Computing, Image Registration, Image Segmentation Project</title>
+
+</head>
+<body bgcolor=white lang=EN-GB link="#000066" vlink="#660033" style='tab-interval:
+36.0pt' alink="#ff0000">
+<div class=Section1>
+
+
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=10 style='font-family:"Times New Roman"; font-size:12pt'>
+	<tr><td width=950>  <p class=MsoNormal>  				
+    What is this? <br>
+	zxhproj (<a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/zxhproj/html/>doxygen html</a>)
+	is a medical image computing platform, being developed and maintained by <a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/>Xiahai Zhuang</a> since 2004. 
+	Based on it, several image registration and segmentation tools have been developed, such as 
+	<a href=>multivariate mixture model</a>,
+	<a href=http://www.sciencedirect.com/science/article/pii/S1361841516000219>cardiac segmentation</a>,  
+	locally affine registration method (LARM), spatially encoded mutual information (SEMI), as well as other image/vector field processing tools. The tools work with nifty (nii/nii.gz) and gipl short int data formats. <br>
+
+	<br>Disclaimer:<br>
+	The tools released are for research purpose ONLY and not free from bugs, thus should NOT be used in any clinical related situations. 
+	Any usage is entirely at your own risk.  <br>
+
+	<br>  
+	<a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/zxhproj/tools/> Download all </a><br>
+	<br>Below are helps. <br>
+<table class=MsoNormalTable border=0 cellspacing=3 cellpadding=10 style='font-family:"Times New Roman"; font-size:12pt'>
+<tr><td>The binary (executable) tools without argument or with argument -H (in detail) will give the usage of the tool.<br> </td> </tr>
+
+<tr><td>zxhmvmmseg (paper: <a href=>T PAMI</a>): multivariate mixture model for simultaneous registration and segmentation combining multi-source images; the cplusplus source code  in <a href=https://github.com/zxhzxhgithub/zxhmvmm_cmr3.git>github</a>.</td> </tr>
+
+<tr><td><a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/zxhproj/tools/>atlas-based segmentation</a></td></tr>
+
+<tr><td><a href=http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/zxhproj/tools/>multi-modality multi-atlas segmentation and label fusion</a></td></tr>	  
+	  
+<tr><td>zxhLabelFuse (papers: <a href=http://www.sciencedirect.com/science/article/pii/S1361841516000219>MedIA</a> <a href=http://onlinelibrary.wiley.com/doi/10.1118/1.4921366/full>MP</a>):
+  this tool provides the multi-scale label fusion methods for multi-modality multi-atlas segmentation <br>
+  Usage: zxhLabelFuse TargetImage.nii TargetLabelSavePre nAtlas ImageAtlasList.txt LabelAtlasList.txt -method1
+  </td> </tr>
+ 
+<tr><td>zxhregsemi0 (<a href=http://dx.doi.org/10.1109/TMI.2011.2150240>paper</a>):
+  nonrigid registration - spatially encoded mutual information (SEMI) using free-form deformations, e.g.:
+  <!--br>zxhregsemi -test target.nii -ref source.nii -o output -Reg 3 -steps -50 -50 -20 -sub 4 4 4 -sub 4 4 4 -sub 2 2 2 -semiradius 60 30 15 -ffd 40 40 40 -ffd 20 20 20 -ffd 10 10 10 -bending 0.01 0.005 0.001 -->
+  <br>zxhregsemi0 -target target.nii -source source.nii -o output -Reg 3 -steps 200 200 200 -sub 4 4 4 -sub 4 4 4 -sub 2 2 2 -ffd 40 40 40 -ffd 20 20 20 -ffd 10 10 10 -bending 0.001 
+  <br>OR diffeomorphism without bending energy, i.e., -bending 0 
+  <br>
+  Nonrigid registration using other similarities, cross correlation (-cc), sum square difference (-ssd), e.g.:
+  <br>zxhregsemi0 -test target.nii -ref source.nii -o output -Reg 3 -sub 4 4 4 -sub 4 4 4 -sub 2 2 2 -ffd 40 40 40 -ffd 20 20 20 -ffd 10 10 10 -bending 0.01 0.005 0.001 -cc
+	</td> </tr>
+	
+<tr><td>zxhreglarm/zxhclasslarm (<a href=http://dx.doi.org/10.1109/TMI.2010.2047112>paper</a>): 
+  locally affine registration method, LARM, e.g.: 
+  <br>zxhreglarm -test target.nii -ref source.nii -o output -localmatrix 3 -localregion localregion1.nii localregion2.nii localregion3.nii -Reg 5 -sub 4 4 4 -sub 4 4 4 -sub 3 3 3 -sub 3 3 3 -sub 2 2 2 -length 1 1 0.5 0.5 0.3 
+  <br>For cardiac, use option -heart and resample images into 2x2x2 mm using <b>zxhtransform</b> (e.g.: zxhtransform originalimage.nii -o saveimage.nii -resave -spacing 2 2 2 -bspline)<br>
+  </td> </tr>
+<tr><td>zxhdraw (<a href=http://dx.doi.org/10.1109/TMI.2010.2047112>paper</a>): 
+  invert displacement using Dynamic Resampling And distance Weighting interpolation, DRAW, e.g.:
+  <br> zxhdraw refimage.nii -o saveinversedisplace -n 1 -d displace_x.nii displace_y.nii displace_z.nii -inv 1
+  </td> </tr>
+<tr><td>zxhreg: 
+  rigid, similarity (scale), affine registration, e.g.:
+  <br>zxhreg -test target.nii -ref source.nii -o output -pre 12  
+  <br>-pre 12: pre-align center of two images;  
+  <br>-pre 13: pre-align gray level center of two images;
+		  </td> </tr>
+<tr><td>zxhcmrsc (<a href=http://www.springerlink.com/content/n1p7448833128151/>paper</a>): 
+  cardiac MRI, cine short-axis and long-axis shift correction</td> </tr>
+<tr><td>zxhtransform: 
+  transform source image to target space using registration results/transformations</td> </tr>
+<tr><td>zxhtransformvector: 
+  compute transformation fields into some thing</td> </tr>
+<tr><td>zxhimageop:
+  operations on images</td> </tr>
+<tr><td>zxhimageinfo: 
+  image info, convert to float/short int image</td> </tr>
+
+     </table>
+    
+	<br>Copyright: <br>
+	zxhproj, version 2.2 (c) 2004-2017 ZHUANG, XiaHai (zhuangxiahai@163.com; xiahai.zhuang@gmail.com). All rights reserved.
+	</p>  </td> </tr>
+</table>
+
+
+<TABLE cellSpacing=0 cellPadding=0 width=1000 border=0>
+  <TBODY>
+  <TR vAlign=top>
+    <TD  align=left vAlign=top>
+      <TABLE cellPadding=3 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top>
+          <TD width=1000>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+</body>
+
+</html>
+
+
+
