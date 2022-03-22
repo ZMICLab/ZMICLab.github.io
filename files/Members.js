@@ -123,24 +123,24 @@ members_list=[
 
 
 
-/* others 
+/* others   
 {
-	'name': 'FU, Yating',
-	'year': '(2020-)',
-	'gender': 'female',
-	'level': 'M',
-	'photo': '2020_fyt.jpg',
-	'homepage': 'https://yatingfu.github.io',
-	'introduction': "I’m doing my master’s degree in School of data science, Fudan University, with Prof.Zhuang Xiahai. "
+	'name': 'HUANG, Chao',
+	'year': '(2020-2022, Master)',
+	'gender': 'Male',
+	'level': 'A',
+	'photo': '',
+	'homepage': '',
+	'introduction': "Thesis:  | First/Curr Position:  "
 },
 {
 	'name': 'LI, Yunjiang',
-	'year': '(2020-)',
-	'gender': 'female',
-	'level': 'M',
+	'year': '(2020-2022, Master)',
+	'gender': 'Male',
+	'level': 'A',
 	'photo': '2020_lyj.jpg',
 	'homepage': '',
-	'introduction': "I am doing my master's degree in School of Data Science, Fudan University, with Prof. Zhuang Xiahai. I did my bachelor's degree in Tianjin University. "
+	'introduction': "Thesis:  | First/Curr Position:  "
 },
 {
 	'name': 'CHEN, Dan',

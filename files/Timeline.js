@@ -1,13 +1,23 @@
 time_list = [   
 {
+	'date': 'Mar/2022',
+	'name': 'Zhang, Ke\'s paper accepted to CVPR, well done ^_^',
+	'info': 'K Zhang & X Zhuang: CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision. CVPR 2022<a href="https://github.com/BWGZK/CycleMix/">code</a>'
+}, 
+{
 	'date': 'Feb/2022',
 	'name': 'LAScarQS\'22 Challenge Webpage setup!',
 	'info': '<a href=projects/lascarqs22/index.html><img src="./projects/lascarqs22/images/logo-LAScarQS-2022 new.png" width="100%"/></a>' 
 }, 
 {
+	'date': 'Feb/2022',
+	'name': 'Wangbin\'s paper accepted to IEEE JBHI, well done ^_^',
+	'info': 'Wangbin Ding, Lei Li, Xiahai Zhuang and Liqin Huang: Cross-Modality Multi-Atlas Segmentation via Deep Registration and Label Fusion. IEEE JBHI 2022+<a href="https://github.com/NanYoMy/cmmas">code</a>'
+}, 
+{
 	'date': '10/Jan/2022',
 	'name': 'Lei\'s paper accepted to MedIA, 3rd one, bravo ^_^',
-	'info': 'Lei Li, Veronika A. Zimmer, Julia A. Schnabel, Xiahai Zhuang. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review. Medical Image Analysis 2022+<a href="https://arxiv.org/abs/2106.09862v1">link</a>'
+	'info': 'Lei Li, Veronika A. Zimmer, Julia A. Schnabel, Xiahai Zhuang. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review. Medical Image Analysis 2022<a href="https://arxiv.org/abs/2106.09862v1">link</a>'
 }, 
 {
 	'date': 'Jan/2022', 
