@@ -1,5 +1,10 @@
 time_list = [   
 {
+	'date': '27/Mar/2022',
+	'name': 'Shangqi\'s paper accepted to IEEE TPAMI, bravo ^_^',
+	'info': 'S Gao & X Zhuang. Bayesian Image Super-Resolution with Deep Modeling of Image Statistics. IEEE TPAMI 2022+<a href="">link</a>'
+}, 
+{
 	'date': 'Mar/2022',
 	'name': 'Zhang, Ke\'s paper accepted to CVPR, well done ^_^',
 	'info': 'K Zhang & X Zhuang: CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision. CVPR 2022<a href="https://github.com/BWGZK/CycleMix/">code</a>'

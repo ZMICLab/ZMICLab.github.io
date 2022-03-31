@@ -74,15 +74,6 @@ members_list=[
 	'introduction': "Research interests:"
 },
 {
- 'name': 'ZHOU, Hangqi',
- 'year': '(2021-)',
- 'gender': 'female',
- 'level': 'D',
- 'photo': '',
- 'homepage': '',
- 'introduction': "Recently, I focus on new trends in the SR problem like degredation estimation and explorable SR."
-},
-{
 	'name': 'JIA, Dengqiang',
 	'year': '',
 	'gender': 'male',
@@ -122,6 +113,33 @@ members_list=[
 },
 
 
+{
+ 'name': 'WANG, Bomin',
+ 'year': '(2021-)',
+ 'gender': 'male',
+ 'level': 'D',
+ 'photo': '2021_wangbomin.jpg',
+ 'homepage': '',
+ 'introduction': "I am a PhD student in ZMIClab."
+},
+{
+ 'name': 'WANG, Sihan',
+ 'year': '(2021-)',
+ 'gender': 'female',
+ 'level': 'D',
+ 'photo': '2021_wangsihan.jpg',
+ 'homepage': '',
+ 'introduction': "I am a PhD student in ZMIClab."
+},
+{
+ 'name': 'ZHOU, Hangqi',
+ 'year': '(2021-)',
+ 'gender': 'female',
+ 'level': 'D',
+ 'photo': '2021_zhouhangqi.jpg',
+ 'homepage': '',
+ 'introduction': "I am interested in modeling image reconstrction problems and recently I focus on incremental learning."
+},
 
 /* others   
 {
