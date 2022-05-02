@@ -1,5 +1,15 @@
 time_list = [   
 {
+	'date': 'April/2022',
+	'name': 'Congratulations to Shangqi\'s excellent works^_^',
+	'info': '<a href=https://sds.fudan.edu.cn/b7/ef/c17412a440303/page.htm>A summary of two papers from Shangqi!</a>' 
+},
+{
+	'date': '22/April/2022',
+	'name': 'Xiahai give a talk^_^',
+	'info': '<img src="./gallery/2022/2022-04-22talk.jpg" width="100%"/>' 
+},
+{
 	'date': '27/Mar/2022',
 	'name': 'Shangqi\'s paper accepted to IEEE TPAMI, bravo ^_^',
 	'info': 'S Gao & X Zhuang. Bayesian Image Super-Resolution with Deep Modeling of Image Statistics. IEEE TPAMI 2022+<a href="">link</a>'
