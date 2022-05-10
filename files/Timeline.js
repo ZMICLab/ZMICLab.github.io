@@ -2,7 +2,7 @@ time_list = [
 {
 	'date': 'April/2022',
 	'name': 'Congratulations to Shangqi\'s excellent works^_^',
-	'info': '<a href=https://sds.fudan.edu.cn/b7/ef/c17412a440303/page.htm>A summary of two papers from Shangqi!</a>' 
+	'info': '<a href=https://sds.fudan.edu.cn/b7/ef/c17412a440303/page.htm>A summary of the two papers!</a><br><br><a href=https://mp.weixin.qq.com/s/eYpe3rF26NT4CgHPBQ-ypQ>News letter from Fudan!</a>' 
 },
 {
 	'date': '22/April/2022',
