@@ -1,0 +1,28 @@
+﻿#### 2022-05-10 ####
+
+## Script
+
+For the sake of evaluation, we now publish all the ground truth of test data (40 CT + 40 MRI), which have been cloaked by encryption. The matlab script for the evaluation is "matlab_evaluation_script.m", where the required tools used in the script have also be attached, including:
+zxhCardWhsEvaluate.exe
+zxhimageop.exe (you may use it to check the information of the image)
+zxhtransform.exe
+
+Note that the zxhCardWhsEvaluate.exe could decoder the ground truth when you evaluated your results.
+To understand the excel files you generated, please kindly input the zxhCardWhsEvaluate in your cmd system, where the acronyms are,
+LV: left ventricle (label: 500)
+Myo: myocardium of left ventricle (label: 205)
+EPI: epicardium surface of left ventricle
+RV: right ventricle (label: 600)
+LA: left atrium (label: 420)
+RA: right atrium (label: 550)
+LO/AO: trunk of ascending aorta (label: 820)
+PA: trunk of pulmonary artery (label: 850)
+Chm: chambers
+WH: whole heart
+ 
+## How to cite
+
+Please cite the following papers when you use the data for publications:
+[1] Xiahai Zhuang and Juan Shen: Multi-scale patch and multi-modality atlases for whole heart segmentation of MRI, Medical Image Analysis, vol.31, pp.77-87, 2016 
+[2] Xiahai Zhuang: Challenges and Methodologies of Fully Automatic Whole Heart Segmentation: A Review. Journal of Healthcare Engineering 4 (3): 371–407, 2013 
+[3] Zhuang, X., Rhode, K., Razavi, R., Hawkes, D. J., Ourselin, S.: A Registration-Based Propagation Framework for Automatic Whole Heart Segmentation of Cardiac MRI. IEEE Transactions on Medical Imaging, 29 (9): 1612-1625, 2010.

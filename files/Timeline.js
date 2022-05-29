@@ -1,5 +1,10 @@
 time_list = [   
 {
+	'date': '28/May/2022',
+	'name': 'Xiahai give a keynote at ICDAC 2022!',
+	'info': 'Prof. Xiahai Zhuang gave a keynote speech at the International Conference on Data Analytics and Computing, 2022. Here is the link to the <a href="./gallery/2022/ICDAC2022_keynote_zxh.pdf">slides</a>' 
+},
+{
 	'date': 'April/2022',
 	'name': 'Congratulations to Shangqi\'s excellent works^_^',
 	'info': '<a href=https://sds.fudan.edu.cn/b7/ef/c17412a440303/page.htm>A summary of the two papers!</a><br><br><a href=https://mp.weixin.qq.com/s/eYpe3rF26NT4CgHPBQ-ypQ>News letter from Fudan!</a>' 
