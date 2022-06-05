@@ -1,5 +1,10 @@
 time_list = [   
 {
+	'date': 'Jun/2022',
+	'name': 'ZMICers have three MICCAI papers!',
+	'info': 'Shangqi Gao et al.: BayeSeg: Deep Bayesian Segmentation Through Reconstructed Contour Enhancing Model Generalizability<br><br>Ke Zhang&XZ: ShapePU: A New PU Learning Framework Regularized by Shape Consistency for Scribble Supervised Cardiac Segmentation<br><br>Zheyao Gao et al.: Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI segmentation'
+},
+{
 	'date': '28/May/2022',
 	'name': 'Xiahai give a keynote at ICDAC 2022!',
 	'info': 'Prof. Xiahai Zhuang gave a keynote speech at the International Conference on Data Analytics and Computing, 2022. Here is the link to the <a href="./gallery/2022/ICDAC2022_keynote_zxh.pdf">slides</a>' 
