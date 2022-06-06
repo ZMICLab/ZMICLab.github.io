@@ -91,7 +91,7 @@ members_list=[
 	'level': 'M',
 	'photo': '2020_zhangke.jpg',
 	'homepage': 'https://bwgzk.github.io/KeZhang.github.io/',
-	'introduction': "Research: Computer Vision, AI in healthcare, Medical image analysis"
+	'introduction': "Research: Computer Vision, AI in healthcare, Medical image analysis. Selected publications:<br>★ K Zhang & X Zhuang. CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision. CVPR 2022 <a href=https://github.com/BWGZK/CycleMix>code&data</a> <br>★ K Zhang & X Zhuang. ShapePU: A New PU Learning Framework Regularized by Shape Consistency for Scribble Supervised Cardiac Segmentation. MICCAI 2022 <a href=https://github.com/BWGZK/ShapePU>code</a>"
 },
 {
 	'name': 'QIU, Junyi',
