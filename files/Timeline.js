@@ -1,8 +1,13 @@
 time_list = [   
 {
+	'date': '15/Jun/2022',
+	'name': 'Excellent graduate Shangqi gave a ceremony speech!',
+	'info': 'Congratulations and well done Shangqi who won the Shanghai Excellent Graduates (上海市优秀毕业生) and was honored to give the graduation ceremony speech!<img src="./gallery/2022/2022-06-15_shangqi.jpg" width="100%"/>'
+},
+{
 	'date': 'Jun/2022',
 	'name': 'ZMICers have three MICCAI papers!',
-	'info': 'Shangqi Gao et al.: BayeSeg: Deep Bayesian Segmentation Through Reconstructed Contour Enhancing Model Generalizability<br><br>Ke Zhang&XZ: ShapePU: A New PU Learning Framework Regularized by Shape Consistency for Scribble Supervised Cardiac Segmentation<br><br>Zheyao Gao et al.: Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI segmentation'
+	'info': 'Zheyao Gao et al.: Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI segmentation<br><br>Shangqi Gao et al.: BayeSeg: Deep Bayesian Segmentation Through Reconstructed Contour Enhancing Model Generalizability<br><br>Ke Zhang&XZ: ShapePU: A New PU Learning Framework Regularized by Shape Consistency for Scribble Supervised Cardiac Segmentation<br><br>'
 },
 {
 	'date': '28/May/2022',
