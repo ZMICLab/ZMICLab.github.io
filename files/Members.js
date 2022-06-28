@@ -30,12 +30,12 @@ members_list=[
 },
 {
 	'name': 'GAO, Shangqi',
-	'year': '(2018-)',
+	'year': '(2018-2022)',
 	'gender': 'male',
 	'level': 'D',
 	'photo': 'gsq.jpg',
 	'homepage': 'https://github.com/shangqigao/',
-	'introduction': "My current research interests are Image Super-Resolution and Computational methods of Inverse Problem. I am exploring the deep learning based methods for Image reconstruction. Selected publications:<br>★ S Gao & X Zhuang. Bayesian Image Super-Resolution with Deep Modeling of Image Statistics. IEEE T PAMI 2022+ <a href=https://ieeexplore.ieee.org/document/9744488>link</a> <a href=https://github.com/shangqigao/BayeSR>code</a> <br>★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> IEEE T PAMI 44(6), 3224 - 3238, 2022 <a href=https://github.com/shangqigao/RONet>code</a>"
+	'introduction': "My current research interests are Image Super-Resolution and Computational methods of Inverse Problem. I am exploring the deep learning based methods for Image reconstruction. Selected publications:<br>★ S Gao & X Zhuang. Bayesian Image Super-Resolution with Deep Modeling of Image Statistics. IEEE T PAMI 2022+ <a href=https://ieeexplore.ieee.org/document/9744488>link</a> <a href=https://github.com/shangqigao/BayeSR>code</a> <br>★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> IEEE T PAMI 44(6), 3224 - 3238, 2022 <a href=https://github.com/shangqigao/RONet>code</a><br>Honour: Excellent Graduate Award of Shanghai 上海市优秀毕业生（博士） "
 },
 {
 	'name': 'WAN, Kaiwen',
