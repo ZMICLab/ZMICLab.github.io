@@ -1,5 +1,10 @@
 time_list = [   
 {
+	'date': '2/Jul/2022',
+	'name': 'Our MSCMRseg benchmark paper accepted to MedIA ^_^',
+	'info': 'Title: Cardiac Segmentation on Late Gadolinium Enhancement MRI: A Benchmark Study from Multi-Sequence Cardiac MR Segmentation Challenge Medical Image Analysis'
+}, 
+{
 	'date': '15/Jun/2022',
 	'name': 'Excellent graduate Shangqi gave a ceremony speech!',
 	'info': 'Congratulations and well done Shangqi who won the Shanghai Excellent Graduates (上海市优秀毕业生) and was honored to give the graduation ceremony speech!<img src="./gallery/2022/2022-06-15_shangqi.jpg" width="100%"/>'
