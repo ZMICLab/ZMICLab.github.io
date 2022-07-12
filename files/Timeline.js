@@ -2,7 +2,7 @@ time_list = [
 {
 	'date': '2/Jul/2022',
 	'name': 'Our MSCMRseg benchmark paper accepted to MedIA ^_^',
-	'info': 'Title: Cardiac Segmentation on Late Gadolinium Enhancement MRI: A Benchmark Study from Multi-Sequence Cardiac MR Segmentation Challenge Medical Image Analysis'
+	'info': 'Title: Cardiac Segmentation on Late Gadolinium Enhancement MRI: A Benchmark Study from Multi-Sequence Cardiac MR Segmentation Challenge. Medical Image Analysis <a href=https://doi.org/10.1016/j.media.2022.102528>link</a>'
 }, 
 {
 	'date': '15/Jun/2022',

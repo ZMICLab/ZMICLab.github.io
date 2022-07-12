@@ -142,24 +142,7 @@ members_list=[
 },
 
 /* others   
-{
-	'name': 'HUANG, Chao',
-	'year': '(2020-2022, Master)',
-	'gender': 'Male',
-	'level': 'A',
-	'photo': '',
-	'homepage': '',
-	'introduction': "Thesis:  | First/Curr Position:  "
-},
-{
-	'name': 'LI, Yunjiang',
-	'year': '(2020-2022, Master)',
-	'gender': 'Male',
-	'level': 'A',
-	'photo': '2020_lyj.jpg',
-	'homepage': '',
-	'introduction': "Thesis:  | First/Curr Position:  "
-},
+
 {
 	'name': 'CHEN, Dan',
 	'year': ' ',
@@ -177,31 +160,40 @@ members_list=[
 	'photo': 'cx.jpeg',
 	'homepage': '',
 	'introduction': "I am Chen Xiao from Data Science of Fudan， one student used to addicted with Finance but now fall in love with CV and medical image analysis, meanwhile struggling coding and reading papers in ZMIC."
-},
-{
-	'name': 'WANG, Sihan',
-	'year': ' ',
-	'gender': 'female',
-	'level': 'V',
-	'photo': '',
-	'homepage': '',
-	'introduction': ""
-},
-{
-	'name': 'ZHONG, Cheng',
-	'year': ' ',
-	'gender': 'male',
-	'level': 'V',
-	'photo': 'zc.jpg',
-	'homepage': '',
-	'introduction': "I am now a junior in School of Data Science, Fudan University, learning how to debug and struggle with strange network structures in ZMIC lab."
-},  */
+}, */
 
 
 /* **************************************************** Alumni **************************************************** */
 
 
 /* ********************************************** 2020 ************************************************ */
+{
+	'name': 'HUANG, Chao',
+	'year': '(2020-2022, Master)',
+	'gender': 'Male',
+	'level': 'A',
+	'photo': '2020_hc.jpg',	
+	'homepage': '',
+	'introduction': "Thesis: ZMICLoud：结合 Docker 技术和人工智能模型的医学影像计算云平台 | First/Curr Position:  国泰君安（GuotaiJunan Securities）信息技术部"
+},
+{
+	'name': 'LI, Yunjiang',
+	'year': '(2020-2022, Master)',
+	'gender': 'Male',
+	'level': 'A',
+	'photo': '2020_lyj.jpg',
+	'homepage': '',
+	'introduction': "Thesis: Histopathological Image Classification Based on Transformer and Multiple Instance Learning | First/Curr Position: 中兴通讯上海研发中心无线AI算法部"
+}, 
+{
+ 'name': 'FU, YaTing',
+ 'year': '(2020-2022, Master)',
+ 'gender': 'female',
+ 'level': 'A',
+ 'photo': '2020_fyt.jpg',
+ 'homepage': '',
+ 'introduction': "Thesis: Research on Interactive Pair-wised Visual Comparison of Fine-grained Emotional Evolution in Social Media | First/Curr Position: 交通银行总行（Bank of Communications）金融科技部"
+},
 {
 	'name': 'WU, Fuping',
 	'year': '(2017-2021, PhD)',
