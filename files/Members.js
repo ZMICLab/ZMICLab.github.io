@@ -20,15 +20,6 @@ members_list=[
 },
 /* PHD and Postdoc*/   
 {
-	'name': 'Chang Sun',
-	'year': '(2018-)',
-	'gender': 'male',
-	'level': 'P',
-	'photo': 'default.jpg',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/sunchang/',
-	'introduction': "Research interests include Craniofacial Reconstruction and Human Population Genetics"
-},
-{
 	'name': 'GAO, Shangqi',
 	'year': '(2018-2022)',
 	'gender': 'male',
@@ -70,7 +61,7 @@ members_list=[
 	'gender': 'male',
 	'level': 'D',
 	'photo': '2020_gzy.jpg',
-	'homepage': 'www.linkedin.com/in/GaoZheyao-1828a21b7/',
+	'homepage': 'https://www.linkedin.com/in/GaoZheyao-1828a21b7/',
 	'introduction': "Research interests:"
 },
 {
@@ -141,6 +132,15 @@ members_list=[
  'introduction': "I am interested in modeling image reconstrction problems and recently I focus on incremental learning."
 },
 
+{
+	'name': 'Chang Sun',
+	'year': '(2018-)',
+	'gender': 'male',
+	'level': 'P',
+	'photo': 'default.jpg',
+	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/sunchang/',
+	'introduction': "Research interests include Craniofacial Reconstruction and Human Population Genetics"
+},
 /* others   
 
 {

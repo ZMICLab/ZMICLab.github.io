@@ -1,5 +1,25 @@
 time_list = [   
 {
+	'date': 'Sept/2022',
+	'name': 'Xiahai invited a Keynote at MICCAI-CLIP 2022!',
+	'info': 'On Sept 18, Xiahai Zhuang will give a Keynote talk at <a href="https://miccai-clip.org/">MICCAI-CLIP 2022</a>, i.e., 11th MICCAI Workshop on Clinical Image-based Procedures: Towards Holistic Patient Models for Personalised Healthcare.' 
+},
+{
+	'date': '26/Aug/2022',
+	'name': 'Xiahai give an online talk to SJTU',
+	'info': '<img src="./gallery/2022/2022-08_SJTU.jpg" width="100%"/>' 
+},
+{
+	'date': '23/Aug/2022',
+	'name': 'Xiahai give a lecturer at MIMTT2022 2022!',
+	'info': 'Xiahai Zhuang invited to give a lecturer at MIMTT2022, the 3rd Europe-China Health IT Summit' 
+},
+{
+	'date': '19/Aug/2022',
+	'name': 'MICCAI Fellow Talk series',
+	'info': 'MICCAI society is excited to announce a series of scientific and educational talks from MICCAI Fellows. I am very glad to introduce this first talk of series featuring Professor Alex Frangi <img src="./gallery/2022/2022-08_FrangiTalk.jpg" width="100%"/>'
+}, 
+{
 	'date': '2/Jul/2022',
 	'name': 'Our MSCMRseg benchmark paper accepted to MedIA ^_^',
 	'info': 'Title: Cardiac Segmentation on Late Gadolinium Enhancement MRI: A Benchmark Study from Multi-Sequence Cardiac MR Segmentation Challenge. Medical Image Analysis <a href=https://doi.org/10.1016/j.media.2022.102528>link</a>'
