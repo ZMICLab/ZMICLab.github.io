@@ -1,6 +1,11 @@
 time_list = [   
 {
 	'date': 'Sept/2022',
+	'name': 'Xiahai invited to join editorial board of Neural Networks^_^',
+	'info': 'Feel privileged to have this opportunity to serve a prestigieous journal <a href="http://www.journals.elsevier.com/neural-networks/">Neural Networks</a> with IF soaring up to 9.657.' 
+},
+{
+	'date': 'Sept/2022',
 	'name': 'Xiahai invited a Keynote at MICCAI-CLIP 2022!',
 	'info': 'On Sept 18, Xiahai Zhuang will give a Keynote talk at <a href="https://miccai-clip.org/">MICCAI-CLIP 2022</a>, i.e., 11th MICCAI Workshop on Clinical Image-based Procedures: Towards Holistic Patient Models for Personalised Healthcare.' 
 },

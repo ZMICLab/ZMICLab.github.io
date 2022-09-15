@@ -167,6 +167,25 @@ members_list=[
 
 
 /* ********************************************** 2020 ************************************************ */
+
+{
+	'name': 'WU, Fuping',
+	'year': '(2017-2021, PhD)',
+	'gender': 'male',
+	'level': 'A',
+	'photo': 'wfp.jpg',
+	'homepage': 'https://fupingwu90.github.io/cv/',
+	'introduction': "Thesis: Deep Domain Adaptation and Semi-Supervised Learning for Medical Image Segmentation | First/Curr Position: Univ of Oxford"
+},
+{ 
+	'name': 'LI, Lei',
+	'year': '(2016-2021, PhD)',
+	'gender': 'female',
+	'level': 'A',
+	'photo': 'lei.jpg',
+	'homepage': ' https://marie0909.github.io/',
+	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images | First/Curr Position: Univ of Oxford"
+},
 {
 	'name': 'HUANG, Chao',
 	'year': '(2020-2022, Master)',
@@ -193,24 +212,6 @@ members_list=[
  'photo': '2020_fyt.jpg',
  'homepage': '',
  'introduction': "Thesis: Research on Interactive Pair-wised Visual Comparison of Fine-grained Emotional Evolution in Social Media | First/Curr Position: 交通银行总行（Bank of Communications）金融科技部"
-},
-{
-	'name': 'WU, Fuping',
-	'year': '(2017-2021, PhD)',
-	'gender': 'male',
-	'level': 'A',
-	'photo': 'wfp.jpg',
-	'homepage': 'https://fupingwu90.github.io/cv/',
-	'introduction': "Thesis: Deep Domain Adaptation and Semi-Supervised Learning for Medical Image Segmentation | First/Curr Position: Univ of Oxford"
-},
-{ 
-	'name': 'LI, Lei',
-	'year': '(2016-2021, PhD)',
-	'gender': 'female',
-	'level': 'A',
-	'photo': 'lei.jpg',
-	'homepage': ' https://marie0909.github.io/',
-	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images | First/Curr Position: Univ of Oxford"
 },
 {
 	'name': 'XU, Jiahang',
