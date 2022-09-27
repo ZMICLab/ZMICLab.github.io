@@ -1,13 +1,23 @@
 time_list = [   
 {
-	'date': 'Sept/2022',
-	'name': 'Xiahai invited to join editorial board of Neural Networks^_^',
-	'info': 'Feel privileged to have this opportunity to serve a prestigieous journal <a href="http://www.journals.elsevier.com/neural-networks/">Neural Networks</a> with IF soaring up to 9.657.' 
+	'date': '27/Sept/2022',
+	'name': 'Xiahai give a talk to Renmin University',
+	'info': '<img src="./gallery/2022/2022-09-27 renmin.jpg" width="100%"/>' 
 },
+{
+	'date': '18/Sept/2022',
+	'name': 'LAScarQS was a success, well done ZMICers ^_^',
+	'info': 'LAScarQS 2022 was a great success, thanks to all the participants, committee, all organizers and IT supporters. Great congratulations to winners of two awards! <img src="./gallery/2022/2022-09-18LAscarQS.png" width="100%"/> <img src="./gallery/2022/2022-09-18LAScarQS_awards.jpg" width="100%"/>' 
+}, 
 {
 	'date': 'Sept/2022',
 	'name': 'Xiahai invited a Keynote at MICCAI-CLIP 2022!',
-	'info': 'On Sept 18, Xiahai Zhuang will give a Keynote talk at <a href="https://miccai-clip.org/">MICCAI-CLIP 2022</a>, i.e., 11th MICCAI Workshop on Clinical Image-based Procedures: Towards Holistic Patient Models for Personalised Healthcare.' 
+	'info': 'On Sept 18, Xiahai Zhuang will give a Keynote talk at <a href="https://miccai-clip.org/">MICCAI-CLIP 2022</a>, i.e., 11th MICCAI Workshop on Clinical Image-based Procedures: Towards Holistic Patient Models for Personalised Healthcare. <img src="./gallery/2022/2022-09-18 MICCAICLIP.png" width="100%"/>' 
+},
+{
+	'date': 'Sept/2022',
+	'name': 'Xiahai invited to join editorial board of Neural Networks^_^',
+	'info': 'Feel privileged to have this opportunity to serve a prestigieous journal <a href="http://www.journals.elsevier.com/neural-networks/">Neural Networks</a> with IF soaring up to 9.657.' 
 },
 {
 	'date': '26/Aug/2022',
