@@ -1,5 +1,15 @@
 time_list = [   
 {
+	'date': '26/Oct/2022',
+	'name': 'Xiahai invited to Editorial Board of Mathematics!',
+	'info': 'Xiahai invited to the Editorial Board of <a href=https://www.mdpi.com/journal/mathematics>Mathematics</a>, a top SCI journal in applied mathematics (JCR-Q1)!' 
+},
+{
+	'date': 'Oct/2022',
+	'name': 'Fuping\'s paper accepted to IEEE TPAMI, bravo ^_^',
+	'info': 'FF Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE T PAMI 2022+<a href="https://ieeexplore.ieee.org/document/9921323">link</a>'
+}, 
+{
 	'date': '27/Sept/2022',
 	'name': 'Xiahai give a talk to Renmin University',
 	'info': '<img src="./gallery/2022/2022-09-27 renmin.jpg" width="100%"/>' 
