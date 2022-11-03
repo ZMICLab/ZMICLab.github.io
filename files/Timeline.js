@@ -1,8 +1,18 @@
 time_list = [   
 {
+	'date': '30/OCT/2022',
+	'name': 'Xiahai in CAAI 2022',
+	'info': 'Chinese Congress on Artificial Intelligence <a href="https://mp.weixin.qq.com/s/v9JWtsS8ZUAPefj32QWq6Q">Link</a>  <img src="./gallery/2022/2022-10-30_CCAI.png" width="100%"/>'
+},
+{
 	'date': '26/Oct/2022',
 	'name': 'Xiahai invited to Editorial Board of Mathematics!',
 	'info': 'Xiahai invited to the Editorial Board of <a href=https://www.mdpi.com/journal/mathematics>Mathematics</a>, a top SCI journal in applied mathematics (JCR-Q1)!' 
+},
+{
+	'date': 'OCT/2022',
+	'name': 'Congrats to Zhang, Ke, awarded National Scholarship^)^',
+	'info': 'Congratulations and very well done, Ke who win the national scholarship which is the type of most competative scholarship!<img src="./gallery/2022/2022-10_nationalstuaward.png" width="100%"/>'
 },
 {
 	'date': 'Oct/2022',

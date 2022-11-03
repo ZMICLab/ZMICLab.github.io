@@ -59,7 +59,7 @@ $(function () {
 		else
 		{
 			photourl = 'files/photos_members/' + (student['photo'] == '' ? 'default.jpg' : student['photo'])
-			pane1.append($('<img src="' + photourl + '" height="60px" style="border-radius: 20px"/>'))
+			pane1.append($('<img src="' + photourl + '" height="100px" style="border-radius: 30px"/>'))
 			pane1.attr('align', 'center')
 			
 			if (student['homepage'] != '')

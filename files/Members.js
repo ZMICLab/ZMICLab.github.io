@@ -35,7 +35,7 @@ members_list=[
 	'level': 'D',
 	'photo': 'default.jpg',
 	'homepage': '',
-	'introduction': "Research interests include reinforcement learning for medical image analysis."
+	'introduction': ""
 },
 {
 	'name': 'LUO, Xinzhe',
@@ -52,8 +52,8 @@ members_list=[
 	'gender': 'male',
 	'level': 'D',
 	'photo': 'zyc.jpg',
-	'homepage': 'https://bertie97.github.io/',
-	'introduction': "Research: Medical Image Registration and AI-assisted diagnosis. "
+	'homepage': '',
+	'introduction': ""
 },
 {
 	'name': 'GAO, Zheyao',
@@ -62,19 +62,9 @@ members_list=[
 	'level': 'D',
 	'photo': '2020_gzy.jpg',
 	'homepage': 'https://www.linkedin.com/in/GaoZheyao-1828a21b7/',
-	'introduction': "Research interests:"
+	'introduction': "Research interests: Distributed learning for medical image analysis; Non-IID problems in medical image computing."
 },
-{
-	'name': 'JIA, Dengqiang',
-	'year': '',
-	'gender': 'male',
-	'level': 'D',
-	'photo': 'default.jpg',
-	'homepage': '',
-	'introduction': "Research interests:"
-},
-
-/* ************************************ Master ***************************************** */
+ 
 {
 	'name': 'ZHANG, Ke',
 	'year': '(2020-)',
@@ -100,10 +90,8 @@ members_list=[
 	'level': 'M',
 	'photo': '',
 	'homepage': '',
-	'introduction': "Research interests:"
+	'introduction': ""
 },
-
-
 {
  'name': 'WANG, Bomin',
  'year': '(2021-)',
@@ -129,8 +117,45 @@ members_list=[
  'level': 'D',
  'photo': '2021_zhouhangqi.jpg',
  'homepage': '',
- 'introduction': "I am interested in modeling image reconstrction problems and recently I focus on incremental learning."
+ 'introduction': "I am interested in modeling image reconstrction problems and recently I focus on incremental learning"
+},{
+ 'name': 'GAO, Yibo',
+ 'year': '(2022-)',
+ 'gender': 'male',
+ 'level': 'D',
+ 'photo': '2022_gaoyibo.jpg',
+ 'homepage': '',
+ 'introduction': 'Now I’m focusing on deep learning based methods for MRI image reconstruction.'
 },
+{
+ 'name': 'Sheng, Xicheng',
+ 'year': '(2022-)',
+ 'gender': 'female',
+ 'level': 'M',
+ 'photo': '2022_shengxicheng.jpg',
+ 'homepage': '',
+'introduction': "I am an MSc student in ZMIC Lab"
+},
+{
+ 'name': 'Li, Yuxin',
+ 'year': '(2022-)',
+ 'gender': 'female',
+ 'level': 'M',
+ 'photo': '2022_liyuxin.jpg',
+ 'homepage': '',
+'introduction': "I am an MSc student in ZMIC Lab"
+},
+{
+ 'name': 'Liu, Yuanye',
+ 'year': '(2023-)',
+ 'gender': 'male',
+ 'level': 'M',
+ 'photo': '2023_liuyuanye.jpg',
+ 'homepage': 'https://henrylau7.github.io/',
+ 'introduction': "I'm an undergraduate in SDS, interested in Medical image analysis."
+},
+
+/* others   
 
 {
 	'name': 'Chang Sun',
@@ -141,7 +166,7 @@ members_list=[
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/sunchang/',
 	'introduction': "Research interests include Craniofacial Reconstruction and Human Population Genetics"
 },
-/* others   
+
 
 {
 	'name': 'CHEN, Dan',
@@ -413,6 +438,15 @@ members_list=[
 	'photo': 'xlc.jpg',
 	'homepage': '',
 	'introduction': "First/Curr Position: PhD in Shanghai Jiao Tong University." 
+},
+{
+	'name': 'JIA, Dengqiang',
+	'year': '(2015-2022, Msc->PhD SJTU)',
+	'gender': 'male',
+	'level': 'A',
+	'photo': 'default.jpg',
+	'homepage': '',
+	'introduction': "Thesis: A priori information-based coronary image analysis and its application to the biomechanical study of coronary plaque"
 },
 {
 	'name': 'Long Chen',
