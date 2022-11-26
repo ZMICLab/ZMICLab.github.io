@@ -1,4 +1,19 @@
-time_list = [   
+time_list = [
+{
+	'date': '18/Nov/2022',
+	'name': 'ZMICers go out and have funs^)^',
+	'info': '<img src="./gallery/2022/2022-11-18_outing5.jpg" width="100%"/><img src="./gallery/2022/2022-11-18_outing2.jpg" width="100%"/><img src="./gallery/2022/2022-11-18_outing4.jpg" width="100%"/><img src="./gallery/2022/2022-11-18_outing1.jpg" width="100%"/><img src="./gallery/2022/2022-11-18_outing3.jpg" width="100%"/>'
+}, 
+{
+	'date': '17/Nov/2022',
+	'name': 'Invitation to Special Issue of MICCAI 2022 in MedIA',
+	'info': 'Our paper (BayeSeg: Deep Bayesian Segmentation Through Reconstructed Contour Enhancing Model Generalizability) has been selected as one of the best papers of MICCAI 2022 to be highlighted in the MICCAI 2022 Special Issue in Medical Image Analysis<img src="./gallery/2022/2022-11-17_bayeseg.jpg" width="100%"/>'
+}, 
+{
+	'date': 'Nov/2022',
+	'name': 'Xiahai is World\'s Top scientist by Stanford University-Elsevier',
+	'info': '<a href=https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/4>庄吓海同时入选斯坦福大学公布的\'\'终身科学影响力排行榜\'\'和\'\'年度科学影响力排行榜\'\'榜单，详细榜单可以点击链接下载Excel文件!</a>'
+}, 
 {
 	'date': '30/OCT/2022',
 	'name': 'Xiahai in CAAI 2022',
@@ -17,7 +32,7 @@ time_list = [
 {
 	'date': 'Oct/2022',
 	'name': 'Fuping\'s paper accepted to IEEE TPAMI, bravo ^_^',
-	'info': 'FF Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE T PAMI 2022+<a href="https://ieeexplore.ieee.org/document/9921323">link</a>'
+	'info': 'F Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE T PAMI 2022+<a href="https://ieeexplore.ieee.org/document/9921323">link</a>'
 }, 
 {
 	'date': '27/Sept/2022',

@@ -44,7 +44,7 @@ members_list=[
 	'level': 'D',
 	'photo': 'lxz.jpg',
 	'homepage': '',
-	'introduction': "Research interests include multivariate medical image analysis. Selected paper:<br> *X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. "
+	'introduction': "Research interests include multivariate medical image analysis. Selected publications: <br>*X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2022 <br>*X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. "
 }, 
 {
 	'name': 'ZHOU, Yuncheng',
@@ -62,7 +62,7 @@ members_list=[
 	'level': 'D',
 	'photo': '2020_gzy.jpg',
 	'homepage': 'https://www.linkedin.com/in/GaoZheyao-1828a21b7/',
-	'introduction': "Research interests: Distributed learning for medical image analysis; Non-IID problems in medical image computing."
+	'introduction': "Research interests: Distributed learning for medical image analysis; Non-IID problems in medical image computing. Selcted publlications:<br> ★ Z Gao, F Wu, W Gao, X Zhuang: A New Framework of Swarm Learning Consolidating Knowledge from Multi-Center Non-IID Data for Medical Image Segmentation. IEEE TMI 2022.<br>★ Z Gao, L Li, F Wu, S Wang & X Zhuang. Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI Segmentation. MICCAI 2022"
 },
  
 {
@@ -81,7 +81,7 @@ members_list=[
 	'level': 'M',
 	'photo': '2020_qjy.jpg',
 	'homepage': '',
-	'introduction': "I am a postgrad in SDS. I graduated from School of Computer Science, Fudan Univ. 2020."
+	'introduction': "I am a postgrad in SDS. I graduated from School of Computer Science, Fudan Univ. 2020. Selected publications:<br>★ J Qiu, L Li, S Wang, K  Zhang, Y Chen, S Yang, X Zhuang: MyoPS-Net: Myocardial Pathology Segmentation with Flexible Combination of Multi-Sequence CMR Images. Medical Image Analysis 2022."
 },
 {
 	'name': 'JIN, Jianhua',
