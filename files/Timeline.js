@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': '01/Jan/2023',
+	'name': 'Happy New Year 2023 ^_^',
+	'info': ' ' 
+},
+{
 	'date': 'OCT-Nov/2022',
 	'name': 'We have four papers accepted to top journals ^_^',
 	'info': 'We have four papers accepted to IEEE TPAMI (x2), Med Imag Ana and IEEE TMI recently!<br>Very well done, Xinzhe, Junyi (Master student), Zheyao and Fuping^_^<br><div style=left>1 X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2022<br>2 F Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE T PAMI 2022<a href="https://ieeexplore.ieee.org/document/9921323">link</a><br>3 J Qiu et al. & X Zhuang: MyoPS-Net: Myocardial Pathology Segmentation with Flexible Combination of Multi-Sequence CMR Images. Medical Image Analysis 2022<br>4 Z Gao, F Wu, W Gao, X Zhuang: A New Framework of Swarm Learning Consolidating Knowledge from Multi-Center Non-IID Data for Medical Image Segmentation. IEEE TMI 2022</div>'
