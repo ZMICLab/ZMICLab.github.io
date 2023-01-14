@@ -22,7 +22,7 @@ WH: whole heart
  
 ## How to cite
 
-Please cite the following papers when you use the data for publications:
-[1] Xiahai Zhuang and Juan Shen: Multi-scale patch and multi-modality atlases for whole heart segmentation of MRI, Medical Image Analysis, vol.31, pp.77-87, 2016 
-[2] Xiahai Zhuang: Challenges and Methodologies of Fully Automatic Whole Heart Segmentation: A Review. Journal of Healthcare Engineering 4 (3): 371–407, 2013 
-[3] Zhuang, X., Rhode, K., Razavi, R., Hawkes, D. J., Ourselin, S.: A Registration-Based Propagation Framework for Automatic Whole Heart Segmentation of Cardiac MRI. IEEE Transactions on Medical Imaging, 29 (9): 1612-1625, 2010.
+Please cite the following papers when you use the data for publications: 
+[1] Xiahai Zhuang: Multivariate mixture model for myocardial segmentation combining multi-source images. IEEE Transactions on Pattern Analysis and Machine Intelligence 41(12): 2933-2946, 2019.  
+[2] Xiahai Zhuang and Juan Shen: Multi-scale patch and multi-modality atlases for whole heart segmentation of MRI, Medical Image Analysis 31: 77-87, 2016 
+[3] X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022-11 online published 
