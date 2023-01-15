@@ -153,7 +153,7 @@ members_list=[
 	'year': '(2018-)',
 	'gender': 'male',
 	'level': 'P',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/sunchang/',
 	'introduction': "Research interests include Craniofacial Reconstruction and Human Population Genetics"
 },
@@ -191,7 +191,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'gsq.jpg',
 	'homepage': 'https://github.com/shangqigao/',
-	'introduction': "Thesis: Deep Image Decomposition and Reconstruction. Selected publications:<br>★ S Gao & X Zhuang. Bayesian Image Super-Resolution with Deep Modeling of Image Statistics. IEEE T PAMI 2022+ <a href=https://ieeexplore.ieee.org/document/9744488>link</a> <a href=https://github.com/shangqigao/BayeSR>code</a> <br>★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> IEEE T PAMI 44(6), 3224 - 3238, 2022 <a href=https://github.com/shangqigao/RONet>code</a><br>Honour: Excellent Graduate Award of Shanghai 上海市优秀毕业生 | First Position: U Oxford"
+	'introduction': "Thesis: Deep Image Decomposition and Reconstruction. Selected publications:<br>★ S Gao & X Zhuang. Bayesian Image Super-Resolution with Deep Modeling of Image Statistics. IEEE T PAMI 2023 <a href=https://ieeexplore.ieee.org/document/9744488>link</a> <a href=https://github.com/shangqigao/BayeSR>code</a> <br>★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> IEEE T PAMI 44(6), 3224 - 3238, 2022 <a href=https://github.com/shangqigao/RONet>code</a><br>Honour: Excellent Graduate Award of Shanghai 上海市优秀毕业生 | First Position: U Oxford"
 },
 {
 	'name': 'WU, Fuping',
@@ -200,7 +200,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'wfp.jpg',
 	'homepage': 'https://fupingwu90.github.io/cv/',
-	'introduction': "Thesis: Deep Domain Adaptation and Semi-Supervised Learning for Medical Image Segmentation | First/Curr Position: Univ of Oxford"
+	'introduction': "Thesis: Deep Domain Adaptation and Semi-Supervised Learning for Medical Image Segmentation. Selected publications:<br>★ F Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE T PAMI  2022-10 <br>★ F Wu & X Zhuang.  Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation. IEEE TMI 2021.<br>★ F Wu & X Zhuang. CF Distance: A new domain discrepancy metric and application to explicit domain adaptation for cross-modality cardiac image segmentation. IEEE TMI 2020.<br> | First/Curr Position: Univ of Oxford"
 },
 { 
 	'name': 'LI, Lei',
@@ -209,7 +209,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'lei.jpg',
 	'homepage': ' https://marie0909.github.io/',
-	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images | First/Curr Position: Univ of Oxford"
+	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images.Selected publications:<br>★ L Li, et al. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review, Medical Image Analysis, 102360, 2022.<br>★ L Li, et al. AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information. Medical Image Analysis, 76, 102303,  2022.<br>★ L Li, et al. Atrial Scar Quantification via Multi-Scale CNN in the Graph-Cuts Framework. Medical Image Analysis 2020.<br>Honour: 上海交通大学优秀博士毕业生发展奖学金 | First/Curr Position: Univ of Oxford"
 },
 {
 	'name': 'HUANG, Chao',
@@ -245,7 +245,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'xjh.jpg',
 	'homepage': '',
-	'introduction': "Thesis: Diagnosis of Parkinsonian Disorders Based on Multi-Modality Medical Images. (Excellent Graduate Award of Fudan University 复旦大学优秀毕业生) | First/Curr Position: Microsoft Research Asia"
+	'introduction': "Thesis: Diagnosis of Parkinsonian Disorders Based on Multi-Modality Medical Images. Selected publications:<br>★ J Xu, et al.: Computer-Aided Classification Framework of Parkinsonian Disorders Using 11 C-CFT PET Imaging. Frontiers in Aging Neuroscience 13: 792951, 1-9, 2022<br>★ X Zhuang, J Xu, et al.: Cardiac Segmentation on Late Gadolinium Enhancement MRI: A Benchmark Study from Multi-Sequence Cardiac MR Segmentation Challenge. Medical Image Analysis, 81, 102528: 1-13, 2022<br>★ J Xu, et al.: A Fully-Automatic Framework for Parkinson’s Disease Diagnosis by Multi-Modality Images, Frontiers in Neuroscience, 13:874, 1-9, August 2019 <br>Honour: Excellent Graduate Award of Fudan University 复旦大学优秀毕业生 | First/Curr Position: Microsoft Research Asia"
 },
 {
 	'name': 'GAO, Meng',
@@ -279,7 +279,7 @@ members_list=[
 	'year': '(2019-2021, Master)',
 	'gender': 'female',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': "Thesis: 基于机器学习的信用债违约模型研究--以A股上市公司违约债券为例 | First/Curr Position: 长江三峡投资管理Yangytz Three Gorges Investment Management"
 },
@@ -328,14 +328,14 @@ members_list=[
 	'level': 'A',
 	'photo': 'hyc.jpg',
 	'homepage': '',
-	'introduction': "Thesis: 3D CNN-based Multi-modality Medical Image Analysis and its Application on Early Diagnosis of Alzheimer’s Disease. (Excellent Graduate Award of Shanghai 上海市优秀毕业生) | First/Curr Position: SenseTime"
+	'introduction': "Thesis: 3D CNN-based Multi-modality Medical Image Analysis and its Application on Early Diagnosis of Alzheimer’s Disease. Selected publications:<br>★ Y Huang, et al.: Diagnosis of Alzheimer’s Disease via Multi-modality 3D Convolutional Neural Network, Frontiers in Neuroscience, 13:509, 1-12, May 2019<br>Excellent Graduate Award of Shanghai 上海市优秀毕业生 | First/Curr Position: SenseTime"
 },
 {
 	'name': 'LUO, Wenqi',
 	'year': '(2018-2020,Master)',
 	'gender': 'female',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': "Thesis: Pulmonary nodule detection and classification based on medical images and a clinical application analysis"
 },
@@ -346,7 +346,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'yueq.jpg',
 	'homepage': '',
-	'introduction': "Thesis: Application Demand of Real-time Ship Positioning in International Trade and the Technology of Artificial Intelligence. (Excellent Graduate Award of Shanghai 上海市优秀毕业生) | First/Curr Position: Huawei Shanghai Research"
+	'introduction': "Thesis: Application Demand of Real-time Ship Positioning in International Trade and the Technology of Artificial Intelligence. Selected publications:<br>★ Q Yue, X Luo, Q Ye, L, Xu, X Zhuang. Cardiac Segmentation from LGE MRI Using Deep Neural Network Incorporating Shape and Spatial Priors. MICCAI 2019, pp. 559-567, 2019<br>Excellent Graduate Award of Shanghai 上海市优秀毕业生) | First/Curr Position: Huawei Shanghai Research"
 },
 {
 	'name': 'ZHANG, Ke',
@@ -399,7 +399,7 @@ members_list=[
 	'year': '(2019, Undergrad SDS)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'zyc.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': "Thesis: 基于无监督学习的医学图像配准网络研究 | First/Curr Position: Msc stu@ SDS, Fudan Univ"
 },
@@ -417,7 +417,7 @@ members_list=[
 	'year': '(2019, visiting)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': ""
 }, 
@@ -426,7 +426,7 @@ members_list=[
 	'year': '(2019, visiting)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': "Nottingham/Ningbo Univ"
 }, 
@@ -444,7 +444,7 @@ members_list=[
 	'year': '(2015-2022, Msc->PhD SJTU)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': "Thesis: A priori information-based coronary image analysis and its application to the biomechanical study of coronary plaque"
 },
@@ -453,7 +453,7 @@ members_list=[
 	'year': '(2017-2019, Master SDS)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': ""
 },
@@ -462,7 +462,7 @@ members_list=[
 	'year': '(2017-2019, Master SDS)',
 	'gender': 'female',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': "First/Curr Position: https://www.seagroup.com/home"
 }, 
@@ -471,7 +471,7 @@ members_list=[
 	'year': '(2018, Undergrad)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'hyc.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': "Thesis (A): 基于sMRI数据的阿尔茨海默病诊断 | First Position: Msc stu@ SDS, Fudan Univ"
 },
@@ -489,7 +489,7 @@ members_list=[
 	'year': '(2018, visiting)',
 	'gender': 'female',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': "PHD, Universitat Pompeu Fabra (UPF)"
 }, 
@@ -498,7 +498,7 @@ members_list=[
 	'year': '(2017-2018, postdoc)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'default.jpg',
+	'photo': '',
 	'homepage': '',
 	'introduction': "First Position/Curr Institution: Assistant Professor, Isfahan University of Technology"
 },
