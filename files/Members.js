@@ -36,16 +36,7 @@ members_list=[
 	'photo': 'lxz.jpg',
 	'homepage': '',
 	'introduction': "Research interests include multivariate medical image analysis. Selected publications: <br>*X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2022 <br>*X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. "
-}, 
-{
-	'name': 'ZHOU, Yuncheng',
-	'year': '(2019-)',
-	'gender': 'male',
-	'level': 'D',
-	'photo': 'zyc.jpg',
-	'homepage': '',
-	'introduction': ""
-},
+},  
 {
 	'name': 'GAO, Zheyao',
 	'year': '(2020-)',
@@ -210,6 +201,15 @@ members_list=[
 	'photo': 'lei.jpg',
 	'homepage': ' https://marie0909.github.io/',
 	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images.Selected publications:<br>★ L Li, et al. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review, Medical Image Analysis, 102360, 2022.<br>★ L Li, et al. AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information. Medical Image Analysis, 76, 102303,  2022.<br>★ L Li, et al. Atrial Scar Quantification via Multi-Scale CNN in the Graph-Cuts Framework. Medical Image Analysis 2020.<br>Honour: 上海交通大学优秀博士毕业生发展奖学金 | First/Curr Position: Univ of Oxford"
+},
+{
+ 'name': 'PEI, Chenhao',
+ 'year': '(2018-2022, visiting PhD)',
+ 'gender': 'male',
+ 'level': 'A',
+ 'photo': '2018_peichenhao.jpg',
+ 'homepage': 'https://pchenhao.github.io',
+ 'introduction': "Thesis: Domain Adaptation and Multi-source domain adaptationfor Medical Image Segmentation. Selected publications:<br>★ C Pei, F Wu, L Huang & X Zhuang. Disentangle domain features for cross-modality cardiac image segmentation. Medical Image Analysis 2021.<br> | First/Curr Position: Infervision."
 },
 {
 	'name': 'HUANG, Chao',

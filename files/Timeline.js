@@ -1,5 +1,30 @@
 time_list = [
 {
+	'date': '7/April/2023',
+	'name': 'Xiahai give a talk at CUHK SenseTime Medicine Joint Seminar Series',
+	'info': '<img src="./gallery/2023/2023-04-07 cuhk.png" width="100%"/>' 
+},
+{
+	'date': 'April/2023', 
+	'name': 'Oral in IPMI2023, welldone Wang Xin & Xinzhe ^_^',
+	'info': 'Our paper, BInGo: Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement, has been selected for an oral presentation at IPMI 2023. Welldone Wang Xin & Xinzhe ^_^<img src="./gallery/2023/2023-04-06 ipmioral.jpg" width="100%"/>'
+}, 
+{
+	'date': 'April/2023', 
+	'name': 'Excellent graduate Zhang, Ke and Qiu, Junyi ^_^',
+	'info': 'Congratulations and well done Zhang, Ke and Junyi who respectively won the Shanghai Excellent Graduates (上海市优秀毕业生) and Fudan Excellent Graduates (复旦大学优秀毕业生)'
+}, 
+{
+	'date': '1-2/April/2023', 
+	'name': 'ZMICers attend Dushu Lake Symposium on Medical Image Computing at Suzhou',
+	'info': '<img src="./gallery/2023/2023-04-01 dushuhu.jpg" width="100%"/><img src="./gallery/2023/2023-04-01 dushuhuz.jpg" width="100%"/>'
+}, 
+{
+	'date': 'Mar/2023', 
+	'name': 'Our MyoPS benchmark paper accepted to MedIA ^_^',
+	'info': 'Title: MyoPS: A Benchmark of Myocardial Pathology Segmentation Combining Three-Sequence Cardiac Magnetic Resonance Images. Medical Image Analysis <a href=https://arxiv.org/abs/2201.03186>link</a>'
+},
+{
 	'date': '01/Jan/2023',
 	'name': 'Happy New Year 2023 ^_^',
 	'info': ' ' 
