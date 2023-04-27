@@ -1,8 +1,13 @@
 time_list = [
 {
+	'date': '21/April/2023',
+	'name': 'Our MyoPS2020 Benchmark paper pubished on MedIA',
+	'info': 'MyoPS: A benchmark of myocardial pathology segmentation combining three-sequence cardiac magnetic resonance images<br><a href=https://doi.org/10.1016/j.media.2023.102808>Medical Image Analysis 2023</a>' 
+},
+{
 	'date': '7/April/2023',
 	'name': 'Xiahai give a talk at CUHK SenseTime Medicine Joint Seminar Series',
-	'info': '<img src="./gallery/2023/2023-04-07 cuhk.png" width="100%"/>' 
+	'info': '<img src="./gallery/2023/2023-04-07 cuhk.png" width="100%"/><br><a href=https://www.surgery.cuhk.edu.hk/events.asp>link</a>' 
 },
 {
 	'date': 'April/2023', 
