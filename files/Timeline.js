@@ -1,4 +1,11 @@
 time_list = [
+
+{
+	'date': '10/May/2023',
+	'name': '恭喜张可入选学术之星，唯一硕士生^_^',
+	'info': '恭喜张可同学入选学术之星，成为本年度唯一的硕士生；希望张可继续加油，再接再厉，学有所成，带领组里同学一起提高科研水平<br><a href=https://mp.weixin.qq.com/s/N-exCKKmdBibpWVHyr8SoA>link</a>' 
+},
+
 {
 	'date': '21/April/2023',
 	'name': 'Our MyoPS2020 Benchmark paper pubished on MedIA',
