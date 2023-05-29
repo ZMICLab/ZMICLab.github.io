@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': 'May/2022',
+	'name': 'Zheyao&Yuanye\'s paper early accpeted to MICCAI2023!',
+	'info': 'Zheyao Gao# & Yuanye Liu# et al. "A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging" has been provisionally accepted for MICCAI 2023. <br>'
+},
+{
 	'date': '22/May/2023',
 	'name': 'Congratulations to Ke, Jianhua and Junyi^_^',
 	'info': 'Congratulations to our three new Master recipients, ZHANG Ke, JIN Jianhua and QIU Junyi, who had passed their viva. Very well done!<img src="./gallery/2023/2023-05_mastergraduates.jpg" width="100%"/>' 
