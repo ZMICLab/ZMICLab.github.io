@@ -1,5 +1,15 @@
 time_list = [
 {
+	'date': '2023-Jun-11',
+	'name': 'Congratulations to all graduates 2023 ^_^',
+	'info': 'We have celebration for the graduation 2023, Congratulations! Particularly to Ke, Junyi, Jianhua, Yuanye. <img src="./gallery/2023/2023-06-gradceremony2.png" width="100%"/> <img src="./gallery/2023/2023-06-gradceremony1.png" width="100%"/>'
+},
+{
+	'date': 'June/2023',
+	'name': 'We have three papers accepted to top journals ^_^',
+	'info': 'Congratulations and well done to Wangbin (IEEE TMI), Kaiwen (Med Image Anal) and Lei (Med Image Anal)'
+}, 
+{
 	'date': 'May/2022',
 	'name': 'Zheyao&Yuanye\'s paper early accpeted to MICCAI2023!',
 	'info': 'Zheyao Gao# & Yuanye Liu# et al. "A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging" has been provisionally accepted for MICCAI 2023. <br>'
