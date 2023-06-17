@@ -18,7 +18,7 @@ members_list=[
 	'homepage': 'https://zmiclab.github.io/zxh/',
 	'introduction': "Xiahai Zhuang, Ph.D., Professor, School of Data Science, Fudan University.<br>DR. Zhuang has bachelor and master degrees in computer science (Tianjin Univ.; Shanghai Jiao Tong Univ.) and PhD in medical image computing (University College London)."
 },
-/* PHD and Postdoc*/   
+/* PHD and Postdoc*/    
 {
 	'name': 'WAN, Kaiwen',
 	'year': '(2018-)',
@@ -26,8 +26,7 @@ members_list=[
 	'level': 'D',
 	'photo': '2018_wkw.jpg',
 	'homepage': '',
-	'introduction': "PhD student"
-},
+	'introduction': "PhD student. Research interests: reinforcement learning for medical imaging. Selected publication:<br> ★K Wan, L Li, D Jia, S Gao, F Wu, X Zhuang: Multi-Target Landmark Detection with Incomplete Images via Reinforcement Learning and Shape Prior. Medical Image Analysis 2023."},
 {
 	'name': 'LUO, Xinzhe',
 	'year': '(2019-)',
@@ -46,7 +45,6 @@ members_list=[
 	'homepage': 'https://www.linkedin.com/in/GaoZheyao-1828a21b7/',
 	'introduction': "Research interests: Distributed learning for medical image analysis; Non-IID problems in medical image computing. Selcted publlications:<br> ★ Z Gao, F Wu, W Gao, X Zhuang: A New Framework of Swarm Learning Consolidating Knowledge from Multi-Center Non-IID Data for Medical Image Segmentation. IEEE TMI 2022.<br>★ Z Gao, L Li, F Wu, S Wang & X Zhuang. Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI Segmentation. MICCAI 2022"
 },
- 
 {
 	'name': 'ZHANG, Ke',
 	'year': '(2020-)',
@@ -55,25 +53,7 @@ members_list=[
 	'photo': '2020_zhangke.jpg',
 	'homepage': 'https://bwgzk.github.io/KeZhang.github.io/',
 	'introduction': "Research: Computer Vision, AI in healthcare, Medical image analysis. Selected publications:<br>★ K Zhang & X Zhuang. CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision. CVPR 2022 <a href=https://github.com/BWGZK/CycleMix>code&data</a> <br>★ K Zhang & X Zhuang. ShapePU: A New PU Learning Framework Regularized by Shape Consistency for Scribble Supervised Cardiac Segmentation. MICCAI 2022 <a href=https://github.com/BWGZK/ShapePU>code</a>"
-},
-{
-	'name': 'QIU, Junyi',
-	'year': '(2020-)',
-	'gender': 'male',
-	'level': 'M',
-	'photo': '2020_qjy.jpg',
-	'homepage': '',
-	'introduction': "I am a postgrad in SDS. I graduated from School of Computer Science, Fudan Univ. 2020. Selected publications:<br>★ J Qiu, L Li, S Wang, K  Zhang, Y Chen, S Yang, X Zhuang: MyoPS-Net: Myocardial Pathology Segmentation with Flexible Combination of Multi-Sequence CMR Images. Medical Image Analysis 2022."
-},
-{
-	'name': 'JIN, Jianhua',
-	'year': '(2020-)',
-	'gender': 'male',
-	'level': 'M',
-	'photo': '2020_jjh.jpg',
-	'homepage': '',
-	'introduction': ""
-},
+}, 
 {
  'name': 'WANG, Bomin',
  'year': '(2021-)',
@@ -100,7 +80,8 @@ members_list=[
  'photo': '2021_zhouhangqi.jpg',
  'homepage': '',
  'introduction': "I am interested in modeling image reconstrction problems and recently I focus on incremental learning"
-},{
+}, 
+{
  'name': 'GAO, Yibo',
  'year': '(2022-)',
  'gender': 'male',
@@ -135,8 +116,7 @@ members_list=[
  'photo': '2023_liuyuanye.jpg',
  'homepage': 'https://henrylau7.github.io/',
  'introduction': "I'm an undergraduate in SDS, interested in Medical image analysis."
-},
-
+}, 
 /* others   
 
 {
@@ -174,7 +154,33 @@ members_list=[
 
 
 /* ********************************************** 2020 ************************************************ */
-
+{
+ 'name': 'QIU, Junyi',
+ 'year': '(2020-2023, Master)',
+ 'gender': 'male',
+ 'level': 'A',
+ 'photo': '2023_qiujunyi.jpg',
+ 'homepage': 'https://github.com/QJYBall/',
+ 'introduction': "Thesis: Myocardial Pathology Segmentation based on Cardiac Magnetic Resonance Imaging. Selected publications:<br>★ J Qiu, L Li, S Wang, K Zhang, Y Chen, S Yang, X Zhuang. < a href= > MyoPS-Net: Myocardial Pathology Segmentation with Flexible Combination of Multi-Sequence CMR Images.</ a>Medical Image Analysis 2022. <a href=https://github.com/QJYBall/MyoPS-Net>code</a><br>Honour: Outstanding Graduate of Fudan University 复旦大学优秀毕业生 | First Position: 上海市国有资产监督管理委员会（上海市专项选调生）"
+},
+{
+ 'name': 'JIN, Jianhua',
+ 'year': '(2020-2023, Master)', 
+'gender': 'Male', 
+'level': 'A',
+ 'photo': '2020_jjh.jpg', 
+'homepage': '',
+ 'introduction': "Thesis: Unsupervised MRI reconstruction | First/Curr Position: 阿里巴巴（Alibaba Group）智能信息" 
+},
+{
+ 'name': 'DING, Wangbin',
+ 'year': '(2019-2023, visiting PhD)',
+ 'gender': 'male',
+ 'level': 'A',
+ 'photo': '2023_dingwangbin.jpg',
+ 'homepage': 'https://http://github.com/NanYoMy',
+ 'introduction': "Thesis: Fusing multi-modality images towards automated myocardial pathology segmentation. Selected publications:<br>★ Ding W, Li L, Qiu J, Wang S, Huang L, Chen Y, Yang S, Zhuang X. Aligning Multi-Sequence CMR Towards Fully Automated Myocardial Pathology Segmentation. IEEE TMI 2023.<br>★ Ding W, Li L, Zhuang X, Huang L. Cross-Modality Multi-Atlas Segmentation via Deep Registration and Label Fusion. IEEE JBHI 2022.<br>First/Curr Position: Fujian Medical University."
+},
 {
 	'name': 'GAO, Shangqi',
 	'year': '(2018-2022, PhD)',
@@ -191,7 +197,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'wfp.jpg',
 	'homepage': 'https://fupingwu90.github.io/cv/',
-	'introduction': "Thesis: Deep Domain Adaptation and Semi-Supervised Learning for Medical Image Segmentation. Selected publications:<br>★ F Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE T PAMI  2022-10 <br>★ F Wu & X Zhuang.  Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation. IEEE TMI 2021.<br>★ F Wu & X Zhuang. CF Distance: A new domain discrepancy metric and application to explicit domain adaptation for cross-modality cardiac image segmentation. IEEE TMI 2020.<br> | First/Curr Position: Univ of Oxford"
+	'introduction': "Thesis: Deep Domain Adaptation and Semi-Supervised Learning for Medical Image Segmentation. Selected publications:<br>★ F Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE T PAMI  2022-10 <br>★ F Wu & X Zhuang.  Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation. IEEE TMI 2021.<br>★ F Wu & X Zhuang. CF Distance: A new domain discrepancy metric and application to explicit domain adaptation for cross-modality cardiac image segmentation. IEEE TMI 2020.<br>First/Curr Position: Univ of Oxford"
 },
 { 
 	'name': 'LI, Lei',
@@ -297,7 +303,7 @@ members_list=[
  'year': '(2021, Undergrad)',
  'gender': 'female',
  'level': 'A',
- 'photo': '',
+ 'photo': '2021_wangsihan.jpg',
  'homepage': '',
  'introduction': "Thesis (A): 基于协同学习的多模态心脏MRI分割（Excellent Graduate Award of Fudan 复旦优秀毕业生)  | First/Curr Position: Ph.D. stu@ SDS, Fudan Univ"
 }, 
@@ -306,7 +312,7 @@ members_list=[
  'year': '(2021, Undergrad)',
  'gender': 'female',
  'level': 'A',
- 'photo': '',
+ 'photo': '2021_zhouhangqi.jpg',
  'homepage': '',
  'introduction': "Thesis (A): 基于变分稀疏表示的探索性图像超分辨率重建 | First/Curr Position: Ph.D. stu@ SDS, Fudan Univ"
 }, 
@@ -335,7 +341,7 @@ members_list=[
 	'year': '(2018-2020,Master)',
 	'gender': 'female',
 	'level': 'A',
-	'photo': '',
+	'photo': '2018_luowenqi.jpg',
 	'homepage': '',
 	'introduction': "Thesis: Pulmonary nodule detection and classification based on medical images and a clinical application analysis"
 },
@@ -446,7 +452,7 @@ members_list=[
 	'level': 'A',
 	'photo': '',
 	'homepage': '',
-	'introduction': "Thesis: A priori information-based coronary image analysis and its application to the biomechanical study of coronary plaque"
+	'introduction': "Thesis: A priori information-based coronary image analysis and its application to the biomechanical study of coronary plaque."
 },
 {
 	'name': 'Long Chen',
