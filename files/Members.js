@@ -115,7 +115,7 @@ members_list=[
  'level': 'M',
  'photo': '2023_liuyuanye.jpg',
  'homepage': 'https://henrylau7.github.io/',
- 'introduction': "I'm an undergraduate in SDS, interested in Medical image analysis."
+ 'introduction': "Selected publications:<br>Z Gao#, Y Liu#, et al.: A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging. Early accept to MICCAI 2023."
 }, 
 /* others   
 
@@ -181,6 +181,15 @@ members_list=[
  'homepage': 'https://http://github.com/NanYoMy',
  'introduction': "Thesis: Fusing multi-modality images towards automated myocardial pathology segmentation. Selected publications:<br>★ Ding W, Li L, Qiu J, Wang S, Huang L, Chen Y, Yang S, Zhuang X. Aligning Multi-Sequence CMR Towards Fully Automated Myocardial Pathology Segmentation. IEEE TMI 2023.<br>★ Ding W, Li L, Zhuang X, Huang L. Cross-Modality Multi-Atlas Segmentation via Deep Registration and Label Fusion. IEEE JBHI 2022.<br>First/Curr Position: Fujian Medical University."
 },
+{
+ 'name': 'Liu, Yuanye',
+ 'year': '(2023, Undergrad SDS))',
+ 'gender': 'male',
+ 'level': 'A',
+ 'photo': '2023_liuyuanye.jpg',
+ 'homepage': 'https://henrylau7.github.io/',
+ 'introduction': "Thesis (A): 基于可解释多视角证据学习的肝脏纤维化分级诊断<br>Honour: Excellent Graduate Award of Shanghai上海市优秀毕业生| First/Curr Position: Msc stu@ SDS, Fudan Univ"
+}, 
 {
 	'name': 'GAO, Shangqi',
 	'year': '(2018-2022, PhD)',
