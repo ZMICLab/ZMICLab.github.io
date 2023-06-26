@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': '2023-Jun-24',
+	'name': 'Congratulations to Xin and Xinzhe runnerup of Francois Erbsmann Prize IPMI 2023',
+	'info': 'Congratulations to Xin and Xinzhe, finalist and runnerup of the Francois Erbsmann Prize for their excellent oral presentation  of our paper entitled, BInGo:Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement, at IPMI 2023<img src="./gallery/2023/2023-06_ipmi_1.jpg" width="100%"/> <img src="./gallery/2023/2023-06_ipmi_2.jpg" width="100%"/><img src="./gallery/2023/2023-06_ipmi_3.jpg" width="100%"/>'
+},
+{
 	'date': '2023-Jun-11',
 	'name': 'Congratulations to all graduates 2023 ^_^',
 	'info': 'We have celebration for the graduation 2023, Congratulations! Particularly to Ke, Junyi, Jianhua, Yuanye. <img src="./gallery/2023/2023-06-gradceremony2.png" width="100%"/> <img src="./gallery/2023/2023-06-gradceremony1.png" width="100%"/>'
