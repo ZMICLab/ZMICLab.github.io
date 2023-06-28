@@ -26,7 +26,7 @@ members_list=[
 	'level': 'D',
 	'photo': '2018_wkw.jpg',
 	'homepage': '',
-	'introduction': "PhD student. Research interests: reinforcement learning for medical imaging. Selected publication:<br> ★K Wan, L Li, D Jia, S Gao, F Wu, X Zhuang: Multi-Target Landmark Detection with Incomplete Images via Reinforcement Learning and Shape Prior. Medical Image Analysis 2023."},
+	'introduction': "PhD student. Research interests: reinforcement learning for medical imaging. Selected publication/honour:<br> ★ K Wan, L Li, D Jia, S Gao, F Wu, X Zhuang: Multi-Target Landmark Detection with Incomplete Images via Reinforcement Learning and Shape Prior. Medical Image Analysis 2023."},
 {
 	'name': 'LUO, Xinzhe',
 	'year': '(2019-)',
@@ -34,7 +34,7 @@ members_list=[
 	'level': 'D',
 	'photo': 'lxz.jpg',
 	'homepage': '',
-	'introduction': "Research interests include multivariate medical image analysis. Selected publications: <br>*X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2022 <br>*X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. "
+	'introduction': "Research interests include multivariate medical image analysis. Selected publication/honour:<br>★ X Wang, X Luo & X Zhuang. BInGo: Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement. Oral in IPMI 2023 Honorable Mention and runners-up for the <span style=\"color:rgb(185,0,0)\">Francois Erbsmann Prize</span><br>★ X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2022 <br>★ X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. <br>★ 国家奖学金'20 "
 },  
 {
 	'name': 'GAO, Zheyao',
@@ -43,17 +43,8 @@ members_list=[
 	'level': 'D',
 	'photo': '2020_gzy.jpg',
 	'homepage': 'https://www.linkedin.com/in/GaoZheyao-1828a21b7/',
-	'introduction': "Research interests: Distributed learning for medical image analysis; Non-IID problems in medical image computing. Selcted publlications:<br> ★ Z Gao, F Wu, W Gao, X Zhuang: A New Framework of Swarm Learning Consolidating Knowledge from Multi-Center Non-IID Data for Medical Image Segmentation. IEEE TMI 2022.<br>★ Z Gao, L Li, F Wu, S Wang & X Zhuang. Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI Segmentation. MICCAI 2022"
+	'introduction': "Research interests: Distributed learning for medical image analysis; Non-IID problems in medical image computing. Selected publication/honour:<br> ★ Z Gao, F Wu, W Gao, X Zhuang: A New Framework of Swarm Learning Consolidating Knowledge from Multi-Center Non-IID Data for Medical Image Segmentation. IEEE TMI 2022.<br>★ Z Gao, L Li, F Wu, S Wang & X Zhuang. Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI Segmentation. MICCAI 2022"
 },
-{
-	'name': 'ZHANG, Ke',
-	'year': '(2020-)',
-	'gender': 'female',
-	'level': 'M',
-	'photo': '2020_zhangke.jpg',
-	'homepage': 'https://bwgzk.github.io/KeZhang.github.io/',
-	'introduction': "Research: Computer Vision, AI in healthcare, Medical image analysis. Selected publications:<br>★ K Zhang & X Zhuang. CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision. CVPR 2022 <a href=https://github.com/BWGZK/CycleMix>code&data</a> <br>★ K Zhang & X Zhuang. ShapePU: A New PU Learning Framework Regularized by Shape Consistency for Scribble Supervised Cardiac Segmentation. MICCAI 2022 <a href=https://github.com/BWGZK/ShapePU>code</a>"
-}, 
 {
  'name': 'WANG, Bomin',
  'year': '(2021-)',
@@ -79,7 +70,7 @@ members_list=[
  'level': 'D',
  'photo': '2021_zhouhangqi.jpg',
  'homepage': '',
- 'introduction': "I am interested in modeling image reconstrction problems and recently I focus on incremental learning"
+ 'introduction': "I am interested in modeling image reconstruction problems and recently I focus on incremental learning"
 }, 
 {
  'name': 'GAO, Yibo',
@@ -115,7 +106,7 @@ members_list=[
  'level': 'M',
  'photo': '2023_liuyuanye.jpg',
  'homepage': 'https://henrylau7.github.io/',
- 'introduction': "Selected publications:<br>Z Gao#, Y Liu#, et al.: A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging. Early accept to MICCAI 2023."
+ 'introduction': "Selected publication/honour:<br>★ Z Gao#, Y Liu#, et al.: A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging. Early accept to MICCAI 2023."
 }, 
 /* others   
 
@@ -164,6 +155,15 @@ members_list=[
  'introduction': "Thesis: Myocardial Pathology Segmentation based on Cardiac Magnetic Resonance Imaging. Selected publications:<br>★ J Qiu, L Li, S Wang, K Zhang, Y Chen, S Yang, X Zhuang. < a href= > MyoPS-Net: Myocardial Pathology Segmentation with Flexible Combination of Multi-Sequence CMR Images.</ a>Medical Image Analysis 2022. <a href=https://github.com/QJYBall/MyoPS-Net>code</a><br>Honour: Outstanding Graduate of Fudan University 复旦大学优秀毕业生 | First Position: 上海市国有资产监督管理委员会（上海市专项选调生）"
 },
 {
+	'name': 'ZHANG, Ke',
+	'year': '(2020-2023, Master)',
+	'gender': 'female',
+	'level': 'A',
+	'photo': '2020_zhangke.jpg',
+	'homepage': 'https://bwgzk.github.io/KeZhang.github.io/',
+	'introduction': "Thesis: The Study of Medical Image Segmentation with Partial and Scribble Supervision. Selected publication:<br>★ K Zhang & X Zhuang. CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision. CVPR 2022 <a href=https://github.com/BWGZK/CycleMix>code&data</a> <br>★ K Zhang & X Zhuang. ShapePU: A New PU Learning Framework Regularized by Shape Consistency for Scribble Supervised Cardiac Segmentation. MICCAI 2022 <a href=https://github.com/BWGZK/ShapePU>code</a><br>Selected Honour: <span style=\"color:rgb(185,0,0)\">复旦大学“学术之星”</span>；Outstanding Graduate of Shanghai 上海市优秀毕业生；国家奖学金'22 | First Position: PhD stu @ Johns Hopkins University"
+}, 
+{
  'name': 'JIN, Jianhua',
  'year': '(2020-2023, Master)', 
 'gender': 'Male', 
@@ -188,7 +188,7 @@ members_list=[
  'level': 'A',
  'photo': '2023_liuyuanye.jpg',
  'homepage': 'https://henrylau7.github.io/',
- 'introduction': "Thesis (A): 基于可解释多视角证据学习的肝脏纤维化分级诊断<br>Honour: Excellent Graduate Award of Shanghai上海市优秀毕业生| First/Curr Position: Msc stu@ SDS, Fudan Univ"
+ 'introduction': "Thesis (A): 基于可解释多视角证据学习的肝脏纤维化分级诊断<br>Honour: Excellent Graduate Award of Shanghai上海市优秀毕业生; 大学生创新创业大赛复旦大学一等奖；Frist-authored paper in MICCAI | First/Curr Position: Msc stu@ SDS, Fudan Univ"
 }, 
 {
 	'name': 'GAO, Shangqi',
@@ -197,7 +197,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'gsq.jpg',
 	'homepage': 'https://github.com/shangqigao/',
-	'introduction': "Thesis: Deep Image Decomposition and Reconstruction. Selected publications:<br>★ S Gao & X Zhuang. Bayesian Image Super-Resolution with Deep Modeling of Image Statistics. IEEE T PAMI 2023 <a href=https://ieeexplore.ieee.org/document/9744488>link</a> <a href=https://github.com/shangqigao/BayeSR>code</a> <br>★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> IEEE T PAMI 44(6), 3224 - 3238, 2022 <a href=https://github.com/shangqigao/RONet>code</a><br>Honour: Excellent Graduate Award of Shanghai 上海市优秀毕业生 | First Position: U Oxford"
+	'introduction': "Thesis: Deep Image Decomposition and Reconstruction. Selected publications:<br>★ S Gao & X Zhuang. Bayesian Image Super-Resolution with Deep Modeling of Image Statistics. IEEE T PAMI 2023 <a href=https://ieeexplore.ieee.org/document/9744488>link</a> <a href=https://github.com/shangqigao/BayeSR>code</a> <br>★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> IEEE T PAMI 44(6), 3224 - 3238, 2022 <a href=https://github.com/shangqigao/RONet>code</a><br>Honour: Excellent Graduate Award of Shanghai 上海市优秀毕业生；国家奖学金'21 | First Position: U Oxford"
 },
 {
 	'name': 'WU, Fuping',
@@ -361,7 +361,7 @@ members_list=[
 	'level': 'A',
 	'photo': 'yueq.jpg',
 	'homepage': '',
-	'introduction': "Thesis: Application Demand of Real-time Ship Positioning in International Trade and the Technology of Artificial Intelligence. Selected publications:<br>★ Q Yue, X Luo, Q Ye, L, Xu, X Zhuang. Cardiac Segmentation from LGE MRI Using Deep Neural Network Incorporating Shape and Spatial Priors. MICCAI 2019, pp. 559-567, 2019<br>Excellent Graduate Award of Shanghai 上海市优秀毕业生) | First/Curr Position: Huawei Shanghai Research"
+	'introduction': "Thesis: Application Demand of Real-time Ship Positioning in International Trade and the Technology of Artificial Intelligence. Selected publications:<br>★ Q Yue, X Luo, Q Ye, L, Xu, X Zhuang. Cardiac Segmentation from LGE MRI Using Deep Neural Network Incorporating Shape and Spatial Priors. MICCAI 2019, pp. 559-567, 2019<br>Excellent Graduate Award of Shanghai 上海市优秀毕业生)；国家奖学金 | First/Curr Position: Huawei Shanghai Research"
 },
 {
 	'name': 'ZHANG, Ke',
