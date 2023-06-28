@@ -1,5 +1,10 @@
 time_list = [
 {
+ 'date': '2023-Jun-25',
+ 'name': '恭喜原冶在第九届“互联网+”大学生创新创业大赛中获得复旦大学一等奖',
+ 'info': '恭喜原冶负责的项目在第九届“互联网+”大学生创新创业大赛复旦大学校内赛获得一等奖，有机会晋级上海市赛<br><a href=https://mp.weixin.qq.com/s/hdpFDZAxCmrkjCDjBKmWEw>link</a >'
+},
+{
 	'date': '2023-Jun-24',
 	'name': 'Congratulations to Xin and Xinzhe runnerup of Francois Erbsmann Prize IPMI 2023',
 	'info': 'Congratulations to Xin and Xinzhe, finalist and runnerup of the Francois Erbsmann Prize for their excellent oral presentation  of our paper entitled, BInGo:Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement, at IPMI 2023<img src="./gallery/2023/2023-06_ipmi_1.jpg" width="100%"/> <img src="./gallery/2023/2023-06_ipmi_2.jpg" width="100%"/><img src="./gallery/2023/2023-06_ipmi_3.jpg" width="100%"/>'
