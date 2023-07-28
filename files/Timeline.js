@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': '7/Jul/2023',
+	'name': 'Xiahai give an online talk on active Interpretable AI',
+	'info': '<a href=https://www.bilibili.com/video/BV1U8411D7A4/?spm_id_from=333.337.search-card.all.click>video</a><br><img src="./gallery/2023/2023-07-11_talktju.jpg" width="100%"/> ' 
+},
+{
  'date': '2023-Jun-25',
  'name': '恭喜原冶在第九届“互联网+”大学生创新创业大赛中获得复旦大学一等奖',
  'info': '恭喜原冶负责的项目在第九届“互联网+”大学生创新创业大赛复旦大学校内赛获得一等奖，有机会晋级上海市赛<br><a href=https://mp.weixin.qq.com/s/hdpFDZAxCmrkjCDjBKmWEw>link</a >'
@@ -12,7 +17,7 @@ time_list = [
 {
 	'date': '2023-Jun-11',
 	'name': 'Congratulations to all graduates 2023 ^_^',
-	'info': 'We have celebration for the graduation 2023, Congratulations! Particularly to Ke, Junyi, Jianhua, Yuanye. <img src="./gallery/2023/2023-06-gradceremony2.png" width="100%"/> <img src="./gallery/2023/2023-06-gradceremony1.png" width="100%"/>'
+	'info': 'We have celebration for the graduation 2023, Congratulations! Particularly to Ke, Junyi, Jianhua, Yuanye. <img src="./gallery/2023/2023-06-gradceremony2.jpg" width="100%"/> <img src="./gallery/2023/2023-06-gradceremony1.jpg" width="100%"/>'
 },
 {
 	'date': 'June/2023',
