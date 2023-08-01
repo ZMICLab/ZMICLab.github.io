@@ -214,7 +214,7 @@ members_list=[
 	'gender': 'female',
 	'level': 'A',
 	'photo': 'lei.jpg',
-	'homepage': ' https://marie0909.github.io/',
+	'homepage': ' https://lileitech.github.io/',
 	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images.Selected publications:<br>★ L Li, et al. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review, Medical Image Analysis, 102360, 2022.<br>★ L Li, et al. AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information. Medical Image Analysis, 76, 102303,  2022.<br>★ L Li, et al. Atrial Scar Quantification via Multi-Scale CNN in the Graph-Cuts Framework. Medical Image Analysis 2020.<br>Honour: 上海交通大学优秀博士毕业生发展奖学金 | First/Curr Position: Univ of Oxford"
 },
 {
