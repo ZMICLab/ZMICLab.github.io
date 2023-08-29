@@ -1,5 +1,10 @@
 time_list = [
 {
+	'date': 'Aug/2023',
+	'name': 'Zheyao&Yuanye\'s paper selected Oral at MICCAI2023!',
+	'info': 'Zheyao Gao# & Yuanye Liu# et al. "A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging" has been provisionally accepted for MICCAI 2023. <br>'
+},
+{
 	'date': '7/Jul/2023',
 	'name': 'Xiahai give an online talk on active Interpretable AI',
 	'info': '<a href=https://www.bilibili.com/video/BV1U8411D7A4/?spm_id_from=333.337.search-card.all.click>video</a><br><img src="./gallery/2023/2023-07-11_talktju.jpg" width="100%"/> ' 
@@ -25,7 +30,7 @@ time_list = [
 	'info': 'Congratulations and well done to Wangbin (IEEE TMI), Kaiwen (Med Image Anal) and Lei (Med Image Anal)'
 }, 
 {
-	'date': 'May/2022',
+	'date': 'May/2023',
 	'name': 'Zheyao&Yuanye\'s paper early accpeted to MICCAI2023!',
 	'info': 'Zheyao Gao# & Yuanye Liu# et al. "A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging" has been provisionally accepted for MICCAI 2023. <br>'
 },
