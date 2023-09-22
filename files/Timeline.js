@@ -1,18 +1,18 @@
-time_list = [
+time_list = [ 
+{
+ 'date': '2023-Sept',
+ 'name': '肝语守护大众健康：刘原冶负责项目获“互联网+”校赛一等奖',
+ 'info': '第九届中国国际互联网+ 大学生创新创业大赛复旦大学校内赛拉开帷幕。经过激烈角逐，由大数据学院刘原冶同学负责、庄吓海老师指导的项目 肝语：守护大众健康 项目获校级一等奖。<a href=https://mp.weixin.qq.com/s/CJLdUfOecYWC7115LLMLZg>link</a><br><img src="./gallery/2023/2023-09-17Liuyuanye.png" width="100%"/> '
+},
 {
 	'date': 'Aug/2023',
-	'name': 'Zheyao&Yuanye\'s paper selected Oral at MICCAI2023!',
-	'info': 'Zheyao Gao# & Yuanye Liu# et al. "A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging" has been provisionally accepted for MICCAI 2023. <br>'
+	'name': 'Shortlist for MICCAl Best Paper and Young Scientist Award!',
+	'info': 'Zheyao and Yuanye\'s oral paper wins MICCAI 2023 STAR Award, and nominated for MICCAl Best Paper and Young Scientist Award!<br>Zheyao Gao# & Yuanye Liu# et al. "A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging". MICCAI 2023<br>'
 },
 {
 	'date': '7/Jul/2023',
 	'name': 'Xiahai give an online talk on active Interpretable AI',
 	'info': '<a href=https://www.bilibili.com/video/BV1U8411D7A4/?spm_id_from=333.337.search-card.all.click>video</a><br><img src="./gallery/2023/2023-07-11_talktju.jpg" width="100%"/> ' 
-},
-{
- 'date': '2023-Jun-25',
- 'name': '恭喜原冶在第九届“互联网+”大学生创新创业大赛中获得复旦大学一等奖',
- 'info': '恭喜原冶负责的项目在第九届“互联网+”大学生创新创业大赛复旦大学校内赛获得一等奖，有机会晋级上海市赛<br><a href=https://mp.weixin.qq.com/s/hdpFDZAxCmrkjCDjBKmWEw>link</a >'
 },
 {
 	'date': '2023-Jun-24',
@@ -23,6 +23,11 @@ time_list = [
 	'date': '2023-Jun-11',
 	'name': 'Congratulations to all graduates 2023 ^_^',
 	'info': 'We have celebration for the graduation 2023, Congratulations! Particularly to Ke, Junyi, Jianhua, Yuanye. <img src="./gallery/2023/2023-06-gradceremony2.jpg" width="100%"/> <img src="./gallery/2023/2023-06-gradceremony1.jpg" width="100%"/>'
+},
+{
+ 'date': '2023-Jun',
+ 'name': '恭喜原冶在第九届“互联网+”大学生创新创业大赛中获得复旦大学一等奖',
+ 'info': '恭喜原冶负责的项目在第九届“互联网+”大学生创新创业大赛复旦大学校内赛获得一等奖，有机会晋级上海市赛<br><a href=https://mp.weixin.qq.com/s/hdpFDZAxCmrkjCDjBKmWEw>link</a >'
 },
 {
 	'date': 'June/2023',
