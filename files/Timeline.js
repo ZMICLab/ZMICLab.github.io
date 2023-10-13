@@ -1,13 +1,18 @@
 time_list = [ 
 {
+	'date': 'OCT/2023',
+	'name': 'Elsevier-MedIA Prize and Young Scientist Award finalist!',
+	'info': 'Well done, Shangqi, Hangqi, Yibo for the BayeSeg, and Zheyao, Yuanye, Fuping for Reliable and Interpretable Framework (<a href=https://www.bilibili.com/video/BV1sw411A7gp/?spm_id_from=333.999.0.0&vd_source=e43ec563b5e5594ee82913a89eb51dd1>talk</a>), remarkable achievements in the MICCAI society ^)^<br><img src="./gallery/2023/2023-09-12 miccai2023award.png" width="100%"/><br>'
+},
+{
+	'date': '8/OCT/2023',
+	'name': 'Congrats to Xinzhe & Zheyao\'s Scholarship^)^',
+	'info': 'Congratulations and very well done: Xinzhe won the top solely one scholarship in the school, i.e., PhD national scholarship, and Zheyao awarded the other scholarship <br><img src="./gallery/2023/2023-10-08_scholarships.jpg" width="100%"/>'
+},
+{
  'date': '2023-Sept',
  'name': '肝语守护大众健康：刘原冶负责项目获“互联网+”校赛一等奖',
  'info': '第九届中国国际互联网+ 大学生创新创业大赛复旦大学校内赛拉开帷幕。经过激烈角逐，由大数据学院刘原冶同学负责、庄吓海老师指导的项目 肝语：守护大众健康 项目获校级一等奖。<a href=https://mp.weixin.qq.com/s/CJLdUfOecYWC7115LLMLZg>link</a><br><img src="./gallery/2023/2023-09-17Liuyuanye.png" width="100%"/> '
-},
-{
-	'date': 'Aug/2023',
-	'name': 'Shortlist for MICCAl Best Paper and Young Scientist Award!',
-	'info': 'Zheyao and Yuanye\'s oral paper wins MICCAI 2023 STAR Award, and nominated for MICCAl Best Paper and Young Scientist Award!<br>Zheyao Gao# & Yuanye Liu# et al. "A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging". MICCAI 2023<br>'
 },
 {
 	'date': '7/Jul/2023',
