@@ -10,6 +10,11 @@ time_list = [
 	'info': 'Congratulations and very well done: Xinzhe won the top solely one scholarship in the school, i.e., PhD national scholarship, and Zheyao awarded the other scholarship <br><img src="./gallery/2023/2023-10-08_scholarships.jpg" width="100%"/>'
 },
 {
+	'date': '25/Sept/2023',
+	'name': 'ZMICers go out and have funs^)^',
+	'info': '<img src="./gallery/2023/2023-09-25 ZMICouting0.jpg" width="100%"/><img src="./gallery/2023/2023-09-25 ZMICouting.jpg" width="100%"/><img src="./gallery/2023/2023-09-25 ZMICouting1.jpg" width="100%"/><img src="./gallery/2023/2023-09-25 ZMICouting2.jpg" width="100%"/><img src="./gallery/2023/2023-09-25 ZMICouting3.jpg" width="100%"/><img src="./gallery/2023/2023-09-25 ZMICouting4.jpg" width="100%"/><img src="./gallery/2023/2023-09-25 ZMICouting5.jpg" width="100%"/><img src="./gallery/2023/2023-09-25 ZMICouting6.jpg" width="100%"/><img src="./gallery/2023/2023-09-25 ZMICouting7.jpg" width="100%"/>'
+}, 
+{
  'date': '2023-Sept',
  'name': '肝语守护大众健康：刘原冶负责项目获“互联网+”校赛一等奖',
  'info': '第九届中国国际互联网+ 大学生创新创业大赛复旦大学校内赛拉开帷幕。经过激烈角逐，由大数据学院刘原冶同学负责、庄吓海老师指导的项目 肝语：守护大众健康 项目获校级一等奖。<a href=https://mp.weixin.qq.com/s/CJLdUfOecYWC7115LLMLZg>link</a><br><img src="./gallery/2023/2023-09-17Liuyuanye.png" width="100%"/> '
