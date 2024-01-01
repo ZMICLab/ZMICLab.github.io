@@ -34,7 +34,7 @@ members_list=[
 	'level': 'D',
 	'photo': 'lxz.jpg',
 	'homepage': '',
-	'introduction': "Research interests include multivariate medical image analysis. Selected publication/honour:<br>★ X Wang, X Luo & X Zhuang. BInGo: Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement. Oral in IPMI 2023 Honorable Mention and runners-up for the <span style=\"color:rgb(185,0,0)\">Francois Erbsmann Prize</span><br>★ X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2022 <br>★ X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. <br>★ 国家奖学金'20 "
+	'introduction': "Research interests include multivariate medical image analysis. Selected publication/honour:<br>★ X Wang, X Luo & X Zhuang. BInGo: Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement. Oral in IPMI 2023 Honorable Mention and runners-up for the <span style=\"color:rgb(185,0,0)\">Francois Erbsmann Prize</span><br>★ X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2023 <br>★ X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. <br>★ 国家奖学金'20 "
 },  
 {
 	'name': 'GAO, Zheyao',
@@ -43,7 +43,7 @@ members_list=[
 	'level': 'D',
 	'photo': '2020_gzy.jpg',
 	'homepage': 'https://www.linkedin.com/in/GaoZheyao-1828a21b7/',
-	'introduction': "Research interests: Distributed learning for medical image analysis; Non-IID problems in medical image computing. Selected publication/honour:<br> ★ Z Gao, F Wu, W Gao, X Zhuang: A New Framework of Swarm Learning Consolidating Knowledge from Multi-Center Non-IID Data for Medical Image Segmentation. IEEE TMI 2022.<br>★ Z Gao, L Li, F Wu, S Wang & X Zhuang. Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI Segmentation. MICCAI 2022"
+	'introduction': "Research interests: Distributed learning for medical image analysis; Non-IID problems in medical image computing. Selected publication/honour:<br> ★ Z Gao, F Wu, W Gao, X Zhuang: A New Framework of Swarm Learning Consolidating Knowledge from Multi-Center Non-IID Data for Medical Image Segmentation. IEEE TMI 2023.<br>★ Z Gao, L Li, F Wu, S Wang & X Zhuang. Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI Segmentation. MICCAI 2022"
 },
 {
  'name': 'WANG, Bomin',
@@ -200,6 +200,15 @@ members_list=[
 	'introduction': "Thesis: Deep Image Decomposition and Reconstruction. Selected publications:<br>★ S Gao & X Zhuang. Bayesian Image Super-Resolution with Deep Modeling of Image Statistics. IEEE T PAMI 2023 <a href=https://ieeexplore.ieee.org/document/9744488>link</a> <a href=https://github.com/shangqigao/BayeSR>code</a> <br>★ S Gao & X Zhuang. <a href=https://ieeexplore.ieee.org/document/9303377>Rank-One Network: An Effective Framework for Image Restoration.</a> IEEE T PAMI 44(6), 3224 - 3238, 2022 <a href=https://github.com/shangqigao/RONet>code</a><br>Honour: Excellent Graduate Award of Shanghai 上海市优秀毕业生；国家奖学金'21 | First Position: U Oxford"
 },
 {
+ 'name': 'PEI, Chenhao',
+ 'year': '(2018-2022, visiting PhD)',
+ 'gender': 'male',
+ 'level': 'A',
+ 'photo': '2018_peichenhao.jpg',
+ 'homepage': 'https://pchenhao.github.io',
+ 'introduction': "Thesis: Domain Adaptation and Multi-source domain adaptationfor Medical Image Segmentation. Selected publications:<br>★ C Pei, F Wu, L Huang & X Zhuang. Disentangle domain features for cross-modality cardiac image segmentation. Medical Image Analysis 2021.<br>★ C Pei, et al. & X Zhuang. Multi-Source Domain Adaptation for Medical Image Segmentation. IEEE TMI 2023+<br> | First/Curr Position: Infervision."
+},
+{
 	'name': 'WU, Fuping',
 	'year': '(2017-2021, PhD)',
 	'gender': 'male',
@@ -216,15 +225,6 @@ members_list=[
 	'photo': 'lei.jpg',
 	'homepage': ' https://lileitech.github.io/',
 	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images.Selected publications:<br>★ L Li, et al. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review, Medical Image Analysis, 102360, 2022.<br>★ L Li, et al. AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information. Medical Image Analysis, 76, 102303,  2022.<br>★ L Li, et al. Atrial Scar Quantification via Multi-Scale CNN in the Graph-Cuts Framework. Medical Image Analysis 2020.<br>Honour: 上海交通大学优秀博士毕业生发展奖学金 | First/Curr Position: Univ of Oxford"
-},
-{
- 'name': 'PEI, Chenhao',
- 'year': '(2018-2022, visiting PhD)',
- 'gender': 'male',
- 'level': 'A',
- 'photo': '2018_peichenhao.jpg',
- 'homepage': 'https://pchenhao.github.io',
- 'introduction': "Thesis: Domain Adaptation and Multi-source domain adaptationfor Medical Image Segmentation. Selected publications:<br>★ C Pei, F Wu, L Huang & X Zhuang. Disentangle domain features for cross-modality cardiac image segmentation. Medical Image Analysis 2021.<br> | First/Curr Position: Infervision."
 },
 {
 	'name': 'HUANG, Chao',
