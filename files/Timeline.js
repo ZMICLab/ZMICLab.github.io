@@ -1,5 +1,10 @@
 time_list = [ 
 {
+	'date': 'Dec/2023 - Jan/2024',
+	'name': 'New Year Publications (TMI&TPAMI) ^_^',
+	'info': 'We have two papers  accepted to IEEE TMI & TPAMI, respcetively! Both on multi-source unsupervised domain adaptation.<br>Very well done, Pei x2 ^_^<br><div style=left>1 Chenhao Pei et al.: Multi-Source Domain Adaptation for Medical Image Segmentation. IEEE TMI<br>2 Jiangbo Pei et al.: Evidential Multi-Source-Free Unsupervised Domain Adaptation. IEEE TPAMI</div>'
+}, 
+{
 	'date': 'OCT/2023',
 	'name': 'Elsevier-MedIA Prize and Young Scientist Award finalist!',
 	'info': 'Well done, Shangqi, Hangqi, Yibo for the BayeSeg, and Zheyao, Yuanye, Fuping for Reliable and Interpretable Framework (<a href=https://www.bilibili.com/video/BV1sw411A7gp/?spm_id_from=333.999.0.0&vd_source=e43ec563b5e5594ee82913a89eb51dd1>talk</a>), remarkable achievements in the MICCAI society ^)^<br><img src="./gallery/2023/2023-09-12 miccai2023award.png" width="100%"/><br>'
