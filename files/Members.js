@@ -116,7 +116,7 @@ members_list=[
 	'gender': 'male',
 	'level': 'P',
 	'photo': '',
-	'homepage': 'http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/people/sunchang/',
+	'homepage': ' ',
 	'introduction': "Research interests include Craniofacial Reconstruction and Human Population Genetics"
 },
 
