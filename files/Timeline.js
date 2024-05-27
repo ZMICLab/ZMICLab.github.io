@@ -1,5 +1,15 @@
 time_list = [ 
 {
+	'date': '2024-May-21',
+	'name': 'Xiahai @ CCIG 2024, XiAn ^_^',
+	'info': '<img src="./gallery/2024/2024-05-24CCIG0.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG1.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG2.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG3.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG4.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG5.jpg" width="100%"/>'
+},
+{
+	'date': '2024-May-21',
+	'name': 'Congratulations to our three PhDs ^_^',
+	'info': 'Congratulations to Dr Wan Kaiwen, Dr Gao Zheyao and Dr Luo Xinzhe for successfully defending PhD thesises. <img src="./gallery/2024/2024-05-21phd1.jpg" width="100%"/><img src="./gallery/2024/2024-05-21phd2.jpg" width="100%"/><img src="./gallery/2024/2024-05-21phd3.jpg" width="100%"/>'
+},
+{
 	'date': 'Dec/2023 - Jan/2024',
 	'name': 'New Year Publications (TMI&TPAMI) ^_^',
 	'info': 'We have two papers  accepted to IEEE TMI & TPAMI, respcetively! Both on multi-source unsupervised domain adaptation.<br>Very well done, Pei x2 ^_^<br><div style=left>1 Chenhao Pei et al.: Multi-Source Domain Adaptation for Medical Image Segmentation. IEEE TMI<br>2 Jiangbo Pei et al.: Evidential Multi-Source-Free Unsupervised Domain Adaptation. IEEE TPAMI</div>'
