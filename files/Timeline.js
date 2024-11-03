@@ -1,5 +1,25 @@
 time_list = [ 
 {
+	'date': '2024-Jul-14',
+	'name': 'ZMICers @ Xiamen Workshop',
+	'info': '<img src="./gallery/2024/2024-07-14 zmic workshop.jpg" width="100%"/> <img src="./gallery/2024/2024-07-14 zmic workshop2.jpg" width="100%"/> <img src="./gallery/2024/2024-07-14 zmic workshop3.jpg" width="100%"/><img src="./gallery/2024/2024-07-14 zmic workshop4.jpg" width="100%"/>'
+},
+{
+	'date': '2024-Jun-17',
+	'name': 'Congratulations to all graduates 2024 ^_^',
+	'info': 'We have celebration for the graduation 2024, Congratulations!<img src="./gallery/2024/2024-06-17 graduate0.jpg" width="100%"/> <img src="./gallery/2024/2024-06-17 graduate1.jpg" width="100%"/> <img src="./gallery/2024/2024-06-17 graduate2.jpg" width="100%"/>'
+},
+{
+	'date': '2024-June-06',
+	'name': 'Fuping back-home visit ^_^',
+	'info': '<img src="./gallery/2024/2024-06-06 fupingvisit.jpg" width="100%"/><img src="./gallery/2024/2024-06-06 fupingvisit1.jpg" width="100%"/><img src="./gallery/2024/2024-06-06 fupingvisit2.jpg" width="100%"/>'
+},
+{
+	'date': '2024-June-05',
+	'name': 'Visit Shenwei ^_^',
+	'info': '<img src="./gallery/2024/2024-06-05 visitShenWei.jpg" width="100%"/><img src="./gallery/2024/2024-06-05 visitShenWei1.jpg" width="100%"/>'
+},
+{
 	'date': '2024-May-21',
 	'name': 'Xiahai @ CCIG 2024, XiAn ^_^',
 	'info': '<img src="./gallery/2024/2024-05-24CCIG0.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG1.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG2.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG3.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG4.jpg" width="100%"/><img src="./gallery/2024/2024-05-24CCIG5.jpg" width="100%"/>'
