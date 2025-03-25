@@ -1,160 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<script type="text/javascript">
-    window["_gaUserPrefs"] = {
-        ioo: function() {
-            return true;
-        }
-    }
-</script>
-
+<html lang="zh">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
-    <title>MyoPS 2020</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="./res/bootstrap_custom.css" rel="stylesheet">
-
-
-    <!-- Custom styles for this template -->
-    <link href="./res/dashboard.css" rel="stylesheet">
- 
-    <script src="./res/ie-emulation-modes-warning.js"></script>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./res/ie10-viewport-bug-workaround.js"></script>
- 
-    <style id="holderjs-style" type="text/css"></style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第十届全国大学生生物医学工程创新设计竞赛</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 28px;
+      color: #004085;
+      text-align: center;
+    }
+    h2 {
+      font-size: 22px;
+      color: #0056b3;
+      margin-top: 30px;
+    }
+    p {
+      text-indent: 2em;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
+  <div class="container">
+    <h1>第十届全国大学生生物医学工程创新设计竞赛</h1>
+    <h2>多模态CMR图像上的的心肌结构和病灶分割</h2>
 
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
-<div class="container" ;>
-<div id="top_menu" > 
-<div class="navbar-collapse collapse">
-<ul class="nav navbar-nav">
-<li><a href="index.html">Home</a></li>
-<li><a href="data1.html">Data</a></li>
-<!--li><a href="dates1.html">Dates</a></li>
-<li><a href="participate1.html">Participate</a></li>
-<li><a href="program.html">Program</a></li-->
-<li><a href="people.html">People</a></li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="submit.html">Submit</a></li> 
-<li><a href="result.html">Result</a></li> 
-</ul>
-</div>
-</div>
-</div>
+    <h2>一、竞赛数据</h2>
+    <p>
+      使用 MyoPS 2020 的公开数据集作为训练集，该数据集包含 45 个病人、每个病人有 3 个序列（LGE、bSSFP Cine、T2w）的 CMR 图像以及分割金标准，总计 180 个 *.nii.gz 文件。另有 25 个病人的多序列 CMR 图像作为测试集，测试集金标准不公布给参赛者。
+    </p>
+    <p>
+      数据集下载链接：<a href="https://pan.baidu.com/s/1mJNtfngc69hMF_LHIHX1Yw" target="_blank">https://pan.baidu.com/s/1mJNtfngc69hMF_LHIHX1Yw</a> 提取码: <strong>zmic</strong>
+    </p>
 
-</div>
+    <h2>二、提交方式</h2>
+    <p>
+      参赛者在测试集完成分割后，把分割结果保存为 *.nii.gz 文件，命名格式为 Casename_pred.nii.gz，例如对于 Case4001，其分割结果命名为 Case4001_pred.nii.gz。参赛者将分割结果打包后，将其命名为参赛队伍名称，发送至邮箱 <a href="mailto:myops2025@126.com">myops2025@126.com</a>，组织者将根据测试集金标准进行结果评估。
+    </p>
 
-<div style="background-color:cornflowerblue;" ; id="title">
-<br> 
-<div style=" color:black; font-size: 200%; text-align: center;"> 
-MyoPS 2020: Myocardial pathology segmentation combining multi-sequence CMR<br>
-<div style="font-size: 60%">in conjunction with STACOM and 
-<a href="https://miccai2020.org/en/default.asp"; style="color:blue">MICCAI</a> 2020 (Oct 4 or 8th, 2020, Lima, Peru)</div>
-</div>
-<br> 
-</div>
-
-    <div class="container-fluid">
-        <div class="row">
-
-            <div class="col-md-10 col-md-offset-1 main">
-                <div id="main_content">
-                    <h2 style=" font-size: 150%;" ; class="sub-header">Data information</h2>
-
-                    <div class="row">
-                        <div class="col-md-9">
-                            <div class="well well-lg"; style="font-size:120%"> 
-<p><a href="./files/DataAccessAgreementforParticipants_MyoPS.pdf">To register, please download registration form</a>  and send to the <a href="mailto:myops2020@aliyun.com; myops2020@gmail.com">organizers</a>. 
-</p>
-
-<p>We provide <span style="color:blue"><b> 45</b></span> cases of multi-sequence CMR. Each case refers to a patient with three sequence CMR, i.e., LGE, T2 and bSSFP CMR. All these clinical data have got institutional ethic approval and have been anonymized. The data released here have been pre-processed using <a href=https://ieeexplore.ieee.org/document/8458220/>the MvMM method [1]</a>, <span style="color:blue"><b>to align the three-sequence CMR into a common space and to resample them into the same spatial resolution.</b></span></p>
-
-<p>
-The provided gold standard labels include: left ventricular (LV) blood pool (labelled 500), right ventricular blood pool (600), LV normal myocardium (200), LV myocardial edema (1220), LV myocardial scars (2221), 
-though the evaluation of the test data will be focused on the myocardial pathology segmentation, i.e., scars and edema. 
-
-<span style="color:blue"><b> The inter-observer variation of manual scar segmentation, in terms of Dice overlap, was 0.5243±0.1578 <a href=https://ieeexplore.ieee.org/document/8458220/>[1]</a>, <span style="color:blue">. As for the inter-ob of LV, RV and Myo, please refer to our below table: </b></span>
-
-<br>
-<br>
-<img border=100pt width=650pt src="images/inter-ob.png"> 
-<br>
-<br>
-This table gives the inter-observer variations from the three manual delineations and the inter-sequence variations among the three sequences. 
-In computing the inter-sequence variations, the manual segmentation of the high-resolution images was transformed onto the image space with lower resolution, after a global affine registration to correct the global misalignment due to body motions, and the Dice scores and ACD were solely computed on the overlapped regions of the two CMR sequences <a href=https://ieeexplore.ieee.org/document/8458220/>[1]</a>. <span style="color:blue">
-<!-- Here, both the LGE and bSSFP CMR were transformed onto the T2 image space, and the LGE images were transformed onto the bSSFP image space. -->
-</p>
-
-<br>
-<img border=100pt width=650pt src="images/ms_cmr.jpg"> 
-<br>
-<br>
-<p> The details of original CMR sequences are as follows:</p>
-<p>
-The bSSFP CMR was a balanced steady-state, free precession cine sequence. Since both the LGE and T2 CMR were
-scanned at the end-diastolic phase, the same cardiac phase of the bSSFP cine data was selected for this study. The
-bSSFP images generally consist of 8 to 12 contiguous slices, covering the full ventricles from the apex to the basal
-plane of the mitral valve, with some cases having several slices beyond the ventricles. The typical parameters are as
-follows, TR/TE: 2.7/1.4 ms; slice thickness: 8-13 mm; inplane resolution: reconstructed into 1.25×1.25 mm. 
-</p>
-<p>
-The LGE CMR was a T1-weighted, inversion-recovery, gradient-echo sequence, consisting of 10 to 18 slices,
-covering the main body of the ventricles. The typical parameters are as follows, TR/TE: 3.6/1.8 ms; slice thickness: 5
-mm; in-plane resolution: reconstructed into 0.75×0.75 mm.
-</p>
-<p>
-The T2 CMR was a T2-weighted, black blood Spectral Presaturation Attenuated Inversion-Recovery (SPAIR)
-sequence, generally consisting of a small number of slices. For example, among the 35 cases, 13 have only three
-slices, and the others have five (13 subjects), six (8 subjects) or seven (one subject) slices. The typical parameters
-are as follows, TR/TE: 2000/90 ms; slice thickness: 12-20 mm; in-plane resolution: reconstructed into 1.35×1.35
-mm. 
-</p> 
- </div>
- 
- 
-<div class="p">Please cite these two papers when you use the data for publications.</div>
-<div class="p"> 
-[1] 
-S Gao, H Zhou, Y Gao, X Zhuang. BayeSeg: Bayesian Modeling for Medical Image Segmentation with Interpretable Generalizability. Medical Image Analysis 89, 102889, 2023 
-<a href=https://github.com/obiyoag/BayeSeg>code&tutorial</a>,
-		<a href=https://www.sciencedirect.com/journal/medical-image-analysis/special-issue/10MFST0CK73>link</a>
-(Elsevier-MedIA 1st Prize & Best Paper Award of MICCAl society 2023)<br>
-[2] X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE Transactions on Pattern Analysis and Machine Intelligence 45(7): 9206 - 9224, 2023 (IF: 24.314) 
-<a href=https://ieeexplore.ieee.org/document/9965747>link</a> 
-		<a href=https://github.com/xzluo97/X-metric>code</a><br>  
-[3] Xiahai Zhuang: Multivariate mixture model for myocardial segmentation combining multi-source images.
-IEEE Transactions on Pattern Analysis and Machine Intelligence (T PAMI), vol. 41, no. 12, 2933-2946, <span style="color:red";>2019</span>.   
-<a href=https://ieeexplore.ieee.org/document/8458220/>link</a> <a href=https://github.com/xzluo97/MvMM-Demo>code</a> <br>
-[4] J Qiu, L Li, S Wang, K  Zhang, Y Chen, S Yang, X Zhuang: 
-MyoPS-Net: Myocardial Pathology Segmentation with Flexible Combination of Multi-Sequence CMR Images. Medical Image Analysis 84, 102694, 2023. <a href=https://doi.org/10.1016/j.media.2022.102694>link</a> <a href=https://github.com/QJYBall/MyoPS-Net>code</a>    <br> 
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</div>  
-
- </div>
-						
-
-</div>
-
-
-</div>
-</div>
-</div>
-</div>
-  
- 
+    <h2>三、任务要求</h2>
+    <p>
+      通过本竞赛提供的数据集，训练一个心肌病灶分割模型，实现心脏结构（左心室血池、右心室血池、左心室心肌）和心肌病灶（水肿区域、梗死区域）的自动分割。
+    </p>
+  </div>
 </body>
-
 </html>
