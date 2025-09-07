@@ -18,33 +18,7 @@ members_list=[
 	'homepage': 'https://zmiclab.github.io/zxh/',
 	'introduction': "Xiahai Zhuang, Ph.D., Professor, School of Data Science, Fudan University.<br>DR. Zhuang has bachelor and master degrees in computer science (Tianjin Univ.; Shanghai Jiao Tong Univ.) and PhD in medical image computing (University College London)."
 },
-/* PHD and Postdoc*/    
-{
-	'name': 'WAN, Kaiwen',
-	'year': '(2018-)',
-	'gender': 'male',
-	'level': 'D',
-	'photo': '2018_wkw.jpg',
-	'homepage': '',
-	'introduction': "PhD student. Research interests: reinforcement learning for medical imaging. Selected publication/honour:<br> ★ K Wan, L Li, D Jia, S Gao, F Wu, X Zhuang: Multi-Target Landmark Detection with Incomplete Images via Reinforcement Learning and Shape Prior. Medical Image Analysis 2023."},
-{
-	'name': 'LUO, Xinzhe',
-	'year': '(2019-)',
-	'gender': 'male',
-	'level': 'D',
-	'photo': 'lxz.jpg',
-	'homepage': '',
-	'introduction': "Research interests include multivariate medical image analysis. Selected publication/honour:<br>★ X Wang, X Luo & X Zhuang. BInGo: Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement. Oral in IPMI 2023 Honorable Mention and runners-up for the <span style=\"color:rgb(185,0,0)\">Francois Erbsmann Prize</span><br>★ X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2023 <br>★ X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. <br>★ 国家奖学金'20 "
-},  
-{
-	'name': 'GAO, Zheyao',
-	'year': '(2020-)',
-	'gender': 'male',
-	'level': 'D',
-	'photo': '2020_gzy.jpg',
-	'homepage': 'https://www.linkedin.com/in/GaoZheyao-1828a21b7/',
-	'introduction': "Research interests: Distributed learning for medical image analysis; Non-IID problems in medical image computing. Selected publication/honour:<br> ★ Z Gao, F Wu, W Gao, X Zhuang: A New Framework of Swarm Learning Consolidating Knowledge from Multi-Center Non-IID Data for Medical Image Segmentation. IEEE TMI 2023.<br>★ Z Gao, L Li, F Wu, S Wang & X Zhuang. Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI Segmentation. MICCAI 2022"
-},
+/* PHD and Postdoc*/     
 {
  'name': 'WANG, Bomin',
  'year': '(2021-)',
@@ -71,42 +45,78 @@ members_list=[
  'photo': '2021_zhouhangqi.jpg',
  'homepage': '',
  'introduction': "I am interested in modeling image reconstruction problems and recently I focus on incremental learning"
+},  
+{
+	'name': 'GAO, Yibo',
+	'year': '(2022-)',
+	'gender': 'male',
+	'level': 'D',
+	'photo': '2022_gaoyibo.jpg',
+	'homepage': 'https://obiyoag.github.io/',
+	'introduction': "Research interests: interpretable medical image analysis. Selected publication: <br>★ S Gao#, H Zhou#, Y Gao#, X Zhuang: Joint Modeling of Image and Label Statistics for Enhancing Model Generalizability of Medical Image Segmentation. MICCAI 2022 <span style=\"color:rgb(185,0,0)\">(MICCAI Best Paper Finalist)</span> <a href='https://github.com/shangqigao/BayeSeg'>code</a > <br>★ S Gao#, H Zhou#, Y Gao#, X Zhuang. BayeSeg: Bayesian Modeling for Medical Image Segmentation with Interpretable Generalizability. Medical Image Analysis 2023 <span style=\"color:rgb(185,0,0)\">(Elsevier-MedIA 1st Prize & Medical Image Analysis MICCAl Best Paper Award)</span> <a href='https://github.com/obiyoag/BayeSeg'>code</a > <br>★ Y Gao, et al.: Evidential Concept Embedding Models: Towards Reliable Concept Explanations for Skin Disease Diagnosis. MICCAI 2024 <a href='https://github.com/obiyoag/evi-CEM'>code</a > <br>★ Y Gao, et al.: Learning Concept-Driven Logical Rules for Interpretable and Generalizable Medical Image Classification. MICCAI 2025 <span style=\"color:rgb(185,0,0)\">(MICCAl Best Paper and Young Scientist Award finalist)</span> <a href='https://github.com/obiyoag/crl'>code</a >"
+},
+{
+ 'name': 'Sui, An',
+ 'year': '(2023-)',
+ 'gender': 'Male',
+ 'level': 'D',
+ 'photo': '',
+ 'homepage': '',
+ 'introduction': "I am a PhD student in ZMIC lab."
 }, 
 {
- 'name': 'GAO, Yibo',
- 'year': '(2022-)',
- 'gender': 'male',
+ 'name': 'Li, Yuzhu',
+ 'year': '(2023-)',
+ 'gender': 'Female',
  'level': 'D',
- 'photo': '2022_gaoyibo.jpg',
+ 'photo': '',
  'homepage': '',
- 'introduction': 'Now I’m focusing on deep learning based methods for MRI image reconstruction.'
+ 'introduction': "I am a PhD student in ZMIC lab."
+}, 
+{
+ 'name': 'Jiang, Suiyang',
+ 'year': '(2023-)',
+ 'gender': 'Male',
+ 'level': 'D',
+ 'photo': '',
+ 'homepage': '',
+ 'introduction': "I am a PhD student in ZMIC lab."
+}, 
+{
+	'name': 'LIU, Yuanye',
+	'year': '(2019-)',
+	'gender': 'male',
+	'level': 'D',
+	'photo': '2023_liuyuanye.jpg',
+	'homepage': 'https://henrylau7.github.io/',
+	'introduction': "Research interests: trustworthy and interpretable medical AI. Selected publication: <br>★ Y Liu#, Z Gao#, N Shi#, et al.: MERIT: Multi-view Evidential Learning for Reliable and Interpretable Liver Fibrosis Staging. Medical Image Analysis, 2025 <a href=' '>code</a > <br>★ Y Liu#, R Zhen#, et al.: BayeSMM: Robust Deep Combined Computing Tackling Heavy-tailed distribution in Medical. MICCAI 2025 <span style=\"color:rgb(185,0,0)\">(Oral)</span> <a href='https://github.com/HenryLau7/BayeSMM'>code</a > <br>★ Z Gao#, Y Liu#, et al.: A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging. MICCAI 2023 <span style=\"color:rgb(185,0,0)\">(Oral, Best Paper Finalist)</span> <a href='https://github.com/HenryLau7/MERIT'>code</a >"
 },
 {
- 'name': 'Sheng, Xicheng',
- 'year': '(2022-)',
- 'gender': 'female',
- 'level': 'M',
- 'photo': '2022_shengxicheng.jpg',
- 'homepage': '',
-'introduction': "I am an MSc student in ZMIC Lab"
-},
-{
- 'name': 'Li, Yuxin',
- 'year': '(2022-)',
- 'gender': 'female',
- 'level': 'M',
- 'photo': '2022_liyuxin.jpg',
- 'homepage': '',
-'introduction': "I am an MSc student in ZMIC Lab"
-},
-{
- 'name': 'Liu, Yuanye',
+ 'name': 'Zhang, Yang',
  'year': '(2023-)',
  'gender': 'male',
  'level': 'M',
- 'photo': '2023_liuyuanye.jpg',
- 'homepage': 'https://henrylau7.github.io/',
- 'introduction': "Selected publication/honour:<br>★ Z Gao#, Y Liu#, et al.: A Reliable and Interpretable Framework of Multi-view Learning for Liver Fibrosis Staging. Early accept to MICCAI 2023."
+ 'photo': '',
+ 'homepage': '',
+ 'introduction': "I am a postgraduate student at ZMIC lab"
+}, 
+{
+ 'name': 'Zhen, Ruoxuan',
+ 'year': '(2024-)',
+ 'gender': 'Female',
+ 'level': 'D',
+ 'photo': '',
+ 'homepage': '',
+ 'introduction': "I am a PhD student in ZMIC lab."
+}, 
+{
+ 'name': 'Zhang, Tianyi',
+ 'year': '(2025-)',
+ 'gender': 'Male',
+ 'level': 'D',
+ 'photo': '',
+ 'homepage': '',
+ 'introduction': "I am a PhD student in ZMIC lab."
 }, 
 /* others   
 
@@ -145,6 +155,50 @@ members_list=[
 
 
 /* ********************************************** 2020 ************************************************ */
+{
+ 'name': 'Sheng, Xicheng',
+ 'year': '(2022-2025)',
+ 'gender': 'female',
+ 'level': 'A', 
+ 'photo': '2022_shengxicheng.jpg',
+ 'homepage': '',
+'introduction': " Thesis: 基于心脏影像极坐标变换与边界感知建模的心肌瘢痕分割与亚型分类. Selected publication:<br>★ X Sheng et al., & X Zhuang. Automated Characterization of Myocardial Scar Topological Patterns for Ventricular Tachycardia Screening. Oral in MICCAI 2025 <br>First Position: PhD stu @ Peking Union Medical College" 
+},
+{
+ 'name': 'Li, Yuxin',
+ 'year': '(2022-2025)',
+ 'gender': 'female',
+ 'level': 'A', 
+ 'photo': '2022_liyuxin.jpg',
+ 'homepage': '',
+'introduction': " Thesis: 基于扩散模型的生成流网络加速方法及其在分子生成中的应用研究. | First Position: PhD stu @ Univ Penn" 
+},
+{
+	'name': 'LUO, Xinzhe',
+	'year': '(2019-2024)',
+	'gender': 'male',
+ 'level': 'A', 
+	'photo': 'lxz.jpg',
+	'homepage': '',
+	'introduction': "Thesis: 基于显式建模的多模态医学图像群组联合计算. Selected publication/honour:<br>★ X Wang, X Luo & X Zhuang. BInGo: Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement. Oral in IPMI 2023 Honorable Mention and runners-up for the <span style=\"color:rgb(185,0,0)\">Francois Erbsmann Prize</span><br>★ X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2023 <br>★ X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. <br>★ 国家奖学金'20 | First Position: Imperial College London"
+},  
+{
+	'name': 'GAO, Zheyao',
+	'year': '(2020-2024)',
+	'gender': 'male',
+ 'level': 'A', 
+	'photo': '2020_gzy.jpg',
+	'homepage': 'https://www.linkedin.com/in/GaoZheyao-1828a21b7/',
+	'introduction': "Thesis: Distributed Learning with Non-IID Data for Medical Image Segmentation. Selected publication/honour:<br> ★ Z Gao, F Wu, W Gao, X Zhuang: A New Framework of Swarm Learning Consolidating Knowledge from Multi-Center Non-IID Data for Medical Image Segmentation. IEEE TMI 2023.<br>★ Z Gao, L Li, F Wu, S Wang & X Zhuang. Decoupling Predictions in Distributed Learning for Multi-Center Left Atrial MRI Segmentation. MICCAI 2022 <br>★ Z Gao et al. MICCAI 2023. Finalist of MICCAI Young Scientist Award/ Best Paper Award. | First Position: CUHK"
+},
+{
+	'name': 'WAN, Kaiwen',
+	'year': '(2018-2024)',
+	'gender': 'male',
+ 'level': 'A', 
+	'photo': '2018_wkw.jpg',
+	'homepage': '',
+	'introduction': "PhD student. Research interests: reinforcement learning for medical imaging. Selected publication/honour:<br> ★ K Wan, L Li, D Jia, S Gao, F Wu, X Zhuang: Multi-Target Landmark Detection with Incomplete Images via Reinforcement Learning and Shape Prior. Medical Image Analysis 2023. <br>★ Wan et al.: Context-Guided Continual Reinforcement Learning for Landmark Detection with Incomplete Data. MICCAI 2024 | First Position: 瑞金医院"},
 {
  'name': 'QIU, Junyi',
  'year': '(2020-2023, Master)',
@@ -209,23 +263,15 @@ members_list=[
  'introduction': "Thesis: Domain Adaptation and Multi-source domain adaptationfor Medical Image Segmentation. Selected publications:<br>★ C Pei, F Wu, L Huang & X Zhuang. Disentangle domain features for cross-modality cardiac image segmentation. Medical Image Analysis 2021.<br>★ C Pei, et al. & X Zhuang. Multi-Source Domain Adaptation for Medical Image Segmentation. IEEE TMI 2023+<br> | First/Curr Position: Infervision."
 },
 {
-	'name': 'WU, Fuping',
-	'year': '(2017-2021, PhD)',
+	'name': 'JIA, Dengqiang',
+	'year': '(2015-2022, Msc->PhD SJTU)',
 	'gender': 'male',
 	'level': 'A',
-	'photo': 'wfp.jpg',
-	'homepage': 'https://fupingwu90.github.io/cv/',
-	'introduction': "Thesis: Deep Domain Adaptation and Semi-Supervised Learning for Medical Image Segmentation. Selected publications:<br>★ F Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE T PAMI  2022-10 <br>★ F Wu & X Zhuang.  Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation. IEEE TMI 2021.<br>★ F Wu & X Zhuang. CF Distance: A new domain discrepancy metric and application to explicit domain adaptation for cross-modality cardiac image segmentation. IEEE TMI 2020.<br>First/Curr Position: Univ of Oxford"
+	'photo': 'jdq.jpg',
+	'homepage': '',
+	'introduction': "Thesis: A priori information-based coronary image analysis and its application to the biomechanical study of coronary plaque. | Curr Position: Assitant Professor in Macao Polytechnic University"
 },
-{ 
-	'name': 'LI, Lei',
-	'year': '(2016-2021, PhD)',
-	'gender': 'female',
-	'level': 'A',
-	'photo': 'lei.jpg',
-	'homepage': ' https://lileitech.github.io/',
-	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images.Selected publications:<br>★ L Li, et al. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review, Medical Image Analysis, 102360, 2022.<br>★ L Li, et al. AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information. Medical Image Analysis, 76, 102303,  2022.<br>★ L Li, et al. Atrial Scar Quantification via Multi-Scale CNN in the Graph-Cuts Framework. Medical Image Analysis 2020.<br>Honour: 上海交通大学优秀博士毕业生发展奖学金 | First/Curr Position: Univ of Oxford"
-},
+
 {
 	'name': 'HUANG, Chao',
 	'year': '(2020-2022, Master)',
@@ -252,6 +298,24 @@ members_list=[
  'photo': '2020_fyt.jpg',
  'homepage': '',
  'introduction': "Thesis: Research on Interactive Pair-wised Visual Comparison of Fine-grained Emotional Evolution in Social Media | First/Curr Position: 交通银行总行（Bank of Communications）金融科技部"
+},
+{
+	'name': 'WU, Fuping',
+	'year': '(2017-2021, PhD)',
+	'gender': 'male',
+	'level': 'A',
+	'photo': 'wfp.jpg',
+	'homepage': 'https://fupingwu90.github.io/cv/',
+	'introduction': "Thesis: Deep Domain Adaptation and Semi-Supervised Learning for Medical Image Segmentation. Selected publications:<br>★ F Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE T PAMI  2022-10 <br>★ F Wu & X Zhuang.  Unsupervised Domain Adaptation with Variational Approximation for Cardiac Segmentation. IEEE TMI 2021.<br>★ F Wu & X Zhuang. CF Distance: A new domain discrepancy metric and application to explicit domain adaptation for cross-modality cardiac image segmentation. IEEE TMI 2020.<br>First/Curr Position: Univ of Oxford"
+},
+{ 
+	'name': 'LI, Lei',
+	'year': '(2016-2021, PhD)',
+	'gender': 'female',
+	'level': 'A',
+	'photo': 'lei.jpg',
+	'homepage': ' https://lileitech.github.io/',
+	'introduction': "Thesis: Left atrial scar segmentation and quantification from late gadolinium enhanced magnetic resonance images.Selected publications:<br>★ L Li, et al. Medical Image Analysis on Left Atrial LGE MRI for Atrial Fibrillation Studies: A Review, Medical Image Analysis, 102360, 2022.<br>★ L Li, et al. AtrialJSQnet: A New Framework for Joint Segmentation and Quantification of Left Atrium and Scars Incorporating Spatial and Shape Information. Medical Image Analysis, 76, 102303,  2022.<br>★ L Li, et al. Atrial Scar Quantification via Multi-Scale CNN in the Graph-Cuts Framework. Medical Image Analysis 2020.<br>Honour: 上海交通大学优秀博士毕业生发展奖学金 | First/Curr Position: Univ of Oxford/ Asst. Prof. in National University of Singapore"
 },
 {
 	'name': 'XU, Jiahang',
@@ -453,15 +517,6 @@ members_list=[
 	'photo': 'xlc.jpg',
 	'homepage': '',
 	'introduction': "First/Curr Position: PhD in Shanghai Jiao Tong University." 
-},
-{
-	'name': 'JIA, Dengqiang',
-	'year': '(2015-2022, Msc->PhD SJTU)',
-	'gender': 'male',
-	'level': 'A',
-	'photo': '',
-	'homepage': '',
-	'introduction': "Thesis: A priori information-based coronary image analysis and its application to the biomechanical study of coronary plaque."
 },
 {
 	'name': 'Long Chen',
