@@ -157,7 +157,7 @@ members_list=[
 /* ********************************************** 2020 ************************************************ */
 {
  'name': 'Sheng, Xicheng',
- 'year': '(2022-2025)',
+ 'year': '(2022-2025, Master)',
  'gender': 'female',
  'level': 'A', 
  'photo': '2022_shengxicheng.jpg',
@@ -166,16 +166,34 @@ members_list=[
 },
 {
  'name': 'Li, Yuxin',
- 'year': '(2022-2025)',
+ 'year': '(2022-2025, Master)',
  'gender': 'female',
  'level': 'A', 
  'photo': '2022_liyuxin.jpg',
  'homepage': '',
-'introduction': " Thesis: 基于扩散模型的生成流网络加速方法及其在分子生成中的应用研究. | First Position: PhD stu @ Univ Penn" 
+'introduction': "Thesis: 基于扩散模型的生成流网络加速方法及其在分子生成中的应用研究. | First Position: PhD stu @ Univ Penn" 
+},
+{
+'name': 'LI,Yimeng',
+'year': '(2023-2025, Master)',
+'gender': 'female',
+'level': 'A', 
+'photo': '2023_liyimeng.jpg',
+'homepage': 'https://github.com/lym0326',
+'introduction': "Thesis: Denoising Behavior Sequences in Recommendation Systems Using Latent Diffusion Model. | First/Curr Position: 虾皮（Shopee)算法工程师"
+},
+{
+'name': 'GONG,Haiyu',
+'year': '(2023-2025, Master)',
+'gender': 'male',
+'level': 'A',
+'photo': '2023_gonghaiyu.jpg',
+ 'homepage': '',
+'introduction': "Thesis: 融合Ki67异质性特征的神经内分泌肿瘤诊断与预后分析模型. <br>Selected Honour: 大数据学院专业优秀学业三等奖学金 | First Position: 杭州睿琪软件"
 },
 {
 	'name': 'LUO, Xinzhe',
-	'year': '(2019-2024)',
+	'year': '(2019-2024, PhD)',
 	'gender': 'male',
  'level': 'A', 
 	'photo': 'lxz.jpg',
@@ -184,7 +202,7 @@ members_list=[
 },  
 {
 	'name': 'GAO, Zheyao',
-	'year': '(2020-2024)',
+	'year': '(2020-2024, PhD)',
 	'gender': 'male',
  'level': 'A', 
 	'photo': '2020_gzy.jpg',
@@ -193,7 +211,7 @@ members_list=[
 },
 {
 	'name': 'WAN, Kaiwen',
-	'year': '(2018-2024)',
+	'year': '(2018-2024, PhD)',
 	'gender': 'male',
  'level': 'A', 
 	'photo': '2018_wkw.jpg',
@@ -233,7 +251,7 @@ members_list=[
  'level': 'A',
  'photo': '2023_dingwangbin.jpg',
  'homepage': 'https://http://github.com/NanYoMy',
- 'introduction': "Thesis: Fusing multi-modality images towards automated myocardial pathology segmentation. Selected publications:<br>★ Ding W, Li L, Qiu J, Wang S, Huang L, Chen Y, Yang S, Zhuang X. Aligning Multi-Sequence CMR Towards Fully Automated Myocardial Pathology Segmentation. IEEE TMI 2023.<br>★ Ding W, Li L, Zhuang X, Huang L. Cross-Modality Multi-Atlas Segmentation via Deep Registration and Label Fusion. IEEE JBHI 2022.<br>First/Curr Position: Fujian Medical University."
+ 'introduction': "Thesis: Fusing multi-modality images towards automated myocardial pathology segmentation. Selected publications:<br>★ Ding W, Li L, Qiu J, Wang S, Huang L, Chen Y, Yang S, Zhuang X. Aligning Multi-Sequence CMR Towards Fully Automated Myocardial Pathology Segmentation. IEEE TMI 2023.<br>★ Ding W, Li L, Zhuang X, Huang L. Cross-Modality Multi-Atlas Segmentation via Deep Registration and Label Fusion. IEEE JBHI 2022.<br>First/Curr Position: Lecturer/AP at Fujian Medical University."
 },
 {
  'name': 'Liu, Yuanye',
@@ -264,7 +282,7 @@ members_list=[
 },
 {
 	'name': 'JIA, Dengqiang',
-	'year': '(2015-2022, Msc->PhD SJTU)',
+	'year': '(2015-2022, Msc->PhD)',
 	'gender': 'male',
 	'level': 'A',
 	'photo': 'jdq.jpg',
