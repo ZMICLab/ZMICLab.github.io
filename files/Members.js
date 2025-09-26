@@ -216,7 +216,17 @@ members_list=[
  'level': 'A', 
 	'photo': '2018_wkw.jpg',
 	'homepage': '',
-	'introduction': "PhD student. Research interests: reinforcement learning for medical imaging. Selected publication/honour:<br> ★ K Wan, L Li, D Jia, S Gao, F Wu, X Zhuang: Multi-Target Landmark Detection with Incomplete Images via Reinforcement Learning and Shape Prior. Medical Image Analysis 2023. <br>★ Wan et al.: Context-Guided Continual Reinforcement Learning for Landmark Detection with Incomplete Data. MICCAI 2024 | First Position: 瑞金医院"},
+	'introduction': "PhD student. Research interests: reinforcement learning for medical imaging. Selected publication/honour:<br> ★ K Wan, L Li, D Jia, S Gao, F Wu, X Zhuang: Multi-Target Landmark Detection with Incomplete Images via Reinforcement Learning and Shape Prior. Medical Image Analysis 2023. <br>★ Wan et al.: Context-Guided Continual Reinforcement Learning for Landmark Detection with Incomplete Data. MICCAI 2024 | First Position: 瑞金医院"
+},
+{
+	'name': 'LIU, Jinming',
+	'year': '(2022-2024, Master)',
+	'gender': 'male',
+	'level': 'A',
+	'photo': '2024_liujinming.jpg',
+	'homepage': '',
+	'introduction': "Multi-Domain Medical Image Segmentation and Application for Liver MR | First/Curr Position: 阿里巴巴（Alibaba Group）时效预估算法组"
+},
 {
  'name': 'QIU, Junyi',
  'year': '(2020-2023, Master)',
