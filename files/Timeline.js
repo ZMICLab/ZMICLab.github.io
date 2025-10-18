@@ -1,5 +1,15 @@
 time_list = [ 
 {
+	'date': '2025-Oct',
+	'name': 'Young Scientist Award and Best Paper Award!!',
+	'info': 'Congratulations on Yibo winning the MICCAI Young Scientist Award and on Shangqi winning the AMAI Best Paper Award<img src="./gallery/2025/miccai_YSA.png" width="100%"/> <img src="./gallery/2025/AMAI_bestpaperaward.png" width="100%"  '
+},
+{
+	'date': '2025-Sept',
+	'name': 'Xiahai with ZMICers @ MICCAI 2025',
+	'info': '<img src="./gallery/2025/miccai1.jpg" width="100%"/> <img src="./gallery/2025/miccai2.jpg" width="100%" <img src="./gallery/2025/miccai3.jpg" width="100%"/> <img src="./gallery/2025/miccai4.jpg" width="100%"/> <img src="./gallery/2025/miccai5.jpg" width="100%"/> <img src="./gallery/2025/miccai6.jpg" width="100%"/> <img src="./gallery/2025/miccai7.jpg" width="100%"/> <img src="./gallery/2025/miccai8.jpg" width="100%"/>  <img src="./gallery/2025/miccai9.jpg" width="100%"/> '
+},
+{
 	'date': '2024-Jul-14',
 	'name': 'ZMICers @ Xiamen Workshop',
 	'info': '<img src="./gallery/2024/2024-07-14 zmic workshop.jpg" width="100%"/> <img src="./gallery/2024/2024-07-14 zmic workshop2.jpg" width="100%"/> <img src="./gallery/2024/2024-07-14 zmic workshop3.jpg" width="100%"/><img src="./gallery/2024/2024-07-14 zmic workshop4.jpg" width="100%"/>'
