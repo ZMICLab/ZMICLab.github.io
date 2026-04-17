@@ -191,6 +191,21 @@ members_list=[
  'homepage': '',
 'introduction': "Thesis: 融合Ki67异质性特征的神经内分泌肿瘤诊断与预后分析模型. <br>Selected Honour: 大数据学院专业优秀学业三等奖学金 | First Position: 杭州睿琪软件"
 },
+{ 
+'name': 'Jiangbo Pei', 
+'year': '(2020-2025, visiting PhD)', 
+'gender': 'male', 
+'level': 'A', 
+'photo': '2025_peijiangbo.jpg', 
+'homepage': 'https://scholar.google.com/citations?user=xyi5sCAAAAAJ&hl=zh-CN', 
+'introduction': "Thesis: Research on Key Technologies for Trustworthy Unsupervised Model Adaptation. Selected publication:<br>★ J Pei & A Men & Y Liu & X Zhuang & Q Chen. Evidential multi-source-free unsupervised domain adaptation. IEEE TPAMI 2024 <br>★  J Pei & R Li & A Men & Y Liu & X Zhuang & Q Chen. Selection, Ensemble, and Adaptation: Advancing Multi-Source-Free Domain Adaptation via Architecture Zoo. IEEE TPAMI 2025 <br>First/Curr Position: Skywork AI" },
+{
+'name': 'XU, Yinsong',
+'year': '(2024-2025, Visiting PhD)',
+'gender': 'male',
+'photo': '2025_xuyinsong.jpg', 
+'level': 'A', 
+'introduction': "Thesis: Research on Domain Adaptation Machine Learning Methods for Open-World. Selected publication: <br>★ Y. Xu, A. Men, Y. Liu, X. Zhuang and Q. Chen. Incorporating Pre-Training Data Matters in Unsupervised Domain Adaptation. IEEE T-PAMI 2025 </a >  | First Position: Staff Researcher@Lenovo" },
 {
 	'name': 'LUO, Xinzhe',
 	'year': '(2019-2024, PhD)',
