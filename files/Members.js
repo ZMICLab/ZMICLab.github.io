@@ -53,7 +53,7 @@ members_list=[
 	'level': 'D',
 	'photo': '2022_gaoyibo.jpg',
 	'homepage': 'https://obiyoag.github.io/',
-	'introduction': "Research interests: interpretable medical image analysis. Selected publication: <br>★ S Gao#, H Zhou#, Y Gao#, X Zhuang: Joint Modeling of Image and Label Statistics for Enhancing Model Generalizability of Medical Image Segmentation. MICCAI 2022 <span style=\"color:rgb(185,0,0)\">(MICCAI Best Paper Finalist)</span> <a href='https://github.com/shangqigao/BayeSeg'>code</a > <br>★ S Gao#, H Zhou#, Y Gao#, X Zhuang. BayeSeg: Bayesian Modeling for Medical Image Segmentation with Interpretable Generalizability. Medical Image Analysis 2023 <span style=\"color:rgb(185,0,0)\">(Elsevier-MedIA 1st Prize & Medical Image Analysis MICCAl Best Paper Award)</span> <a href='https://github.com/obiyoag/BayeSeg'>code</a > <br>★ Y Gao, et al.: Evidential Concept Embedding Models: Towards Reliable Concept Explanations for Skin Disease Diagnosis. MICCAI 2024 <a href='https://github.com/obiyoag/evi-CEM'>code</a > <br>★ Y Gao, et al.: Learning Concept-Driven Logical Rules for Interpretable and Generalizable Medical Image Classification. MICCAI 2025 <span style=\"color:rgb(185,0,0)\">(MICCAl Best Paper and Young Scientist Award finalist)</span> <a href='https://github.com/obiyoag/crl'>code</a >"
+	'introduction': "Research interests: interpretable medical image analysis. Selected publication: <br>★ S Gao#, H Zhou#, Y Gao#, X Zhuang: Joint Modeling of Image and Label Statistics for Enhancing Model Generalizability of Medical Image Segmentation. MICCAI 2022 <span style=\"color:rgb(185,0,0)\">(MICCAI Best Paper Finalist)</span> <a href='https://github.com/shangqigao/BayeSeg'>code</a > <br>★ S Gao#, H Zhou#, Y Gao#, X Zhuang. BayeSeg: Bayesian Modeling for Medical Image Segmentation with Interpretable Generalizability. Medical Image Analysis 2023 <span style=\"color:rgb(185,0,0)\">(Elsevier-MedIA 1st Prize & Medical Image Analysis MICCAl Best Paper Award)</span> <a href='https://github.com/obiyoag/BayeSeg'>code</a > <br>★ Y Gao, et al.: Evidential Concept Embedding Models: Towards Reliable Concept Explanations for Skin Disease Diagnosis. MICCAI 2024 <a href='https://github.com/obiyoag/evi-CEM'>code</a > <br>★ Y Gao, et al.: Learning Concept-Driven Logical Rules for Interpretable and Generalizable Medical Image Classification. MICCAI 2025 <span style=\"color:rgb(185,0,0)\">(MICCAl Young Scientist Award)</span> <a href='https://github.com/obiyoag/crl'>code</a >"
 },
 {
  'name': 'Sui, An',
@@ -198,14 +198,14 @@ members_list=[
 'level': 'A', 
 'photo': '2025_peijiangbo.jpg', 
 'homepage': 'https://scholar.google.com/citations?user=xyi5sCAAAAAJ&hl=zh-CN', 
-'introduction': "Thesis: Research on Key Technologies for Trustworthy Unsupervised Model Adaptation. Selected publication:<br>★ J Pei & A Men & Y Liu & X Zhuang & Q Chen. Evidential multi-source-free unsupervised domain adaptation. IEEE TPAMI 2024 <br>★  J Pei & R Li & A Men & Y Liu & X Zhuang & Q Chen. Selection, Ensemble, and Adaptation: Advancing Multi-Source-Free Domain Adaptation via Architecture Zoo. IEEE TPAMI 2025 <br>First/Curr Position: Skywork AI" },
+'introduction': "Thesis: Research on Key Technologies for Trustworthy Unsupervised Model Adaptation. Selected publication:<br>★ J Pei & A Men & Y Liu & X Zhuang & Q Chen. Evidential multi-source-free unsupervised domain adaptation. IEEE T PAMI 2024 <br>★  J Pei & R Li & A Men & Y Liu & X Zhuang & Q Chen. Selection, Ensemble, and Adaptation: Advancing Multi-Source-Free Domain Adaptation via Architecture Zoo. IEEE T PAMI 2025 <br>First/Curr Position: Skywork AI" },
 {
 'name': 'XU, Yinsong',
 'year': '(2024-2025, Visiting PhD)',
 'gender': 'male',
 'photo': '2025_xuyinsong.jpg', 
 'level': 'A', 
-'introduction': "Thesis: Research on Domain Adaptation Machine Learning Methods for Open-World. Selected publication: <br>★ Y. Xu, A. Men, Y. Liu, X. Zhuang and Q. Chen. Incorporating Pre-Training Data Matters in Unsupervised Domain Adaptation. IEEE T-PAMI 2025 </a >  | First Position: Staff Researcher@Lenovo" },
+'introduction': "Thesis: Research on Domain Adaptation Machine Learning Methods for Open-World. Selected publication: <br>★ Y. Xu, A. Men, Y. Liu, X. Zhuang and Q. Chen. Incorporating Pre-Training Data Matters in Unsupervised Domain Adaptation. IEEE T PAMI 2025 </a >  | First Position: Staff Researcher@Lenovo" },
 {
 	'name': 'LUO, Xinzhe',
 	'year': '(2019-2024, PhD)',
@@ -213,7 +213,7 @@ members_list=[
  'level': 'A', 
 	'photo': 'lxz.jpg',
 	'homepage': '',
-	'introduction': "Thesis: 基于显式建模的多模态医学图像群组联合计算. Selected publication/honour:<br>★ X Wang, X Luo & X Zhuang. BInGo: Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement. Oral in IPMI 2023 Honorable Mention and runners-up for the <span style=\"color:rgb(185,0,0)\">Francois Erbsmann Prize</span><br>★ X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2023 <br>★ X Luo & X Zhuang*: MvMM-RegNet: A new image registration framework based on multivariate mixture model and neural network estimation. MICCAI 2020. <br>★ 国家奖学金'20 | First Position: Imperial College London"
+	'introduction': "Thesis: 基于显式建模的多模态医学图像群组联合计算. Selected publication/honour:<br>★ X Luo & X Wang et al., X Zhuang. Bayesian Unsupervised Disentanglement of Anatomy and Geometry for Deep Groupwise Image Registration. IEEE T PAMI 2026<br>★ X Wang, X Luo & X Zhuang. BInGo: Bayesian Intrinsic Groupwise Registration via Explicit Hierarchical Disentanglement. Oral in IPMI 2023 Honorable Mention and runners-up for the <span style=\"color:rgb(185,0,0)\">Francois Erbsmann Prize</span><br>★ X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE T PAMI 2023<br>★ 国家奖学金'20 | First Position: Imperial College London"
 },  
 {
 	'name': 'GAO, Zheyao',
