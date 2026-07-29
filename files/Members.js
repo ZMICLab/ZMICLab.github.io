@@ -81,16 +81,7 @@ members_list=[
  'photo': '2023_liyuzhu.jpg',
  'homepage': '',
  'introduction': "Selected publication: <br>★ Yuzhu Li#, An Sui#, Fuping Wu & Xiahai Zhuang*: Uncertainty-Supervised Interpretable and Robust Evidential Segmentation, MICCAI 2025 (Oral)"
-}, 
-{
- 'name': '将岁杨 Jiang, Suiyang',
- 'year': '(2023-)',
- 'gender': 'Male',
- 'level': 'D',
- 'photo': '',
- 'homepage': '',
- 'introduction': " "
-}, 
+},  
 {
 	'name': '刘原冶 LIU, Yuanye',
 	'year': '(2019-)',
@@ -114,7 +105,7 @@ members_list=[
  'year': '(2025-)',
  'gender': 'Male',
  'level': 'D',
- 'photo': '',
+ 'photo': '2025_zhangtianyi.png',
  'homepage': '',
  'introduction': "I am a PhD student in ZMIC lab."
 }, 
