@@ -69,7 +69,7 @@ members_list=[
  'year': '(2023-)',
  'gender': 'Male',
  'level': 'D',
- 'photo': '',
+ 'photo': '2023_suian.jpg',
  'homepage': '',
  'introduction': "Selected publication: <br>★ Yuzhu Li#, An Sui#, Fuping Wu & Xiahai Zhuang*: Uncertainty-Supervised Interpretable and Robust Evidential Segmentation, MICCAI 2025 (Oral)"
 }, 
@@ -78,7 +78,7 @@ members_list=[
  'year': '(2023-)',
  'gender': 'Female',
  'level': 'D',
- 'photo': '',
+ 'photo': '2023_liyuzhu.jpg',
  'homepage': '',
  'introduction': "Selected publication: <br>★ Yuzhu Li#, An Sui#, Fuping Wu & Xiahai Zhuang*: Uncertainty-Supervised Interpretable and Robust Evidential Segmentation, MICCAI 2025 (Oral)"
 }, 
