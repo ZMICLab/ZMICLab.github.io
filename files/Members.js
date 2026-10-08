@@ -140,7 +140,7 @@ members_list=[
 'year': '(2024-2026, Master)', 
 'gender': 'female', 
 'level': 'A', 
-'photo': 'default.jpg', 
+'photo': '', 
 'homepage': '', 
 'introduction': "Thesis: 基于视觉基础模型与图检索增强生成的超广角眼底图像智能问诊系统" 
 },
@@ -193,7 +193,7 @@ members_list=[
 'year': '(2023-2025, Master)',
 'gender': 'Male',
 'level': 'A', 
-'photo': 'default.jpg',
+'photo': '',
 'homepage': '',
 'introduction': "Thesis: 针对宫颈筛查系统的模型压缩与加速"
 },
@@ -281,7 +281,7 @@ members_list=[
  'year': '(2021-2023, Master)', 
 'gender': 'Female', 
 'level': 'A',
- 'photo': 'default.jpg', 
+ 'photo': '', 
 'homepage': '',
  'introduction': "Thesis: 融合多模态影像的心脏延迟增强图像生成与心肌病理分割" 
 },
